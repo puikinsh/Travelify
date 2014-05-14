@@ -1,0 +1,752 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travelify\n"
+"POT-Creation-Date: 2014-04-29 21:15+0200\n"
+"PO-Revision-Date: 2014-04-29 21:15+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
+"Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Error 404 - Page NOT Found"
+msgstr "404 hiba - A keresett oldal nem található"
+
+#: 404.php:14
+msgid "It seems we can't find what you're looking for."
+msgstr "Nincs találat"
+
+#: 404.php:15
+msgid "This might be because:"
+msgstr "Lehetséges, hogy"
+
+#: 404.php:17
+msgid "You have typed the web address incorrectly"
+msgstr "Nem létezik a keresett oldal"
+
+#: 404.php:18
+msgid "The page you were looking for may have been moved, updated or deleted."
+msgstr "Az oldal módosítva vagy törölve lett."
+
+#: 404.php:20
+msgid "Please try the following:"
+msgstr "Esetleg egy próbát megér:"
+
+#: 404.php:22
+msgid "Check for a mis-typed URL error"
+msgstr "Hibásan begépelt hivatkozás (URL) megvizsgálása"
+
+#: 404.php:23
+msgid "Press the refresh button on your browser."
+msgstr "Kattintás a \"Frissítés\" gombra a böngészőben"
+
+#: 404.php:24
+msgid "Go back to"
+msgstr "Vissza"
+
+#: 404.php:24
+msgid "Homepage"
+msgstr "Kezdőoldal"
+
+#: comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Egy gondolat ezen: &ldquo;%2$s&rdquo;"
+
+#: comments.php:27
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s gondolatok ezen: &ldquo;%2$s&rdquo;"
+
+#: comments.php:38
+msgid "Comment navigation"
+msgstr "Hozzászólás-kezelés"
+
+#: comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Régebbi hozzászólások"
+
+#: comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Újabb hozzászólások &rarr;"
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr "Hozzászólások lezárva."
+
+#: functions.php:76
+msgid "Primary Menu"
+msgstr "Elsődleges menü"
+
+#: library/functions/customizer.php:7
+#, fuzzy
+msgid "Travelify Header Area"
+msgstr "标题选项"
+
+#: library/functions/customizer.php:8
+msgid "Use the following settings change color for menu and website title"
+msgstr ""
+
+#: library/functions/customizer.php:24
+msgid "Website Title Color"
+msgstr ""
+
+#: library/functions/customizer.php:44
+msgid "Website Title Hover Color"
+msgstr ""
+
+#: library/functions/customizer.php:64
+#, fuzzy
+msgid "Menu Bar Color"
+msgstr "主菜单"
+
+#: library/functions/customizer.php:83
+msgid "Menu Bar Hover Color"
+msgstr ""
+
+#: library/functions/customizer.php:102
+msgid "Menu Item Text Color"
+msgstr ""
+
+#: library/functions/customizer.php:122
+#, fuzzy
+msgid "Social Icon Color"
+msgstr "社交链接"
+
+#: library/functions/customizer.php:131
+msgid "Travelify Element Color"
+msgstr ""
+
+#: library/functions/customizer.php:132
+msgid "Use the following settings change color for website elements"
+msgstr ""
+
+#: library/functions/customizer.php:148
+msgid "Element Color"
+msgstr ""
+
+#: library/functions/customizer.php:168
+msgid "Element Hover Color"
+msgstr ""
+
+#: library/functions/customizer.php:188
+msgid "Wrapper Color"
+msgstr ""
+
+#: library/functions/customizer.php:208
+#, fuzzy
+msgid "Contnet Background Color"
+msgstr "自定义背景"
+
+#: library/functions/customizer.php:217
+msgid "Travelify Typography Color"
+msgstr ""
+
+#: library/functions/customizer.php:218
+msgid ""
+"Use the following settings change color for typography such as links, "
+"headings and content"
+msgstr ""
+
+#: library/functions/customizer.php:234
+msgid "Entry Content Color"
+msgstr ""
+
+#: library/functions/customizer.php:253
+#, fuzzy
+msgid "Header/Title Color"
+msgstr "标题选项"
+
+#: library/functions/customizer.php:273
+msgid "Link Color"
+msgstr ""
+
+#: library/functions/customizer.php:293
+msgid "Link Hover Color"
+msgstr ""
+
+#: library/functions/customizer.php:302
+#, fuzzy
+msgid "Travelify Footer"
+msgstr "页脚"
+
+#: library/functions/customizer.php:303
+msgid "Use the following settings customize Footer"
+msgstr ""
+
+#: library/functions/functions.php:296 library/functions/functions.php:310
+msgid "Navigation"
+msgstr "Navigáció"
+
+#: library/functions/functions.php:362 library/panel/theme-options.php:291
+msgid "Left Sidebar"
+msgstr "Baloldali sáv"
+
+#: library/functions/functions.php:364
+msgid "Shows widgets at Left side."
+msgstr "Mutasd a widgeteket a bal oldalon."
+
+#: library/functions/functions.php:373 library/panel/theme-options.php:295
+msgid "Right Sidebar"
+msgstr "Jobboldali sáv"
+
+#: library/functions/functions.php:375
+msgid "Shows widgets at Right side."
+msgstr "Mutasd a widgeteket a jobb oldalon."
+
+#: library/functions/functions.php:384
+msgid "Footer"
+msgstr "Lábrész"
+
+#: library/functions/functions.php:386
+msgid "Shows widgets at footer."
+msgstr "A widgetek mutatása a lábrészben"
+
+#: library/functions/shortcodes.php:49
+msgid "WordPress"
+msgstr ""
+
+#: library/functions/shortcodes.php:58 library/panel/theme-options.php:125
+msgid "Colorlib"
+msgstr ""
+
+#: library/panel/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+"Válassz egy kinézetet csak ehhez az egy Oldalhol (Megjegyzés: Ez a beállítás "
+"csak akkor működik, ha az oldal sablon vagy Alap Sablon, vagy Blog-típusú "
+"Sablon.)"
+
+#: library/panel/metaboxes.php:22
+msgid "Select layout for this specific Post only"
+msgstr "Válassz egy kinézetet csak ehhez az egy Bejegyzéshez "
+
+#: library/panel/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr "Az Alap Sablon van beállítva"
+
+#: library/panel/metaboxes.php:35
+msgid "Theme Settings"
+msgstr "A Sablon beállításai"
+
+#: library/panel/metaboxes.php:41
+msgid "No sidebar"
+msgstr "Ne legyen oldalsáv"
+
+#: library/panel/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr "Ne legyen oldalsáv, Teljes szélesség"
+
+#: library/panel/metaboxes.php:53 library/panel/theme-options.php:287
+msgid "No Sidebar, One Column"
+msgstr "Ne legyen oldalsáv, Egy Oszlop"
+
+#: library/panel/metaboxes.php:59
+msgid "Left sidebar"
+msgstr "Bal oldali sáv"
+
+#: library/panel/metaboxes.php:65
+msgid "Right sidebar"
+msgstr "Jobb oldali sáv"
+
+#: library/panel/theme-options.php:92 library/panel/theme-options.php:93
+msgid "Theme Options"
+msgstr "Sablon-opciók"
+
+#: library/panel/theme-options.php:125
+msgid "Theme Options by"
+msgstr "Sablon-opciók e szerint: "
+
+#: library/panel/theme-options.php:132
+#, fuzzy
+msgid "Other Themes"
+msgstr "其他"
+
+#: library/panel/theme-options.php:133
+msgid "Rate this Theme"
+msgstr "Értékeld ezt a Sablont"
+
+#: library/panel/theme-options.php:134
+#, fuzzy
+msgid "Theme Instruction"
+msgstr "主题作者:"
+
+#: library/panel/theme-options.php:134
+msgid "Theme Instructions"
+msgstr "Utasítások a Sablonhoz"
+
+#: library/panel/theme-options.php:135
+#, fuzzy
+msgid "Support Forum"
+msgstr "技术支持"
+
+#: library/panel/theme-options.php:135
+msgid "Support"
+msgstr "Támogatás"
+
+#: library/panel/theme-options.php:136
+msgid "Facebook"
+msgstr ""
+
+#: library/panel/theme-options.php:137
+msgid "Twitter"
+msgstr ""
+
+#: library/panel/theme-options.php:152
+msgid "Settings saved."
+msgstr "Beállítások mentve."
+
+#: library/panel/theme-options.php:158
+msgid "Main Options"
+msgstr "Fő beállítások"
+
+#: library/panel/theme-options.php:159
+msgid "Featured Slider"
+msgstr "Kiemelt vetítés"
+
+#: library/panel/theme-options.php:160
+msgid "Social Links"
+msgstr "Közösségi hivatkozások"
+
+#: library/panel/theme-options.php:161
+msgid "Other"
+msgstr "Egyéb"
+
+#: library/panel/theme-options.php:167
+msgid "Header Options"
+msgstr "Fejrész beállítások"
+
+#: library/panel/theme-options.php:172 library/panel/theme-options.php:182
+msgid "Header Logo"
+msgstr "Fejrész logó"
+
+#: library/panel/theme-options.php:175
+#, fuzzy
+msgid "Upload Logo"
+msgstr "标题 Logo"
+
+#: library/panel/theme-options.php:179 library/panel/theme-options.php:224
+#: library/panel/theme-options.php:256
+msgid "Preview"
+msgstr "Előnézet"
+
+#: library/panel/theme-options.php:187
+msgid "Show"
+msgstr "Megmutatás"
+
+#: library/panel/theme-options.php:190
+msgid "Header Logo Only"
+msgstr "Csak fejrész logó"
+
+#: library/panel/theme-options.php:193
+msgid "Header Text Only"
+msgstr "Csak fejrész szöveg"
+
+#: library/panel/theme-options.php:196
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+#: library/panel/theme-options.php:201 library/panel/theme-options.php:233
+#: library/panel/theme-options.php:265 library/panel/theme-options.php:310
+#: library/panel/theme-options.php:348 library/panel/theme-options.php:381
+#: library/panel/theme-options.php:419 library/panel/theme-options.php:477
+#: library/panel/theme-options.php:516 library/panel/theme-options.php:539
+msgid "Save All Changes"
+msgstr "Minden beállítás mentése."
+
+#: library/panel/theme-options.php:206
+msgid "Favicon Options"
+msgstr "Favicon opciók"
+
+#: library/panel/theme-options.php:211
+msgid "Disable Favicon"
+msgstr "Favicon kikapcsolása"
+
+#: library/panel/theme-options.php:213 library/panel/theme-options.php:245
+#: library/panel/theme-options.php:431
+msgid "Check to disable"
+msgstr "Jelöld be a kikapcsoláshoz"
+
+#: library/panel/theme-options.php:216
+msgid "Favicon URL"
+msgstr "A favicon címe (URL)"
+
+#: library/panel/theme-options.php:219
+#, fuzzy
+msgid "Upload Favicon"
+msgstr "Favicon"
+
+#: library/panel/theme-options.php:220
+msgid ""
+"Favicon is this tiny icon you see beside URL in your browser address bar"
+msgstr ""
+"A favicon az a piciny képecske, amit a böngésződben a webcím (URL) előtt "
+"láthatsz"
+
+#: library/panel/theme-options.php:227
+msgid "favicon"
+msgstr "favicon"
+
+#: library/panel/theme-options.php:238
+msgid "Web Clip Icon Options"
+msgstr "Web Clip Icon beállítások"
+
+#: library/panel/theme-options.php:243
+msgid "Disable Web Clip Icon"
+msgstr "Web Clip Icon kikapcsolása"
+
+#: library/panel/theme-options.php:248
+msgid "Web Clip Icon URL"
+msgstr "Web Clip Icon címe (URL)"
+
+#: library/panel/theme-options.php:251
+#, fuzzy
+msgid "Upload Web Clip Icon"
+msgstr "网页剪辑选项"
+
+#: library/panel/theme-options.php:252
+msgid "Web Clip works as shortcut to website on iOS devices home screen"
+msgstr "Web Clip gyors linkként működik a honlaphoz iOS eszközök nyitó oldalán"
+
+#: library/panel/theme-options.php:259
+msgid "webpage icon"
+msgstr "Honlap ikon"
+
+#: library/panel/theme-options.php:270
+msgid "Layout Options"
+msgstr "Elrendezés-beállítások"
+
+#: library/panel/theme-options.php:275
+msgid "Default Layout"
+msgstr "Alapértelmezett beállítás"
+
+#: library/panel/theme-options.php:279
+msgid "No Sidebar"
+msgstr "Nincs oldalsáv"
+
+#: library/panel/theme-options.php:283
+msgid "No Sidebar, Full Width"
+msgstr "Nincs oldalsáb, teljes szélesség"
+
+#: library/panel/theme-options.php:301
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+"Itt állítod be az alapértelmezett elrendezést. Persze, a szerkesztőben "
+"minden oldalnak saját elrendezést adhatsz."
+
+#: library/panel/theme-options.php:302
+msgid "Reset Layout"
+msgstr "Elrendezés visszaállítása"
+
+#: library/panel/theme-options.php:305
+msgid "Check to reset"
+msgstr "Jelöld be a visszaállításhot"
+
+#: library/panel/theme-options.php:315
+msgid "Custom Background"
+msgstr "Egyéni háttér"
+
+#: library/panel/theme-options.php:321
+msgid "Change theme background"
+msgstr "A Sablon hátterének megváltoztatása"
+
+#: library/panel/theme-options.php:324
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Klikkelj ide</a>"
+
+#: library/panel/theme-options.php:334
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: library/panel/theme-options.php:340
+msgid "Feed Redirect URL"
+msgstr "Feed átirányítási cyme (URL)"
+
+#: library/panel/theme-options.php:343
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Add meg a kedvenc RSS címedet (URL) (Feedburner vagy egyéb)"
+
+#: library/panel/theme-options.php:353
+msgid "Homepage Post Options"
+msgstr "Nyitó oldali Bejegyzés beállításai"
+
+#: library/panel/theme-options.php:359
+msgid "Homepage posts categories:"
+msgstr "Nyitó oldali bejegyzések kategóriái: "
+
+#: library/panel/theme-options.php:361
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr "Csak ezen kategóriák Bejegyzései jelennek meg a anyitó oldalon."
+
+#: library/panel/theme-options.php:366
+msgid "--Disabled--"
+msgstr "--Kikapcsolva--"
+
+#: library/panel/theme-options.php:376
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+"Kijelölhetsz több kategóriát is, ha lenyomva tartod a CTRL (Windows) vagy a "
+"cmd (Mac) gombot."
+
+#: library/panel/theme-options.php:389
+msgid "Featured Post/Page Slider Options"
+msgstr "Kiemelt Bejegyzés / Oldal vetítési opciók"
+
+#: library/panel/theme-options.php:393
+msgid "Exclude Slider post from Homepage posts?"
+msgstr ""
+"Kihagyjuk a Vetítésben szereplő Bejegyzéseket a nyitó oldali felsorolásból?"
+
+#: library/panel/theme-options.php:395
+msgid "Check to exclude"
+msgstr "Jelöld itt be, a kihagyáshoz"
+
+#: library/panel/theme-options.php:399
+msgid "Number of Slides"
+msgstr "Vetítendő képek száma"
+
+#: library/panel/theme-options.php:404
+msgid "Featured Slide #"
+msgstr "Kiemelt kép #"
+
+#: library/panel/theme-options.php:406
+msgid "Click Here To Edit"
+msgstr "Szerkesztéshez klikkelj ide"
+
+#: library/panel/theme-options.php:412
+msgid "How to use the featured slider?"
+msgstr "Hogy lehet használni a kiemelt elemek vetítését?"
+
+#: library/panel/theme-options.php:414
+msgid "Create Post or Page and add featured image to it."
+msgstr "Készíts Bejegyzést vagy Oldalt és addj hozzá kedvenc képet. "
+
+#: library/panel/theme-options.php:415
+msgid ""
+"Add all the Post ID that you want to use in the featured slider. Post ID can "
+"be found at All Posts table in last column"
+msgstr ""
+"Add meg itt az összed Bejegyzés azonosítóját (ID), amit a kiemelt vetítésben "
+"akarsz használni. A Bejegyzés azonosítók az \"Összes Bejegyzés\" táblázat "
+"utolsó oszlopában vannak."
+
+#: library/panel/theme-options.php:416
+msgid ""
+"Featured Slider will show featured images, Title and excerpt of the "
+"respected added post IDs."
+msgstr ""
+"A kiemelt vetítés a kedvenc képeket, a címet és a rövid tartalmat mutatja a "
+"megadott Bejegyzés-azonosítókhoz."
+
+#: library/panel/theme-options.php:417
+msgid "The recommended image size is"
+msgstr "A javasolt képméret: "
+
+#: library/panel/theme-options.php:425
+msgid "Slider Options"
+msgstr "Vetítési opciók"
+
+#: library/panel/theme-options.php:429
+msgid "Disable Slider"
+msgstr "A vetítés kikapcsolása"
+
+#: library/panel/theme-options.php:435
+msgid "Transition Effect:"
+msgstr "Átmenet-beállítás"
+
+#: library/panel/theme-options.php:455 library/panel/theme-options.php:507
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%1$s 于 %2$s"
+
+#: library/panel/theme-options.php:463
+msgid "Transition Delay"
+msgstr "Egy kép mutatása"
+
+#: library/panel/theme-options.php:466 library/panel/theme-options.php:473
+msgid "second(s)"
+msgstr "másodperc"
+
+#: library/panel/theme-options.php:470
+msgid "Transition Length"
+msgstr "Az átmenet hossza"
+
+#: library/panel/theme-options.php:501
+msgid "Enter URLs for your social networks e.g."
+msgstr "Add meg a szociális hálózati azonosítódat (URL), pl. "
+
+#: library/panel/theme-options.php:524
+msgid "Custom CSS (Advanced)"
+msgstr "Egyedi CSS (Haladóknak)"
+
+#: library/panel/theme-options.php:529
+msgid "Enter your custom CSS styles."
+msgstr "Add meg az egyedi CSS stílusokat."
+
+#: library/panel/theme-options.php:530
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr "Ez a CSS felülírja a style.css file-ban megadottakat. "
+
+#: library/panel/theme-options.php:534
+msgid "Make sure you know what you are doing."
+msgstr "Csak akkor, ha tudod, mit csinálsz!"
+
+#: library/structure/content-extensions.php:148
+#: library/structure/content-extensions.php:282
+#: library/structure/content-extensions.php:463
+#: library/structure/content-extensions.php:575
+#: library/structure/content-extensions.php:689
+msgid "No Comments"
+msgstr "Nincsenek megjegyzések"
+
+#: library/structure/content-extensions.php:148
+#: library/structure/content-extensions.php:282
+#: library/structure/content-extensions.php:463
+#: library/structure/content-extensions.php:575
+#: library/structure/content-extensions.php:689
+msgid "1 Comment"
+msgstr "1 Megjegyzés"
+
+#: library/structure/content-extensions.php:148
+#: library/structure/content-extensions.php:282
+#: library/structure/content-extensions.php:463
+#: library/structure/content-extensions.php:575
+#: library/structure/content-extensions.php:689
+msgid "% Comments"
+msgstr "% Megjegyzés"
+
+#: library/structure/content-extensions.php:148
+#: library/structure/content-extensions.php:282
+#: library/structure/content-extensions.php:463
+#: library/structure/content-extensions.php:575
+#: library/structure/content-extensions.php:689
+msgid "Comments Off"
+msgstr "Megjegyzések kikapcsolva"
+
+#: library/structure/content-extensions.php:152
+#: library/structure/content-extensions.php:467
+#: library/structure/content-extensions.php:579
+#: library/structure/content-extensions.php:664
+msgid "Read more"
+msgstr "Továbbolvasás"
+
+#: library/structure/content-extensions.php:167
+#: library/structure/content-extensions.php:238
+#: library/structure/content-extensions.php:332
+#: library/structure/content-extensions.php:383
+#: library/structure/content-extensions.php:495
+#: library/structure/content-extensions.php:606
+#: library/structure/content-extensions.php:718
+msgid "No Posts Found."
+msgstr "Nem találtunk Bejegyzést"
+
+#: library/structure/content-extensions.php:207
+#: library/structure/content-extensions.php:301
+#: library/structure/content-extensions.php:667
+msgid "Pages:"
+msgstr "Oldalak: "
+
+#: library/structure/content-extensions.php:289
+msgid ", "
+msgstr ""
+
+#: library/structure/content-extensions.php:486
+#: library/structure/content-extensions.php:597
+#: library/structure/content-extensions.php:709
+#: library/structure/content-extensions.php:745
+#: library/structure/content-extensions.php:765
+msgid "&laquo; Previous"
+msgstr "&laquo; Előző"
+
+#: library/structure/content-extensions.php:487
+#: library/structure/content-extensions.php:598
+#: library/structure/content-extensions.php:710
+#: library/structure/content-extensions.php:746
+#: library/structure/content-extensions.php:766
+msgid "Next &raquo;"
+msgstr "Következő &raquo;"
+
+#: library/structure/content-extensions.php:810
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: library/structure/content-extensions.php:810
+msgid "(Edit)"
+msgstr "(Szerkesztés)"
+
+#: library/structure/content-extensions.php:825
+msgid "Post author"
+msgstr "A Bejegyzés szerzője"
+
+#: library/structure/content-extensions.php:831
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s ennél: %2$s"
+
+#: library/structure/content-extensions.php:837
+msgid "Your comment is awaiting moderation."
+msgstr "A Megjegyzésed jóváhagyásra vár."
+
+#: library/structure/content-extensions.php:842
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: library/structure/content-extensions.php:846
+msgid "Reply"
+msgstr "Válasz"
+
+#: library/structure/footer-extensions.php:35
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: library/structure/footer-extensions.php:35
+msgid "Theme by"
+msgstr "A sablont készítette: "
+
+#: library/structure/footer-extensions.php:35
+msgid "Powered by"
+msgstr "Működteti: "
+
+#: library/structure/header-extensions.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Oldal %s"
+
+#: library/structure/header-extensions.php:428
+msgid "Search Results"
+msgstr "Eredmény"
+
+#: searchform.php:7 searchform.php:8
+msgid "Search"
+msgstr "Keresés"
+
+#~ msgid "Custom Scripts"
+#~ msgstr "Egyéni utasítás-sor"
+
+#~ msgid "Code to display on Header"
+#~ msgstr "A Fej-ben megjelenítendő kód"
+
+#~ msgid ""
+#~ "Note: Enter your custom header script (i.e., analytics, social button "
+#~ "scripts). "
+#~ msgstr ""
+#~ "Megjegyzés: Add meg a Fej-ben megjelenítendő kódot (pl. analízis, "
+#~ "szociális gomb kódja)."
+
+#~ msgid "Code to display on Footer"
+#~ msgstr "A Lábrészben megjelenítendő kód."
