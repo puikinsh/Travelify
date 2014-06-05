@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:06+0200\n"
-"PO-Revision-Date: 2014-06-05 16:06+0200\n"
+"POT-Creation-Date: 2014-06-05 16:24+0200\n"
+"PO-Revision-Date: 2014-06-05 16:24+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Ariel de Souza <arieldsx@gmail.com>\n"
 "Language: pt_BR\n"
@@ -151,8 +151,9 @@ msgid "Wrapper Color"
 msgstr "Cor do Wrapper (Envoltório do Site)"
 
 #: ../library/functions/customizer.php:208
-msgid "Contnet Background Color"
-msgstr "Cor do plano de fundo do Conteúdo"
+#, fuzzy
+msgid "Content Background Color"
+msgstr "Cor do Conteúdo de Entrada"
 
 #: ../library/functions/customizer.php:217
 msgid "Travelify Typography Color"

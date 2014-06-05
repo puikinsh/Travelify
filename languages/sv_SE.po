@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:06+0200\n"
-"PO-Revision-Date: 2014-06-05 16:06+0200\n"
+"POT-Creation-Date: 2014-06-05 16:25+0200\n"
+"PO-Revision-Date: 2014-06-05 16:25+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: sv\n"
@@ -147,7 +147,8 @@ msgid "Wrapper Color"
 msgstr "Länkfärg"
 
 #: ../library/functions/customizer.php:208
-msgid "Contnet Background Color"
+#, fuzzy
+msgid "Content Background Color"
 msgstr "Bakgrundsfärg för innehåll"
 
 #: ../library/functions/customizer.php:217

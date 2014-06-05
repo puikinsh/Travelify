@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:05+0200\n"
-"PO-Revision-Date: 2014-06-05 16:05+0200\n"
+"POT-Creation-Date: 2014-06-05 16:24+0200\n"
+"PO-Revision-Date: 2014-06-05 16:24+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: fr\n"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../library/functions/customizer.php:208
 #, fuzzy
-msgid "Contnet Background Color"
+msgid "Content Background Color"
 msgstr "Fond d'écran Personnalisé"
 
 #: ../library/functions/customizer.php:217
@@ -428,7 +428,7 @@ msgstr "URL Icone Clip Web "
 #: ../library/panel/theme-options.php:251
 #, fuzzy
 msgid "Upload Web Clip Icon"
-msgstr "URL Icone Clip Web "
+msgstr "Options Icône Clip Web"
 
 #: ../library/panel/theme-options.php:252
 msgid "Web Clip works as shortcut to website on iOS devices home screen"

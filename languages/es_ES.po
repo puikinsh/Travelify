@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:05+0200\n"
-"PO-Revision-Date: 2014-06-05 16:05+0200\n"
+"POT-Creation-Date: 2014-06-05 16:24+0200\n"
+"PO-Revision-Date: 2014-06-05 16:24+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorlib.com>\n"
 "Language: es\n"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../library/functions/customizer.php:208
 #, fuzzy
-msgid "Contnet Background Color"
+msgid "Content Background Color"
 msgstr "Fondo personalizado"
 
 #: ../library/functions/customizer.php:217
