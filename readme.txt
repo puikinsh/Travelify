@@ -84,6 +84,12 @@ If you have still any other questions about the theme you can email at info@colo
 
 == Change Log ==
 
+= 2.1 =
+
+* Added Swedish translation
+* Added Brazilian Portuguese translation Ariel de Souza
+* Improved code consistency for Child Theme support.
+
 = 2.0 =
 	* Added 15 color pickers via WordPress Customizer API making this theme fully customizable
 	* Improved responsiveness on all devices

@@ -265,11 +265,11 @@ function travelify_theloop_for_single() {
     			<h2 class="entry-title">
     				<?php the_title(); ?>
     			</h2><!-- .entry-title -->
-  			</header>
+  		</header>
 
-  			<?php do_action( 'travelify_after_post_header' ); ?>
+  		<?php do_action( 'travelify_after_post_header' ); ?>
 
-  			<?php do_action( 'travelify_before_post_content' ); ?>
+  		<?php do_action( 'travelify_before_post_meta' ); ?>
 
   			<div class="entry-meta-bar clearfix">
     			<div class="entry-meta">
@@ -283,6 +283,11 @@ function travelify_theloop_for_single() {
 	             	<?php } ?>
     			</div><!-- .entry-meta -->
     		</div>
+
+				<?php do_action( 'travelify_after_post_meta' ); ?>
+
+				<?php do_action( 'travelify_before_post_content' ); ?>
+
   			<div class="entry-content clearfix">
     			<?php the_content();
     			if( is_single() ) {
@@ -359,9 +364,9 @@ function travelify_theloop_for_search() {
     			<h2 class="entry-title">
     				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
     			</h2><!-- .entry-title -->
-  			</header>
+  		</header>
 
-  			<?php do_action( 'travelify_after_post_header' ); ?>
+  		<?php do_action( 'travelify_after_post_header' ); ?>
 
   			<?php do_action( 'travelify_before_post_content' ); ?>
 
@@ -420,8 +425,6 @@ function travelify_theloop_for_template_blog_image_large() {
 		<article>
 
 			<?php do_action( 'travelify_before_post_header' ); ?>
-
-
 
   			<?php do_action( 'travelify_after_post_header' ); ?>
 

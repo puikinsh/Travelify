@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-04-29 21:15+0200\n"
-"PO-Revision-Date: 2014-04-29 21:15+0200\n"
+"POT-Creation-Date: 2014-06-05 15:29+0200\n"
+"PO-Revision-Date: 2014-06-05 15:29+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: sk\n"
@@ -14,210 +14,220 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
-#: 404.php:11
+#: ../404.php:11
 msgid "Error 404 - Page NOT Found"
 msgstr "Chyba 404 - stránka nenájdená"
 
-#: 404.php:14
+#: ../404.php:14
 msgid "It seems we can't find what you're looking for."
 msgstr "Bohužiaľ, nenašli sme, čo ste hľadali."
 
-#: 404.php:15
+#: ../404.php:15
 msgid "This might be because:"
 msgstr "To môže byť spôsobené:"
 
-#: 404.php:17
+#: ../404.php:17
 msgid "You have typed the web address incorrectly"
 msgstr "Zadaním chybnej webovej adresy"
 
-#: 404.php:18
+#: ../404.php:18
 msgid "The page you were looking for may have been moved, updated or deleted."
 msgstr "Stránka, ktorú ste hľadali bola presunutá, zmenená alebo zmazaná."
 
-#: 404.php:20
+#: ../404.php:20
 msgid "Please try the following:"
 msgstr "Prosím, skúste nasledujúce:"
 
-#: 404.php:22
+#: ../404.php:22
 msgid "Check for a mis-typed URL error"
 msgstr "Skontrolujte preklepy v URL"
 
-#: 404.php:23
+#: ../404.php:23
 msgid "Press the refresh button on your browser."
 msgstr "Obnovte stránku v prehliadači."
 
-#: 404.php:24
+#: ../404.php:24
 msgid "Go back to"
 msgstr "Vráťte sa späť"
 
-#: 404.php:24
+#: ../404.php:24
 msgid "Homepage"
 msgstr "Domov"
 
-#: comments.php:24
+#: ../comments.php:24
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgstr "Jedna myšlienka na &ldquo;%2$s&rdquo;"
 
-#: comments.php:27
+#: ../comments.php:27
 #, php-format
 msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr "%1$s myšlienky na &ldquo;%2$s&rdquo;"
 
-#: comments.php:38
+#: ../comments.php:38
 msgid "Comment navigation"
 msgstr "Navigácia v komentároch"
 
-#: comments.php:39
+#: ../comments.php:39
 msgid "&larr; Older Comments"
 msgstr "&larr; Staršie komentáre"
 
-#: comments.php:40
+#: ../comments.php:40
 msgid "Newer Comments &rarr;"
 msgstr "Novšie komentáre &rarr;"
 
-#: comments.php:47
+#: ../comments.php:47
 msgid "Comments are closed."
 msgstr "Komentáre su zakázané."
 
-#: functions.php:76
+#: ../functions.php:76
 msgid "Primary Menu"
 msgstr "Hlavné menu"
 
-#: library/functions/customizer.php:7
+#: ../library/functions/customizer.php:7
 #, fuzzy
 msgid "Travelify Header Area"
 msgstr "Nastavenie záhlavia"
 
-#: library/functions/customizer.php:8
+#: ../library/functions/customizer.php:8
 msgid "Use the following settings change color for menu and website title"
 msgstr ""
 
-#: library/functions/customizer.php:24
+#: ../library/functions/customizer.php:24
 msgid "Website Title Color"
 msgstr ""
 
-#: library/functions/customizer.php:44
+#: ../library/functions/customizer.php:44
 msgid "Website Title Hover Color"
 msgstr ""
 
-#: library/functions/customizer.php:64
+#: ../library/functions/customizer.php:64
 #, fuzzy
 msgid "Menu Bar Color"
 msgstr "Hlavné menu"
 
-#: library/functions/customizer.php:83
+#: ../library/functions/customizer.php:83
 msgid "Menu Bar Hover Color"
 msgstr ""
 
-#: library/functions/customizer.php:102
+#: ../library/functions/customizer.php:102
 msgid "Menu Item Text Color"
 msgstr ""
 
-#: library/functions/customizer.php:122
+#: ../library/functions/customizer.php:122
 #, fuzzy
 msgid "Social Icon Color"
 msgstr "Sociálne siete"
 
-#: library/functions/customizer.php:131
+#: ../library/functions/customizer.php:131
 msgid "Travelify Element Color"
 msgstr ""
 
-#: library/functions/customizer.php:132
+#: ../library/functions/customizer.php:132
 msgid "Use the following settings change color for website elements"
 msgstr ""
 
-#: library/functions/customizer.php:148
+#: ../library/functions/customizer.php:148
 msgid "Element Color"
 msgstr ""
 
-#: library/functions/customizer.php:168
+#: ../library/functions/customizer.php:168
 msgid "Element Hover Color"
 msgstr ""
 
-#: library/functions/customizer.php:188
+#: ../library/functions/customizer.php:188
 msgid "Wrapper Color"
 msgstr ""
 
-#: library/functions/customizer.php:208
+#: ../library/functions/customizer.php:208
 #, fuzzy
 msgid "Contnet Background Color"
 msgstr "Vlastné pozadie"
 
-#: library/functions/customizer.php:217
+#: ../library/functions/customizer.php:217
 msgid "Travelify Typography Color"
 msgstr ""
 
-#: library/functions/customizer.php:218
+#: ../library/functions/customizer.php:218
 msgid ""
 "Use the following settings change color for typography such as links, "
 "headings and content"
 msgstr ""
 
-#: library/functions/customizer.php:234
+#: ../library/functions/customizer.php:234
 msgid "Entry Content Color"
 msgstr ""
 
-#: library/functions/customizer.php:253
+#: ../library/functions/customizer.php:253
 #, fuzzy
 msgid "Header/Title Color"
 msgstr "Nastavenie záhlavia"
 
-#: library/functions/customizer.php:273
+#: ../library/functions/customizer.php:273
 msgid "Link Color"
 msgstr ""
 
-#: library/functions/customizer.php:293
+#: ../library/functions/customizer.php:293
 msgid "Link Hover Color"
 msgstr ""
 
-#: library/functions/customizer.php:302
+#: ../library/functions/customizer.php:302
 #, fuzzy
 msgid "Travelify Footer"
 msgstr "Pätička"
 
-#: library/functions/customizer.php:303
+#: ../library/functions/customizer.php:303
 msgid "Use the following settings customize Footer"
 msgstr ""
 
-#: library/functions/functions.php:296 library/functions/functions.php:310
+#: ../library/functions/customizer.php:317
+#, fuzzy
+msgid "Copyright text"
+msgstr "Všetky práva vyhradené &copy;"
+
+#: ../library/functions/functions.php:296
+#: ../library/functions/functions.php:310
 msgid "Navigation"
 msgstr "Navigácia"
 
-#: library/functions/functions.php:362 library/panel/theme-options.php:291
+#: ../library/functions/functions.php:362
+#: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Ľavý bočný panel"
 
-#: library/functions/functions.php:364
+#: ../library/functions/functions.php:364
 msgid "Shows widgets at Left side."
 msgstr "Zobrazí widgety vľavo."
 
-#: library/functions/functions.php:373 library/panel/theme-options.php:295
+#: ../library/functions/functions.php:373
+#: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Pravý bočný panel"
 
-#: library/functions/functions.php:375
+#: ../library/functions/functions.php:375
 msgid "Shows widgets at Right side."
 msgstr "Zobrazí widgety vpravo."
 
-#: library/functions/functions.php:384
+#: ../library/functions/functions.php:384
 msgid "Footer"
 msgstr "Pätička"
 
-#: library/functions/functions.php:386
+#: ../library/functions/functions.php:386
 msgid "Shows widgets at footer."
 msgstr "Zobrazí widgety v pätičke."
 
-#: library/functions/shortcodes.php:49
+#: ../library/functions/shortcodes.php:49
 msgid "WordPress"
 msgstr ""
 
-#: library/functions/shortcodes.php:58 library/panel/theme-options.php:125
+#: ../library/functions/shortcodes.php:58
+#: ../library/panel/theme-options.php:125
 msgid "Colorlib"
 msgstr ""
 
-#: library/panel/metaboxes.php:16
+#: ../library/panel/metaboxes.php:16
 msgid ""
 "Select layout for this specific Page only ( Note: This setting only reflects "
 "if page Template is set as Default Template and Blog Type Templates.)"
@@ -226,217 +236,225 @@ msgstr ""
 "prejaví, len ak je nastavený template stránky na štandardný template alebo "
 "template určený pre blog.)"
 
-#: library/panel/metaboxes.php:22
+#: ../library/panel/metaboxes.php:22
 msgid "Select layout for this specific Post only"
 msgstr "Vybrať rozloženie pre špecifický príspevok"
 
-#: library/panel/metaboxes.php:35
+#: ../library/panel/metaboxes.php:35
 msgid "Default Layout Set in"
 msgstr "Štandardné rozloženie určené v"
 
-#: library/panel/metaboxes.php:35
+#: ../library/panel/metaboxes.php:35
 msgid "Theme Settings"
 msgstr "Nastavenie témy"
 
-#: library/panel/metaboxes.php:41
+#: ../library/panel/metaboxes.php:41
 msgid "No sidebar"
 msgstr "Bez bočných panelov"
 
-#: library/panel/metaboxes.php:47
+#: ../library/panel/metaboxes.php:47
 msgid "No sidebar, Full Width"
 msgstr "Bez bočných panelov, plná šírka"
 
-#: library/panel/metaboxes.php:53 library/panel/theme-options.php:287
+#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
 msgid "No Sidebar, One Column"
 msgstr "Bez bočných panelov, jeden stĺpec"
 
-#: library/panel/metaboxes.php:59
+#: ../library/panel/metaboxes.php:59
 msgid "Left sidebar"
 msgstr "Ľavý bočný panel"
 
-#: library/panel/metaboxes.php:65
+#: ../library/panel/metaboxes.php:65
 msgid "Right sidebar"
 msgstr "Pravý bočný panel"
 
-#: library/panel/theme-options.php:92 library/panel/theme-options.php:93
+#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
 msgid "Theme Options"
 msgstr "Možnosti témy"
 
-#: library/panel/theme-options.php:125
+#: ../library/panel/theme-options.php:125
 msgid "Theme Options by"
 msgstr "Možnosti témy vytvorené"
 
-#: library/panel/theme-options.php:132
+#: ../library/panel/theme-options.php:132
 #, fuzzy
 msgid "Other Themes"
 msgstr "Ostatné"
 
-#: library/panel/theme-options.php:133
+#: ../library/panel/theme-options.php:133
 msgid "Rate this Theme"
 msgstr "Ohodnoť tému"
 
-#: library/panel/theme-options.php:134
+#: ../library/panel/theme-options.php:134
 #, fuzzy
 msgid "Theme Instruction"
 msgstr "Téma vytvorená"
 
-#: library/panel/theme-options.php:134
+#: ../library/panel/theme-options.php:134
 msgid "Theme Instructions"
 msgstr "Inštrukcie k téme"
 
-#: library/panel/theme-options.php:135
+#: ../library/panel/theme-options.php:135
 #, fuzzy
 msgid "Support Forum"
 msgstr "Podpora"
 
-#: library/panel/theme-options.php:135
+#: ../library/panel/theme-options.php:135
 msgid "Support"
 msgstr "Podpora"
 
-#: library/panel/theme-options.php:136
+#: ../library/panel/theme-options.php:136
 msgid "Facebook"
 msgstr ""
 
-#: library/panel/theme-options.php:137
+#: ../library/panel/theme-options.php:137
 msgid "Twitter"
 msgstr ""
 
-#: library/panel/theme-options.php:152
+#: ../library/panel/theme-options.php:152
 msgid "Settings saved."
 msgstr "Nastavenia uložené."
 
-#: library/panel/theme-options.php:158
+#: ../library/panel/theme-options.php:158
 msgid "Main Options"
 msgstr "Hlavné možnosti"
 
-#: library/panel/theme-options.php:159
+#: ../library/panel/theme-options.php:159
 msgid "Featured Slider"
 msgstr "Prezentačný slider"
 
-#: library/panel/theme-options.php:160
+#: ../library/panel/theme-options.php:160
 msgid "Social Links"
 msgstr "Sociálne siete"
 
-#: library/panel/theme-options.php:161
+#: ../library/panel/theme-options.php:161
 msgid "Other"
 msgstr "Ostatné"
 
-#: library/panel/theme-options.php:167
+#: ../library/panel/theme-options.php:167
 msgid "Header Options"
 msgstr "Nastavenie záhlavia"
 
-#: library/panel/theme-options.php:172 library/panel/theme-options.php:182
+#: ../library/panel/theme-options.php:172
+#: ../library/panel/theme-options.php:182
 msgid "Header Logo"
 msgstr "Logo v záhlaví"
 
-#: library/panel/theme-options.php:175
+#: ../library/panel/theme-options.php:175
 #, fuzzy
 msgid "Upload Logo"
 msgstr "Logo v záhlaví"
 
-#: library/panel/theme-options.php:179 library/panel/theme-options.php:224
-#: library/panel/theme-options.php:256
+#: ../library/panel/theme-options.php:179
+#: ../library/panel/theme-options.php:224
+#: ../library/panel/theme-options.php:256
 msgid "Preview"
 msgstr "Náhľad"
 
-#: library/panel/theme-options.php:187
+#: ../library/panel/theme-options.php:187
 msgid "Show"
 msgstr "Zobraz"
 
-#: library/panel/theme-options.php:190
+#: ../library/panel/theme-options.php:190
 msgid "Header Logo Only"
 msgstr "Len logo v záhlaví"
 
-#: library/panel/theme-options.php:193
+#: ../library/panel/theme-options.php:193
 msgid "Header Text Only"
 msgstr "Len text v záhlaví"
 
-#: library/panel/theme-options.php:196
+#: ../library/panel/theme-options.php:196
 msgid "Disable"
 msgstr "Zakázať"
 
-#: library/panel/theme-options.php:201 library/panel/theme-options.php:233
-#: library/panel/theme-options.php:265 library/panel/theme-options.php:310
-#: library/panel/theme-options.php:348 library/panel/theme-options.php:381
-#: library/panel/theme-options.php:419 library/panel/theme-options.php:477
-#: library/panel/theme-options.php:516 library/panel/theme-options.php:539
+#: ../library/panel/theme-options.php:201
+#: ../library/panel/theme-options.php:233
+#: ../library/panel/theme-options.php:265
+#: ../library/panel/theme-options.php:310
+#: ../library/panel/theme-options.php:348
+#: ../library/panel/theme-options.php:381
+#: ../library/panel/theme-options.php:419
+#: ../library/panel/theme-options.php:477
+#: ../library/panel/theme-options.php:516
+#: ../library/panel/theme-options.php:539
 msgid "Save All Changes"
 msgstr "Uložiť všetky zmeny"
 
-#: library/panel/theme-options.php:206
+#: ../library/panel/theme-options.php:206
 msgid "Favicon Options"
 msgstr "Nastavenie favicon"
 
-#: library/panel/theme-options.php:211
+#: ../library/panel/theme-options.php:211
 msgid "Disable Favicon"
 msgstr "Zakázať favicon"
 
-#: library/panel/theme-options.php:213 library/panel/theme-options.php:245
-#: library/panel/theme-options.php:431
+#: ../library/panel/theme-options.php:213
+#: ../library/panel/theme-options.php:245
+#: ../library/panel/theme-options.php:431
 msgid "Check to disable"
 msgstr "Zaškrtnúť pre zakázanie"
 
-#: library/panel/theme-options.php:216
+#: ../library/panel/theme-options.php:216
 msgid "Favicon URL"
 msgstr "URL favicon"
 
-#: library/panel/theme-options.php:219
+#: ../library/panel/theme-options.php:219
 #, fuzzy
 msgid "Upload Favicon"
 msgstr "favicon"
 
-#: library/panel/theme-options.php:220
+#: ../library/panel/theme-options.php:220
 msgid ""
 "Favicon is this tiny icon you see beside URL in your browser address bar"
 msgstr "Favicon je malý obrázok, ktorý sa zobrazí vedľa URL v prehliadači"
 
-#: library/panel/theme-options.php:227
+#: ../library/panel/theme-options.php:227
 msgid "favicon"
 msgstr "favicon"
 
-#: library/panel/theme-options.php:238
+#: ../library/panel/theme-options.php:238
 msgid "Web Clip Icon Options"
 msgstr "Nastavenie web clip ikony"
 
-#: library/panel/theme-options.php:243
+#: ../library/panel/theme-options.php:243
 msgid "Disable Web Clip Icon"
 msgstr "Zakázať web clip ikonu"
 
-#: library/panel/theme-options.php:248
+#: ../library/panel/theme-options.php:248
 msgid "Web Clip Icon URL"
 msgstr "URL web clip ikony"
 
-#: library/panel/theme-options.php:251
+#: ../library/panel/theme-options.php:251
 #, fuzzy
 msgid "Upload Web Clip Icon"
-msgstr "Zakázať web clip ikonu"
+msgstr "URL web clip ikony"
 
-#: library/panel/theme-options.php:252
+#: ../library/panel/theme-options.php:252
 msgid "Web Clip works as shortcut to website on iOS devices home screen"
 msgstr ""
 "Web clip ikona funguje ako skratka na domovskej obrazovke iOS zariadení"
 
-#: library/panel/theme-options.php:259
+#: ../library/panel/theme-options.php:259
 msgid "webpage icon"
 msgstr "Ikona stránky"
 
-#: library/panel/theme-options.php:270
+#: ../library/panel/theme-options.php:270
 msgid "Layout Options"
 msgstr "Nastavenie rozloženia"
 
-#: library/panel/theme-options.php:275
+#: ../library/panel/theme-options.php:275
 msgid "Default Layout"
 msgstr "Štandardné rozloženie"
 
-#: library/panel/theme-options.php:279
+#: ../library/panel/theme-options.php:279
 msgid "No Sidebar"
 msgstr "Bez bočných panelov"
 
-#: library/panel/theme-options.php:283
+#: ../library/panel/theme-options.php:283
 msgid "No Sidebar, Full Width"
 msgstr "Bez bočných panelov, plná šírka"
 
-#: library/panel/theme-options.php:301
+#: ../library/panel/theme-options.php:301
 msgid ""
 "This will set the default layout style. However, you can choose different "
 "layout for each page via editor"
@@ -444,48 +462,48 @@ msgstr ""
 "Toto nastaví štandardný štýl rozloženia. Kedykoľvek je možné zmeniť "
 "rozloženie pre konkrétnu stránku cez editor "
 
-#: library/panel/theme-options.php:302
+#: ../library/panel/theme-options.php:302
 msgid "Reset Layout"
 msgstr "Obnoviť pôvodné nastavenia rozloženia"
 
-#: library/panel/theme-options.php:305
+#: ../library/panel/theme-options.php:305
 msgid "Check to reset"
 msgstr "Zaškrtnite pre návrat k štandardnému rozloženiu"
 
-#: library/panel/theme-options.php:315
+#: ../library/panel/theme-options.php:315
 msgid "Custom Background"
 msgstr "Vlastné pozadie"
 
-#: library/panel/theme-options.php:321
+#: ../library/panel/theme-options.php:321
 msgid "Change theme background"
 msgstr "Zmeniť pozadie témy"
 
-#: library/panel/theme-options.php:324
+#: ../library/panel/theme-options.php:324
 #, php-format
 msgid "<a class=\"button\" href=\"%s\">Click here</a>"
 msgstr "<a class=\"button\" href=\"%s\">Kliknite sem</a>"
 
-#: library/panel/theme-options.php:334
+#: ../library/panel/theme-options.php:334
 msgid "RSS URL"
 msgstr "RSS URL"
 
-#: library/panel/theme-options.php:340
+#: ../library/panel/theme-options.php:340
 msgid "Feed Redirect URL"
 msgstr "URL na presmerovanie zdrojov"
 
-#: library/panel/theme-options.php:343
+#: ../library/panel/theme-options.php:343
 msgid "Enter your preferred RSS URL. (Feedburner or other)"
 msgstr "Vložte Vašu uprednostňovanú RSS URL. (Feedburner alebo inú)"
 
-#: library/panel/theme-options.php:353
+#: ../library/panel/theme-options.php:353
 msgid "Homepage Post Options"
 msgstr "Nastavenie príspevkov na domovskej stránke"
 
-#: library/panel/theme-options.php:359
+#: ../library/panel/theme-options.php:359
 msgid "Homepage posts categories:"
 msgstr "Kategórie príspevkov na domovskej stránke:"
 
-#: library/panel/theme-options.php:361
+#: ../library/panel/theme-options.php:361
 msgid ""
 "Only posts that belong to the categories selected here will be displayed on "
 "the front page."
@@ -493,49 +511,49 @@ msgstr ""
 "Na titulnej stránke sa zobrazia len príspevky patriace do zvolených "
 "kategórií."
 
-#: library/panel/theme-options.php:366
+#: ../library/panel/theme-options.php:366
 msgid "--Disabled--"
 msgstr "--Zakázať--"
 
-#: library/panel/theme-options.php:376
+#: ../library/panel/theme-options.php:376
 msgid ""
 "You may select multiple categories by holding down the CTRL (Windows) or cmd "
 "(Mac)."
 msgstr "Viacnásobný výber kategórií pomocou CTRL (Windows) alebo cmd (Mac)."
 
-#: library/panel/theme-options.php:389
+#: ../library/panel/theme-options.php:389
 msgid "Featured Post/Page Slider Options"
 msgstr "Prezentačné príspevky/Nastavenie slidera"
 
-#: library/panel/theme-options.php:393
+#: ../library/panel/theme-options.php:393
 msgid "Exclude Slider post from Homepage posts?"
 msgstr "Vynechať príspevky zobrazené na slideri z domovskej stránky?"
 
-#: library/panel/theme-options.php:395
+#: ../library/panel/theme-options.php:395
 msgid "Check to exclude"
 msgstr "Zaškrtnite pre vylúčenie"
 
-#: library/panel/theme-options.php:399
+#: ../library/panel/theme-options.php:399
 msgid "Number of Slides"
 msgstr "Počet slidov"
 
-#: library/panel/theme-options.php:404
+#: ../library/panel/theme-options.php:404
 msgid "Featured Slide #"
 msgstr "Prezentačný slide číslo"
 
-#: library/panel/theme-options.php:406
+#: ../library/panel/theme-options.php:406
 msgid "Click Here To Edit"
 msgstr "Pre úpravu klikni"
 
-#: library/panel/theme-options.php:412
+#: ../library/panel/theme-options.php:412
 msgid "How to use the featured slider?"
 msgstr "Ako používať prezentačný slider?"
 
-#: library/panel/theme-options.php:414
+#: ../library/panel/theme-options.php:414
 msgid "Create Post or Page and add featured image to it."
 msgstr "Vytvorte príspevok alebo stránku a pridajte prezentačný obrázok."
 
-#: library/panel/theme-options.php:415
+#: ../library/panel/theme-options.php:415
 msgid ""
 "Add all the Post ID that you want to use in the featured slider. Post ID can "
 "be found at All Posts table in last column"
@@ -543,7 +561,7 @@ msgstr ""
 "Pridajte ID príspevkov, ktoré chete vložiť do prezentačného slideru. ID "
 "príspevku nájdete v sekcii \"Všetky príspevky\" v poslednom stĺpci tabuľky"
 
-#: library/panel/theme-options.php:416
+#: ../library/panel/theme-options.php:416
 msgid ""
 "Featured Slider will show featured images, Title and excerpt of the "
 "respected added post IDs."
@@ -551,185 +569,187 @@ msgstr ""
 "Prezentačný slider zobrazí prezentačné obrázky, titulok a výpis z pridaných "
 "príspevov, určených ID."
 
-#: library/panel/theme-options.php:417
+#: ../library/panel/theme-options.php:417
 msgid "The recommended image size is"
 msgstr "Odporúčaná veľkosť obrázku je"
 
-#: library/panel/theme-options.php:425
+#: ../library/panel/theme-options.php:425
 msgid "Slider Options"
 msgstr "Nastavenie slidera"
 
-#: library/panel/theme-options.php:429
+#: ../library/panel/theme-options.php:429
 msgid "Disable Slider"
 msgstr "Zakázať slider"
 
-#: library/panel/theme-options.php:435
+#: ../library/panel/theme-options.php:435
 msgid "Transition Effect:"
 msgstr "Efekt prechodu:"
 
-#: library/panel/theme-options.php:455 library/panel/theme-options.php:507
+#: ../library/panel/theme-options.php:455
+#: ../library/panel/theme-options.php:507
 #, fuzzy, php-format
 msgid "%s"
 msgstr "%1$s v %2$s"
 
-#: library/panel/theme-options.php:463
+#: ../library/panel/theme-options.php:463
 msgid "Transition Delay"
 msgstr "Omeškanie"
 
-#: library/panel/theme-options.php:466 library/panel/theme-options.php:473
+#: ../library/panel/theme-options.php:466
+#: ../library/panel/theme-options.php:473
 msgid "second(s)"
 msgstr "sekunda/y"
 
-#: library/panel/theme-options.php:470
+#: ../library/panel/theme-options.php:470
 msgid "Transition Length"
 msgstr "Čas prechodu"
 
-#: library/panel/theme-options.php:501
+#: ../library/panel/theme-options.php:501
 msgid "Enter URLs for your social networks e.g."
 msgstr "Vložte URL Vašich sociálnych sietí, napríklad"
 
-#: library/panel/theme-options.php:524
+#: ../library/panel/theme-options.php:524
 msgid "Custom CSS (Advanced)"
 msgstr "Vlastné CSS (pokročilé)"
 
-#: library/panel/theme-options.php:529
+#: ../library/panel/theme-options.php:529
 msgid "Enter your custom CSS styles."
 msgstr "Vložte vlastné CSS štýly."
 
-#: library/panel/theme-options.php:530
+#: ../library/panel/theme-options.php:530
 msgid "This CSS will overwrite the CSS of style.css file."
 msgstr "Toto CSS prepíše CSS v súbore style.css."
 
-#: library/panel/theme-options.php:534
+#: ../library/panel/theme-options.php:534
 msgid "Make sure you know what you are doing."
 msgstr "Uistite sa, že viete čo robíte"
 
-#: library/structure/content-extensions.php:148
-#: library/structure/content-extensions.php:282
-#: library/structure/content-extensions.php:463
-#: library/structure/content-extensions.php:575
-#: library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:575
+#: ../library/structure/content-extensions.php:689
 msgid "No Comments"
 msgstr "Žiadne komentáre"
 
-#: library/structure/content-extensions.php:148
-#: library/structure/content-extensions.php:282
-#: library/structure/content-extensions.php:463
-#: library/structure/content-extensions.php:575
-#: library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:575
+#: ../library/structure/content-extensions.php:689
 msgid "1 Comment"
 msgstr "1 komentár"
 
-#: library/structure/content-extensions.php:148
-#: library/structure/content-extensions.php:282
-#: library/structure/content-extensions.php:463
-#: library/structure/content-extensions.php:575
-#: library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:575
+#: ../library/structure/content-extensions.php:689
 msgid "% Comments"
 msgstr "% komentárov"
 
-#: library/structure/content-extensions.php:148
-#: library/structure/content-extensions.php:282
-#: library/structure/content-extensions.php:463
-#: library/structure/content-extensions.php:575
-#: library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:575
+#: ../library/structure/content-extensions.php:689
 msgid "Comments Off"
 msgstr "Vypnúť komentáre"
 
-#: library/structure/content-extensions.php:152
-#: library/structure/content-extensions.php:467
-#: library/structure/content-extensions.php:579
-#: library/structure/content-extensions.php:664
+#: ../library/structure/content-extensions.php:152
+#: ../library/structure/content-extensions.php:467
+#: ../library/structure/content-extensions.php:579
+#: ../library/structure/content-extensions.php:664
 msgid "Read more"
 msgstr "Viac"
 
-#: library/structure/content-extensions.php:167
-#: library/structure/content-extensions.php:238
-#: library/structure/content-extensions.php:332
-#: library/structure/content-extensions.php:383
-#: library/structure/content-extensions.php:495
-#: library/structure/content-extensions.php:606
-#: library/structure/content-extensions.php:718
+#: ../library/structure/content-extensions.php:167
+#: ../library/structure/content-extensions.php:238
+#: ../library/structure/content-extensions.php:332
+#: ../library/structure/content-extensions.php:383
+#: ../library/structure/content-extensions.php:495
+#: ../library/structure/content-extensions.php:606
+#: ../library/structure/content-extensions.php:718
 msgid "No Posts Found."
 msgstr "Neboli nájdené žiadne príspevky"
 
-#: library/structure/content-extensions.php:207
-#: library/structure/content-extensions.php:301
-#: library/structure/content-extensions.php:667
+#: ../library/structure/content-extensions.php:207
+#: ../library/structure/content-extensions.php:301
+#: ../library/structure/content-extensions.php:667
 msgid "Pages:"
 msgstr "Stránky"
 
-#: library/structure/content-extensions.php:289
+#: ../library/structure/content-extensions.php:289
 msgid ", "
 msgstr ""
 
-#: library/structure/content-extensions.php:486
-#: library/structure/content-extensions.php:597
-#: library/structure/content-extensions.php:709
-#: library/structure/content-extensions.php:745
-#: library/structure/content-extensions.php:765
+#: ../library/structure/content-extensions.php:486
+#: ../library/structure/content-extensions.php:597
+#: ../library/structure/content-extensions.php:709
+#: ../library/structure/content-extensions.php:745
+#: ../library/structure/content-extensions.php:765
 msgid "&laquo; Previous"
 msgstr "&laquo; Predchádzajúci"
 
-#: library/structure/content-extensions.php:487
-#: library/structure/content-extensions.php:598
-#: library/structure/content-extensions.php:710
-#: library/structure/content-extensions.php:746
-#: library/structure/content-extensions.php:766
+#: ../library/structure/content-extensions.php:487
+#: ../library/structure/content-extensions.php:598
+#: ../library/structure/content-extensions.php:710
+#: ../library/structure/content-extensions.php:746
+#: ../library/structure/content-extensions.php:766
 msgid "Next &raquo;"
 msgstr "Ďalší &raquo;"
 
-#: library/structure/content-extensions.php:810
+#: ../library/structure/content-extensions.php:810
 msgid "Pingback:"
 msgstr "Spätný odkaz"
 
-#: library/structure/content-extensions.php:810
+#: ../library/structure/content-extensions.php:810
 msgid "(Edit)"
 msgstr "(Uprav)"
 
-#: library/structure/content-extensions.php:825
+#: ../library/structure/content-extensions.php:825
 msgid "Post author"
 msgstr "Autor príspevku"
 
-#: library/structure/content-extensions.php:831
+#: ../library/structure/content-extensions.php:831
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s v %2$s"
 
-#: library/structure/content-extensions.php:837
+#: ../library/structure/content-extensions.php:837
 msgid "Your comment is awaiting moderation."
 msgstr "Váš komentár čaká na potvrdenie moderátorom."
 
-#: library/structure/content-extensions.php:842
+#: ../library/structure/content-extensions.php:842
 msgid "Edit"
 msgstr "Upraviť"
 
-#: library/structure/content-extensions.php:846
+#: ../library/structure/content-extensions.php:846
 msgid "Reply"
 msgstr "Odpovedať"
 
-#: library/structure/footer-extensions.php:35
+#: ../library/structure/footer-extensions.php:35
 msgid "Copyright &copy;"
 msgstr "Všetky práva vyhradené &copy;"
 
-#: library/structure/footer-extensions.php:35
+#: ../library/structure/footer-extensions.php:35
 msgid "Theme by"
 msgstr "Téma vytvorená"
 
-#: library/structure/footer-extensions.php:35
+#: ../library/structure/footer-extensions.php:35
 msgid "Powered by"
 msgstr "Založené na"
 
-#: library/structure/header-extensions.php:75
+#: ../library/structure/header-extensions.php:75
 #, php-format
 msgid "Page %s"
 msgstr "Stránka %s"
 
-#: library/structure/header-extensions.php:428
+#: ../library/structure/header-extensions.php:428
 msgid "Search Results"
 msgstr "Výsledky vyhľadávania"
 
-#: searchform.php:7 searchform.php:8
+#: ../searchform.php:7 ../searchform.php:8
 msgid "Search"
 msgstr "Vyhľadávanie"
 
