@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 15:27+0200\n"
-"PO-Revision-Date: 2014-06-05 15:27+0200\n"
+"POT-Creation-Date: 2014-06-05 16:05+0200\n"
+"PO-Revision-Date: 2014-06-05 16:05+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: he\n"
@@ -610,109 +610,109 @@ msgstr ""
 
 #: ../library/structure/content-extensions.php:148
 #: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:575
-#: ../library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
 msgid "No Comments"
 msgstr "אין תגובות"
 
 #: ../library/structure/content-extensions.php:148
 #: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:575
-#: ../library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
 msgid "1 Comment"
 msgstr "תגובה 1"
 
 #: ../library/structure/content-extensions.php:148
 #: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:575
-#: ../library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
 msgid "% Comments"
 msgstr "% תגובות"
 
 #: ../library/structure/content-extensions.php:148
 #: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:575
-#: ../library/structure/content-extensions.php:689
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
 #, fuzzy
 msgid "Comments Off"
 msgstr "אין תגובות"
 
 #: ../library/structure/content-extensions.php:152
-#: ../library/structure/content-extensions.php:467
-#: ../library/structure/content-extensions.php:579
-#: ../library/structure/content-extensions.php:664
+#: ../library/structure/content-extensions.php:470
+#: ../library/structure/content-extensions.php:582
+#: ../library/structure/content-extensions.php:667
 msgid "Read more"
 msgstr "קרא עוד"
 
 #: ../library/structure/content-extensions.php:167
 #: ../library/structure/content-extensions.php:238
-#: ../library/structure/content-extensions.php:332
-#: ../library/structure/content-extensions.php:383
-#: ../library/structure/content-extensions.php:495
-#: ../library/structure/content-extensions.php:606
-#: ../library/structure/content-extensions.php:718
+#: ../library/structure/content-extensions.php:337
+#: ../library/structure/content-extensions.php:388
+#: ../library/structure/content-extensions.php:498
+#: ../library/structure/content-extensions.php:609
+#: ../library/structure/content-extensions.php:721
 #, fuzzy
 msgid "No Posts Found."
 msgstr "שגיאה 404 - דף לא נמצא"
 
 #: ../library/structure/content-extensions.php:207
-#: ../library/structure/content-extensions.php:301
-#: ../library/structure/content-extensions.php:667
+#: ../library/structure/content-extensions.php:306
+#: ../library/structure/content-extensions.php:670
 msgid "Pages:"
 msgstr ""
 
-#: ../library/structure/content-extensions.php:289
+#: ../library/structure/content-extensions.php:294
 msgid ", "
 msgstr ""
 
-#: ../library/structure/content-extensions.php:486
-#: ../library/structure/content-extensions.php:597
-#: ../library/structure/content-extensions.php:709
-#: ../library/structure/content-extensions.php:745
-#: ../library/structure/content-extensions.php:765
+#: ../library/structure/content-extensions.php:489
+#: ../library/structure/content-extensions.php:600
+#: ../library/structure/content-extensions.php:712
+#: ../library/structure/content-extensions.php:748
+#: ../library/structure/content-extensions.php:768
 msgid "&laquo; Previous"
 msgstr ""
 
-#: ../library/structure/content-extensions.php:487
-#: ../library/structure/content-extensions.php:598
-#: ../library/structure/content-extensions.php:710
-#: ../library/structure/content-extensions.php:746
-#: ../library/structure/content-extensions.php:766
+#: ../library/structure/content-extensions.php:490
+#: ../library/structure/content-extensions.php:601
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
 msgid "Next &raquo;"
 msgstr "下一篇 &raquo"
 
-#: ../library/structure/content-extensions.php:810
+#: ../library/structure/content-extensions.php:813
 #, fuzzy
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../library/structure/content-extensions.php:810
+#: ../library/structure/content-extensions.php:813
 #, fuzzy
 msgid "(Edit)"
 msgstr "ערוך"
 
-#: ../library/structure/content-extensions.php:825
+#: ../library/structure/content-extensions.php:828
 msgid "Post author"
 msgstr ""
 
-#: ../library/structure/content-extensions.php:831
+#: ../library/structure/content-extensions.php:834
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../library/structure/content-extensions.php:837
+#: ../library/structure/content-extensions.php:840
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../library/structure/content-extensions.php:842
+#: ../library/structure/content-extensions.php:845
 msgid "Edit"
 msgstr "ערוך"
 
-#: ../library/structure/content-extensions.php:846
+#: ../library/structure/content-extensions.php:849
 msgid "Reply"
 msgstr "השב"
 

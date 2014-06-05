@@ -205,7 +205,7 @@ function travelify_options_register_theme_customizer( $wp_customize ) {
             $wp_customize,
             'travelify_content_bg_color',
             array(
-                'label'      => __( 'Contnet Background Color', 'travelify' ),
+                'label'      => __( 'Content Background Color', 'travelify' ),
                 'section'    => 'travelify_element_options',
                 'settings'   => 'travelify_content_bg_color',
                 'priority' => 7
