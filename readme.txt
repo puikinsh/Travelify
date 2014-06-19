@@ -86,6 +86,7 @@ If you have still any other questions about the theme you can email at info@colo
 
 = 2.1.1 =
 	* Added Polish translation thanks to Kamil Kuczek
+	* Fixed WordPress Customizer style for Firefox
 
 = 2.1 =
 	* Added Swedish translation

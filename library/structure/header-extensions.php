@@ -9,7 +9,7 @@
 add_action( 'travelify_title', 'travelify_add_meta', 5 );
 /**
  * Add meta tags.
- */ 
+ */
 function travelify_add_meta() {
 ?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -22,7 +22,7 @@ function travelify_add_meta() {
 add_action( 'travelify_title', 'travelify_show_title', 10 );
 /**
  * Showing the title in the browser tab.
- * 
+ *
  * @uses wp_title() Display the title on the browser tab.
  */
 function travelify_show_title() {
@@ -47,18 +47,18 @@ add_filter( 'wp_title', 'travelify_filter_wp_title' );
  */
 function travelify_filter_wp_title( $title ) {
 	global $page, $paged;
-	
+
 	// Get the Site Name
    $site_name = get_bloginfo( 'name' );
 
    // Get the Site Description
    $site_description = get_bloginfo( 'description' );
 
-   $filtered_title = ''; 
+   $filtered_title = '';
 
 	// For Homepage or Frontpage
-   if(  is_home() || is_front_page() ) {		
-		$filtered_title .= $site_name;	
+   if(  is_home() || is_front_page() ) {
+		$filtered_title .= $site_name;
 		if ( !empty( $site_description ) )  {
         	$filtered_title .= ' &#124; '. $site_description;
 		}
@@ -66,7 +66,7 @@ function travelify_filter_wp_title( $title ) {
 	elseif( is_feed() ) {
 		$filtered_title = '';
 	}
-	else{	
+	else{
 		$filtered_title = $title . $site_name;
 	}
 
@@ -74,7 +74,7 @@ function travelify_filter_wp_title( $title ) {
 	if( $paged >= 2 || $page >= 2 ) {
 		$filtered_title .= ' &#124; ' . sprintf( __( 'Page %s', 'travelify' ), max( $paged, $page ) );
 	}
-	
+
 	// Return the modified title
    return $filtered_title;
 }
@@ -90,7 +90,7 @@ add_action( 'travelify_links', 'travelify_add_links', 10 );
 function travelify_add_links() {
 ?>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />	
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 }
 
@@ -104,10 +104,10 @@ add_action( 'admin_head', 'travelify_favicon' );
  * Get the favicon Image from theme options
  * display favicon
  *
- * @uses set_transient and delete_transient 
+ * @uses set_transient and delete_transient
  */
-function travelify_favicon() {	
-	
+function travelify_favicon() {
+
 	$travelify_favicon = '';
 	if( ( !$travelify_favicon = get_transient( 'travelify_favicon' ) ) ) {
 		global $travelify_theme_options_settings;
@@ -118,10 +118,10 @@ function travelify_favicon() {
 				$travelify_favicon .= '<link rel="shortcut icon" href="'.esc_url( $options[ 'favicon' ] ).'" type="image/x-icon" />';
 			}
 		}
-		
-	set_transient( 'travelify_favicon', $travelify_favicon, 86940 );	
-	}	
-	echo $travelify_favicon ;	
+
+	set_transient( 'travelify_favicon', $travelify_favicon, 86940 );
+	}
+	echo $travelify_favicon ;
 }
 
 /****************************************************************************************/
@@ -132,10 +132,10 @@ add_action( 'travelify_links', 'travelify_webpageicon', 20 );
  * Get the webpageicon Image from theme options
  * display webpageicon
  *
- * @uses set_transient and delete_transient 
+ * @uses set_transient and delete_transient
  */
-function travelify_webpageicon() {	
-	
+function travelify_webpageicon() {
+
 	$travelify_webpageicon = '';
 	if( ( !$travelify_webpageicon = get_transient( 'travelify_webpageicon' ) ) ) {
 		global $travelify_theme_options_settings;
@@ -146,10 +146,10 @@ function travelify_webpageicon() {
 				$travelify_webpageicon .= '<link rel="apple-touch-icon-precomposed" href="'.esc_url( $options[ 'webpageicon' ] ).'" />';
 			}
 		}
-		
-	set_transient( 'travelify_webpageicon', $travelify_webpageicon, 86940 );	
-	}	
-	echo $travelify_webpageicon ;	
+
+	set_transient( 'travelify_webpageicon', $travelify_webpageicon, 86940 );
+	}
+	echo $travelify_webpageicon ;
 }
 
 /****************************************************************************************/
@@ -160,14 +160,14 @@ add_action( 'travelify_header', 'travelify_headerdetails', 10 );
  *
  * Shows the site logo, title, description, searchbar, social icons etc.
  */
-function travelify_headerdetails() {	
+function travelify_headerdetails() {
 ?>
 	<?php
 		global $travelify_theme_options_settings;
    	$options = $travelify_theme_options_settings;
 
    	$elements = array();
-		$elements = array( 	$options[ 'social_facebook' ], 
+		$elements = array( 	$options[ 'social_facebook' ],
 									$options[ 'social_twitter' ],
 									$options[ 'social_googleplus' ],
 									$options[ 'social_linkedin' ],
@@ -178,7 +178,7 @@ function travelify_headerdetails() {
 									$options[ 'social_tumblr' ],
 									$options[ 'social_instagram' ],
 									$options[ 'social_rss' ]
-							 	);	
+							 	);
 
 		$flag = 0;
 		if( !empty( $elements ) ) {
@@ -200,12 +200,12 @@ function travelify_headerdetails() {
 		<div class="hgroup-wrap clearfix">
 					<section class="hgroup-right">
 						<?php travelify_socialnetworks( $flag ); ?>
-					</section><!-- .hgroup-right -->	
+					</section><!-- .hgroup-right -->
 				<hgroup id="site-logo" class="clearfix">
-					<?php 
+					<?php
 						if( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-text' ) {
 						?>
-							<h1 id="site-title"> 
+							<h1 id="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 									<?php bloginfo( 'name' ); ?>
 								</a>
@@ -215,7 +215,7 @@ function travelify_headerdetails() {
 						}
 						elseif( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-logo' ) {
 						?>
-							<h1 id="site-title"> 
+							<h1 id="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 									<img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 								</a>
@@ -223,21 +223,21 @@ function travelify_headerdetails() {
 						<?php
 						}
 						?>
-					
+
 				</hgroup><!-- #site-logo -->
-			
+
 		</div><!-- .hgroup-wrap -->
-	</div><!-- .container -->	
+	</div><!-- .container -->
 	<?php $header_image = get_header_image();
 			if( !empty( $header_image ) ) :?>
 				<img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-			<?php endif; ?>	
+			<?php endif; ?>
 	<?php
-		if ( has_nav_menu( 'primary' ) ) { 
+		if ( has_nav_menu( 'primary' ) ) {
 			$args = array(
 				'theme_location'    => 'primary',
 				'container'         => '',
-				'items_wrap'        => '<ul class="root">%3$s</ul>' 
+				'items_wrap'        => '<ul class="root">%3$s</ul>'
 			);
 			echo '<nav id="main-nav" class="clearfix">
 					<div class="container clearfix">';
@@ -252,18 +252,18 @@ function travelify_headerdetails() {
 			echo '</div><!-- .container -->
 					</nav><!-- #main-nav -->';
 		}
-	?> 		
+	?>
 		<?php
-		if( is_home() || is_front_page() ) {	
+		if( is_home() || is_front_page() ) {
 			if( "0" == $options[ 'disable_slider' ] ) {
-				if( function_exists( 'travelify_pass_cycle_parameters' ) ) 
+				if( function_exists( 'travelify_pass_cycle_parameters' ) )
    				travelify_pass_cycle_parameters();
-   			if( function_exists( 'travelify_featured_post_slider' ) ) 
+   			if( function_exists( 'travelify_featured_post_slider' ) )
    				travelify_featured_post_slider();
    		}
    		}
-		else { 
-			if( ( '' != travelify_header_title() ) || function_exists( 'bcn_display_list' ) ) { 
+		else {
+			if( ( '' != travelify_header_title() ) || function_exists( 'bcn_display_list' ) ) {
 		?>
 			<div class="page-title-wrap">
 	    		<div class="container clearfix">
@@ -276,7 +276,7 @@ function travelify_headerdetails() {
 	    	</div>
 	   <?php
 	   	}
-		} 
+		}
 }
 
 /****************************************************************************************/
@@ -288,18 +288,18 @@ if ( ! function_exists( 'travelify_socialnetworks' ) ) :
  * Get links through Theme Options
  */
 function travelify_socialnetworks( $flag ) {
-	
+
 	global $travelify_theme_options_settings;
    $options = $travelify_theme_options_settings;
 
 	$travelify_socialnetworks = '';
 	if ( ( !$travelify_socialnetworks = get_transient( 'travelify_socialnetworks' ) ) && ( 1 == $flag ) )  {
-		
+
 		$travelify_socialnetworks .='
 			<div class="social-icons clearfix">
 				<ul>';
 
-				$social_links = array(); 
+				$social_links = array();
 				$social_links = array( 	'Facebook' 		=> 'social_facebook',
 										'Twitter' 		=> 'social_twitter',
 										'Google-Plus'	=> 'social_googleplus',
@@ -310,21 +310,21 @@ function travelify_socialnetworks( $flag ) {
 										'Flickr'		=> 'social_flickr',
 										'Tumblr'		=> 'social_tumblr',
 										'Instagram'		=> 'social_instagram',
-										'RSS'			=> 'social_rss'  
+										'RSS'			=> 'social_rss'
 									);
-		
+
 				foreach( $social_links as $key => $value ) {
 					if ( !empty( $options[ $value ] ) ) {
 						$travelify_socialnetworks .=
 							'<li class="'.strtolower($key).'"><a href="'.esc_url( $options[ $value ] ).'" title="'.sprintf( esc_attr__( '%1$s on %2$s', 'travelify' ), get_bloginfo( 'name' ), $key ).'" target="_blank"></a></li>';
 					}
-				}		
-		
+				}
+
 				$travelify_socialnetworks .='
 			</ul>
 			</div><!-- .social-icons -->';
-		
-		set_transient( 'travelify_socialnetworks', $travelify_socialnetworks, 86940 );	 
+
+		set_transient( 'travelify_socialnetworks', $travelify_socialnetworks, 86940 );
 	}
 	echo $travelify_socialnetworks;
 }
@@ -339,14 +339,14 @@ if ( ! function_exists( 'travelify_featured_post_slider' ) ) :
  *
  * @uses set_transient and delete_transient
  */
-function travelify_featured_post_slider() {	
+function travelify_featured_post_slider() {
 	global $post;
-		
+
 	global $travelify_theme_options_settings;
    $options = $travelify_theme_options_settings;
-	
+
 	$travelify_featured_post_slider = '';
-	if( ( !$travelify_featured_post_slider = get_transient( 'travelify_featured_post_slider' ) ) && !empty( $options[ 'featured_post_slider' ] ) ) {	
+	if( ( !$travelify_featured_post_slider = get_transient( 'travelify_featured_post_slider' ) ) && !empty( $options[ 'featured_post_slider' ] ) ) {
 		$travelify_featured_post_slider .= '
 		<section class="featured-slider"><div class="slider-cycle">';
 			$get_featured_posts = new WP_Query( array(
@@ -363,9 +363,9 @@ function travelify_featured_post_slider() {
 				$travelify_featured_post_slider .= '
 				<div class="'.$classes.'">';
 						if( has_post_thumbnail() ) {
-	
+
 							$travelify_featured_post_slider .= '<figure><a href="' . get_permalink() . '" title="'.the_title('','',false).'">';
-	
+
 							$travelify_featured_post_slider .= get_the_post_thumbnail( $post->ID, 'slider', array( 'title' => esc_attr( $title_attribute ), 'alt' => esc_attr( $title_attribute ), 'class'	=> 'pngfix' ) ).'</a></figure>';
 						}
 						if( $title_attribute != '' || $excerpt !='' ) {
@@ -374,7 +374,7 @@ function travelify_featured_post_slider() {
 							if( $title_attribute !='' ) {
 									$travelify_featured_post_slider .= '<div class="featured-title"><a href="' . get_permalink() . '" title="'.the_title('','',false).'">'. get_the_title() . '</a></div><!-- .featured-title -->';
 							}
-							if( $excerpt !='' ) {								
+							if( $excerpt !='' ) {
 								$travelify_featured_post_slider .= '<div class="featured-content">'.$excerpt.'</div><!-- .featured-content -->';
 							}
 						$travelify_featured_post_slider .= '
@@ -383,13 +383,13 @@ function travelify_featured_post_slider() {
 				$travelify_featured_post_slider .= '
 				</div><!-- .slides -->';
 			endwhile; wp_reset_query();
-		$travelify_featured_post_slider .= '</div>				
+		$travelify_featured_post_slider .= '</div>
 		<nav id="controllers" class="clearfix">
 		</nav><!-- #controllers --></section><!-- .featured-slider -->';
-			
+
 	set_transient( 'travelify_featured_post_slider', $travelify_featured_post_slider, 86940 );
 	}
-	echo $travelify_featured_post_slider;	
+	echo $travelify_featured_post_slider;
 }
 endif;
 
@@ -405,12 +405,12 @@ if ( ! function_exists( 'travelify_breadcrumb' ) ) :
 function travelify_breadcrumb() {
 	if( function_exists( 'bcn_display_list' ) ) {
 		echo '<div class="breadcrumb">
-		<ul>';                
-		bcn_display_list();               
+		<ul>';
+		bcn_display_list();
 		echo '</ul>
-		</div> <!-- .breadcrumb -->'; 
-	}     
-       
+		</div> <!-- .breadcrumb -->';
+	}
+
 }
 endif;
 

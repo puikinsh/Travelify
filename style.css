@@ -424,7 +424,7 @@ img#wpstats {
 	display: block;
 }
 /* Readmore */
-a.readmore {
+.entry-meta-bar .readmore {
 	float: right;
 	font-size: 14px;
 	white-space: nowrap;
@@ -437,7 +437,7 @@ a.readmore {
 	text-transform: lowercase;
 	border: 1px solid #439f55;
 	cursor: pointer;
-	background: #57ad68;
+	background-color: #57ad68;
 	color: #fff;
 	position: relative;
 	border-radius: 2px;
@@ -445,11 +445,11 @@ a.readmore {
 	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.2);
 	box-shadow: inset 0 1px 1px rgba(255,255,255,0.2);
 }
-a.readmore:hover {
+.entry-meta-bar .readmore:hover {
 	background: #439f55;
 	color: #fff;
 }
-a.readmore:active {
+.entry-meta-bar .readmore:active {
 	-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
 	box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
 }

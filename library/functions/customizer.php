@@ -341,21 +341,22 @@ function travelify_customizer_css() {
         a { color: <?php echo get_theme_mod( 'travelify_link_color' ); ?>; }
         #site-title a { color: <?php echo get_theme_mod( 'travelify_logo_color' ); ?>; }
         #site-title a:hover { color: <?php echo get_theme_mod( 'travelify_logo_hover_color' ); ?>; }
-        .wrapper { background-color: <?php echo get_theme_mod( 'travelify_wrapper_color' ); ?>; }
+        .wrapper { background: <?php echo get_theme_mod( 'travelify_wrapper_color' ); ?>; }
         .social-icons ul li a { color: <?php echo get_theme_mod( 'travelify_social_color' ); ?>; }
         #main-nav a, #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: <?php echo get_theme_mod( 'travelify_menu_item_color' ); ?>; }
-        .widget, article { background-color: <?php echo get_theme_mod( 'travelify_content_bg_color' ); ?>; }
+        .widget, article { background: <?php echo get_theme_mod( 'travelify_content_bg_color' ); ?>; }
         .entry-title, .entry-title a, h1, h2, h3, h4, h5, h6, .widget-title  { color: <?php echo get_theme_mod( 'travelify_header_color' ); ?>; }
         a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: <?php echo get_theme_mod( 'travelify_link_hover_color' ); ?>; }
-        #main-nav { background-color: <?php echo get_theme_mod( 'travelify_menu_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_menu_color' ); ?>; }
+        #main-nav { background: <?php echo get_theme_mod( 'travelify_menu_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_menu_color' ); ?>; }
     	#main-nav ul li ul, body { border-color: <?php echo get_theme_mod( 'travelify_menu_color' ); ?>; }
-    	#main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background-color: <?php echo get_theme_mod( 'travelify_menu_hover_color' ); ?>; }
+    	#main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a, #main-nav li:hover > a,#main-nav ul ul :hover > a,#main-nav a:focus { background: <?php echo get_theme_mod( 'travelify_menu_hover_color' ); ?>; }
     	#main-nav ul li ul li a:hover,#main-nav ul li ul li:hover > a,#main-nav ul li.current-menu-item ul li a:hover { color: <?php echo get_theme_mod( 'travelify_menu_hover_color' ); ?>; }
     	.entry-content { color: <?php echo get_theme_mod( 'travelify_entry_color' ); ?>; }
-    	input[type="reset"], input[type="button"], input[type="submit"], a.readmore, ::selection, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span { background-color: <?php echo get_theme_mod( 'travelify_element_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_element_color' ); ?> }
-    	blockquote { border-color: <?php echo get_theme_mod( 'travelify_element_color' ); ?> }
-        #controllers a:hover, #controllers a.active { color: <?php echo get_theme_mod( 'travelify_element_color' ); ?> }
-    	input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, a.readmore:hover, a.readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background-color: <?php echo get_theme_mod( 'travelify_element_hover_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_element_hover_color' ); ?> }
+    	input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .wp-pagenavi .current, .wp-pagenavi a:hover { background: <?php echo get_theme_mod( 'travelify_element_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_element_color' ); ?> !important; }
+        ::selection { background: <?php echo get_theme_mod( 'travelify_element_color' ); ?>; }
+        blockquote { border-color: <?php echo get_theme_mod( 'travelify_element_color' ); ?>; }
+        #controllers a:hover, #controllers a.active { color: <?php echo get_theme_mod( 'travelify_element_color' ); ?>; }
+    	input[type="reset"]:hover,input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:active,input[type="button"]:active,input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:active { background: <?php echo get_theme_mod( 'travelify_element_hover_color' ); ?>; border-color: <?php echo get_theme_mod( 'travelify_element_hover_color' ); ?>; }
     </style>
     <?php
 }
