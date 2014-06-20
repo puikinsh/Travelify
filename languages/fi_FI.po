@@ -1,0 +1,738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travelify\n"
+"POT-Creation-Date: 2014-06-20 10:25+0200\n"
+"PO-Revision-Date: 2014-06-20 10:25+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
+"Language-Team: Team TM <ana@tietomyrsky.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:11
+msgid "Error 404 - Page NOT Found"
+msgstr "Virhe 404 - Sivua ei löydy"
+
+#: ../404.php:14
+msgid "It seems we can't find what you're looking for."
+msgstr "Näyttää siltä, että etsimääsi ei löydy."
+
+#: ../404.php:15
+msgid "This might be because:"
+msgstr "Täm voi johtua siitä, että"
+
+#: ../404.php:17
+msgid "You have typed the web address incorrectly"
+msgstr "Kirjoitit osoitteen väärin"
+
+#: ../404.php:18
+msgid "The page you were looking for may have been moved, updated or deleted."
+msgstr "Sivu jota etsit on siirretty, päivitetty tai poistettu. "
+
+#: ../404.php:20
+msgid "Please try the following:"
+msgstr "Kokeile seuravaa: "
+
+#: ../404.php:22
+msgid "Check for a mis-typed URL error"
+msgstr "Tarkista väärinkirjoitetut URL:ät"
+
+#: ../404.php:23
+msgid "Press the refresh button on your browser."
+msgstr "Paina selaimen refresh-näppäintä (yleensä F5)"
+
+#: ../404.php:24
+msgid "Go back to"
+msgstr "Mene takaisin"
+
+#: ../404.php:24
+msgid "Homepage"
+msgstr "Kotisivu"
+
+#: ../comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Ajatus &ldquo;%2$s&rdquo;:sta"
+
+#: ../comments.php:27
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s ajatuksia &ldquo;%2$s&rdquo;:sta"
+
+#: ../comments.php:38
+msgid "Comment navigation"
+msgstr "Kommenttinavigaatio"
+
+#: ../comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: ../comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Uusimmat kommentit &rarr;"
+
+#: ../comments.php:47
+msgid "Comments are closed."
+msgstr "Kommentointi estetty."
+
+#: ../functions.php:76
+msgid "Primary Menu"
+msgstr "Päämenu"
+
+#: ../library/functions/customizer.php:7
+msgid "Travelify Header Area"
+msgstr "Travelify ylätunnistealue"
+
+#: ../library/functions/customizer.php:8
+msgid "Use the following settings change color for menu and website title"
+msgstr "Seuraavat asetukset vaihtavat valikon ja sivuston otsikon värejä"
+
+#: ../library/functions/customizer.php:24
+msgid "Website Title Color"
+msgstr "Sivuston otsakkeen väri"
+
+#: ../library/functions/customizer.php:44
+msgid "Website Title Hover Color"
+msgstr "Sisuton otsakkeen leijutusväri"
+
+#: ../library/functions/customizer.php:64
+msgid "Menu Bar Color"
+msgstr "Menupalkin väri"
+
+#: ../library/functions/customizer.php:83
+msgid "Menu Bar Hover Color"
+msgstr "Menupalkin leijutusväri"
+
+#: ../library/functions/customizer.php:102
+msgid "Menu Item Text Color"
+msgstr "Valikkotekstin väri"
+
+#: ../library/functions/customizer.php:122
+msgid "Social Icon Color"
+msgstr "Sosiaalisen ikonin väri"
+
+#: ../library/functions/customizer.php:131
+msgid "Travelify Element Color"
+msgstr "Travelify elementin väri"
+
+#: ../library/functions/customizer.php:132
+msgid "Use the following settings change color for website elements"
+msgstr "Seuraavat asetukset vaihtavat sivuston elementtien värejä"
+
+#: ../library/functions/customizer.php:148
+msgid "Element Color"
+msgstr "Elementin väri"
+
+#: ../library/functions/customizer.php:168
+msgid "Element Hover Color"
+msgstr "Elementin leijutusväri"
+
+#: ../library/functions/customizer.php:188
+msgid "Wrapper Color"
+msgstr "Kääreen väri"
+
+#: ../library/functions/customizer.php:208
+msgid "Content Background Color"
+msgstr "Sisällön taustaväri"
+
+#: ../library/functions/customizer.php:217
+msgid "Travelify Typography Color"
+msgstr "Travelify typografiaväri"
+
+#: ../library/functions/customizer.php:218
+msgid ""
+"Use the following settings change color for typography such as links, "
+"headings and content"
+msgstr ""
+"Seuraavat asetukset vaihtavat typografivärejä (linkit, otsikot ja sisältö)"
+
+#: ../library/functions/customizer.php:234
+msgid "Entry Content Color"
+msgstr "Artikkelin sisällön väri"
+
+#: ../library/functions/customizer.php:253
+msgid "Header/Title Color"
+msgstr "Ylätunnisteen/otsikon väri"
+
+#: ../library/functions/customizer.php:273
+msgid "Link Color"
+msgstr "Linkin väri"
+
+#: ../library/functions/customizer.php:293
+msgid "Link Hover Color"
+msgstr "Linkin leijutusväri"
+
+#: ../library/functions/customizer.php:302
+msgid "Travelify Footer"
+msgstr "Travelify alaviite"
+
+#: ../library/functions/customizer.php:303
+msgid "Use the following settings customize Footer"
+msgstr "Käytä seuraavia asetuksia alaviitteelle"
+
+#: ../library/functions/customizer.php:317
+msgid "Copyright text"
+msgstr "Tekijänoikeus &copy;"
+
+#: ../library/functions/functions.php:296
+#: ../library/functions/functions.php:310
+msgid "Navigation"
+msgstr "Navigointi"
+
+#: ../library/functions/functions.php:362
+#: ../library/panel/theme-options.php:291
+msgid "Left Sidebar"
+msgstr "Vasen sivupalkki"
+
+#: ../library/functions/functions.php:364
+msgid "Shows widgets at Left side."
+msgstr "Näytä vimpaimet vasemmalla."
+
+#: ../library/functions/functions.php:373
+#: ../library/panel/theme-options.php:295
+msgid "Right Sidebar"
+msgstr "Oikea sivupalkki"
+
+#: ../library/functions/functions.php:375
+msgid "Shows widgets at Right side."
+msgstr "Näytä vimpaimet oikealla"
+
+#: ../library/functions/functions.php:384
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: ../library/functions/functions.php:386
+msgid "Shows widgets at footer."
+msgstr "Näytä vimpaimet alatunnisteessa."
+
+#: ../library/functions/shortcodes.php:49
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../library/functions/shortcodes.php:58
+#: ../library/panel/theme-options.php:125
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#: ../library/panel/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr "Valitse tämän sivun asettelu"
+
+#: ../library/panel/metaboxes.php:22
+msgid "Select layout for this specific Post only"
+msgstr "Valitse asettely tälle viestille"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr "Oletusasettelu otettiin käyttöön"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Theme Settings"
+msgstr "Teeman asetukset"
+
+#: ../library/panel/metaboxes.php:41
+msgid "No sidebar"
+msgstr "Ei sivupalkkia"
+
+#: ../library/panel/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr "Ei sivupalkkia, täysi leveys"
+
+#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
+msgid "No Sidebar, One Column"
+msgstr "Ei sivupalkkia, yksi palsta"
+
+#: ../library/panel/metaboxes.php:59
+msgid "Left sidebar"
+msgstr "Vasen sivupalkki"
+
+#: ../library/panel/metaboxes.php:65
+msgid "Right sidebar"
+msgstr "Oikea sivupalkki"
+
+#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
+msgid "Theme Options"
+msgstr "Teemavalinnat"
+
+#: ../library/panel/theme-options.php:125
+msgid "Theme Options by"
+msgstr "Teemavaihtoehdot"
+
+#: ../library/panel/theme-options.php:132
+msgid "Other Themes"
+msgstr "Muut teemat"
+
+#: ../library/panel/theme-options.php:133
+msgid "Rate this Theme"
+msgstr "Arvostele tämä teema"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instruction"
+msgstr "Teemaohje"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instructions"
+msgstr "Teemaohjeet"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support Forum"
+msgstr "Tukifoorumi"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support"
+msgstr "Tuki"
+
+#: ../library/panel/theme-options.php:136
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../library/panel/theme-options.php:137
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../library/panel/theme-options.php:152
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: ../library/panel/theme-options.php:158
+msgid "Main Options"
+msgstr "Päävalinnat"
+
+#: ../library/panel/theme-options.php:159
+msgid "Featured Slider"
+msgstr "Esittelyvieritin"
+
+#: ../library/panel/theme-options.php:160
+msgid "Social Links"
+msgstr "Sosiaaliset linkit"
+
+#: ../library/panel/theme-options.php:161
+msgid "Other"
+msgstr "Muu"
+
+#: ../library/panel/theme-options.php:167
+msgid "Header Options"
+msgstr "Otsakevalinnat"
+
+#: ../library/panel/theme-options.php:172
+#: ../library/panel/theme-options.php:182
+msgid "Header Logo"
+msgstr "Otsakelogo"
+
+#: ../library/panel/theme-options.php:175
+msgid "Upload Logo"
+msgstr "Lähetä logo"
+
+#: ../library/panel/theme-options.php:179
+#: ../library/panel/theme-options.php:224
+#: ../library/panel/theme-options.php:256
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: ../library/panel/theme-options.php:187
+msgid "Show"
+msgstr "Näytä"
+
+#: ../library/panel/theme-options.php:190
+msgid "Header Logo Only"
+msgstr "Vain otsakelogo"
+
+#: ../library/panel/theme-options.php:193
+msgid "Header Text Only"
+msgstr "Vain otsaketeksti"
+
+#: ../library/panel/theme-options.php:196
+msgid "Disable"
+msgstr "Estä"
+
+#: ../library/panel/theme-options.php:201
+#: ../library/panel/theme-options.php:233
+#: ../library/panel/theme-options.php:265
+#: ../library/panel/theme-options.php:310
+#: ../library/panel/theme-options.php:348
+#: ../library/panel/theme-options.php:381
+#: ../library/panel/theme-options.php:419
+#: ../library/panel/theme-options.php:477
+#: ../library/panel/theme-options.php:516
+#: ../library/panel/theme-options.php:539
+msgid "Save All Changes"
+msgstr "Talleta kaikki muutokset"
+
+#: ../library/panel/theme-options.php:206
+msgid "Favicon Options"
+msgstr "Favicon-valinnat"
+
+#: ../library/panel/theme-options.php:211
+msgid "Disable Favicon"
+msgstr "Estä favicon"
+
+#: ../library/panel/theme-options.php:213
+#: ../library/panel/theme-options.php:245
+#: ../library/panel/theme-options.php:431
+msgid "Check to disable"
+msgstr "Estä"
+
+#: ../library/panel/theme-options.php:216
+msgid "Favicon URL"
+msgstr "Favicon URL"
+
+#: ../library/panel/theme-options.php:219
+msgid "Upload Favicon"
+msgstr "Lähetä favicon"
+
+#: ../library/panel/theme-options.php:220
+msgid ""
+"Favicon is this tiny icon you see beside URL in your browser address bar"
+msgstr "Favicon on pieni ikoni joka näkyy URL:n vieressä osoiterivillä"
+
+#: ../library/panel/theme-options.php:227
+msgid "favicon"
+msgstr "favicon"
+
+#: ../library/panel/theme-options.php:238
+msgid "Web Clip Icon Options"
+msgstr "Webleikkeen ikonivalinnat"
+
+#: ../library/panel/theme-options.php:243
+msgid "Disable Web Clip Icon"
+msgstr "Estä Webleikkeen ikoni"
+
+#: ../library/panel/theme-options.php:248
+msgid "Web Clip Icon URL"
+msgstr "Webleikkeen ikonin URL"
+
+#: ../library/panel/theme-options.php:251
+msgid "Upload Web Clip Icon"
+msgstr "Lähetä Webleikkeen ikoni"
+
+#: ../library/panel/theme-options.php:252
+msgid "Web Clip works as shortcut to website on iOS devices home screen"
+msgstr "Webleike toimii websivun pikavalintana iOS-laitteiden kotiruudulla"
+
+#: ../library/panel/theme-options.php:259
+msgid "webpage icon"
+msgstr "Sivun ikoni"
+
+#: ../library/panel/theme-options.php:270
+msgid "Layout Options"
+msgstr "Asetteluvalinnat"
+
+#: ../library/panel/theme-options.php:275
+msgid "Default Layout"
+msgstr "Oletusasettelu"
+
+#: ../library/panel/theme-options.php:279
+msgid "No Sidebar"
+msgstr "Ei sivupalkkia"
+
+#: ../library/panel/theme-options.php:283
+msgid "No Sidebar, Full Width"
+msgstr "Ei sivupalkkia, täysi leveys"
+
+#: ../library/panel/theme-options.php:301
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+"Tämä asettaa oletusasettelutyylin. Voit kuitenkin valita jonkin toisen "
+"asettelun jokaiselle sivulle muokkaimessa"
+
+#: ../library/panel/theme-options.php:302
+msgid "Reset Layout"
+msgstr "Nollaa asettelu"
+
+#: ../library/panel/theme-options.php:305
+msgid "Check to reset"
+msgstr "Nollaa"
+
+#: ../library/panel/theme-options.php:315
+msgid "Custom Background"
+msgstr "Mukautettu tausta"
+
+#: ../library/panel/theme-options.php:321
+msgid "Change theme background"
+msgstr "Muuta teeman taustaa"
+
+#: ../library/panel/theme-options.php:324
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Klikkaa tästä</a>"
+
+#: ../library/panel/theme-options.php:334
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../library/panel/theme-options.php:340
+msgid "Feed Redirect URL"
+msgstr "Syötteen uudelleenohjaus-URL"
+
+#: ../library/panel/theme-options.php:343
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Syötä haluamasi RSS URL. (Feedburner tms.)"
+
+#: ../library/panel/theme-options.php:353
+msgid "Homepage Post Options"
+msgstr "Kotisuvun artikkelivalinnat"
+
+#: ../library/panel/theme-options.php:359
+msgid "Homepage posts categories:"
+msgstr "Kotisivun kategoriat: "
+
+#: ../library/panel/theme-options.php:361
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Vain artikkelit jotka kuuluvat valittuihin kategorioihin näytetään etusivulla"
+
+#: ../library/panel/theme-options.php:366
+msgid "--Disabled--"
+msgstr "--Estetty--"
+
+#: ../library/panel/theme-options.php:376
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+"Voit valita monia kategorioita pitämällä CTRL- tai CMD-näppäintä pohjassa,"
+
+#: ../library/panel/theme-options.php:389
+msgid "Featured Post/Page Slider Options"
+msgstr "Esittelivierittimen valinnat"
+
+#: ../library/panel/theme-options.php:393
+msgid "Exclude Slider post from Homepage posts?"
+msgstr "Poistetaanko esittelyvieritin etusivun artikkeleilta?"
+
+#: ../library/panel/theme-options.php:395
+msgid "Check to exclude"
+msgstr "Valitse poissulkeaksesi"
+
+#: ../library/panel/theme-options.php:399
+msgid "Number of Slides"
+msgstr "Diojen määrä"
+
+#: ../library/panel/theme-options.php:404
+msgid "Featured Slide #"
+msgstr "Esiteltävä dia #"
+
+#: ../library/panel/theme-options.php:406
+msgid "Click Here To Edit"
+msgstr "Klikkaa tästä muokataksesi"
+
+#: ../library/panel/theme-options.php:412
+msgid "How to use the featured slider?"
+msgstr "Kuinka esittelyvieritintä käytetään?"
+
+#: ../library/panel/theme-options.php:414
+msgid "Create Post or Page and add featured image to it."
+msgstr "Luo artikkeli tai sivu ja lisää esittelykuva sille."
+
+#: ../library/panel/theme-options.php:415
+msgid ""
+"Add all the Post ID that you want to use in the featured slider. Post ID can "
+"be found at All Posts table in last column"
+msgstr ""
+"Lisää kaikki artikkelitunnisteet jotka haluat näkyviin esittelyvierittimeen. "
+"Artikkelitunnisteen löydät &ldquo;Kaikki artikkelit&rdquo;-taulukon "
+"viimeisestä sarakkeesta."
+
+#: ../library/panel/theme-options.php:416
+msgid ""
+"Featured Slider will show featured images, Title and excerpt of the "
+"respected added post IDs."
+msgstr ""
+"Esittelyvieritin näyttää esiteltäviä kuvia, otsakkeen ja otteen artikkelista."
+
+#: ../library/panel/theme-options.php:417
+msgid "The recommended image size is"
+msgstr "Suositeltu kuvakoko on"
+
+#: ../library/panel/theme-options.php:425
+msgid "Slider Options"
+msgstr "Vieritysvalinnat"
+
+#: ../library/panel/theme-options.php:429
+msgid "Disable Slider"
+msgstr "Estä vieritys"
+
+#: ../library/panel/theme-options.php:435
+msgid "Transition Effect:"
+msgstr "Siirtymäefekti:"
+
+#: ../library/panel/theme-options.php:455
+#: ../library/panel/theme-options.php:507
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../library/panel/theme-options.php:463
+msgid "Transition Delay"
+msgstr "Siirtymän viive"
+
+#: ../library/panel/theme-options.php:466
+#: ../library/panel/theme-options.php:473
+msgid "second(s)"
+msgstr "sekuntti(a)"
+
+#: ../library/panel/theme-options.php:470
+msgid "Transition Length"
+msgstr "Siirtymän pituus"
+
+#: ../library/panel/theme-options.php:501
+msgid "Enter URLs for your social networks e.g."
+msgstr "Syötä sosiaalisten verkkojesi URL:ät."
+
+#: ../library/panel/theme-options.php:524
+msgid "Custom CSS (Advanced)"
+msgstr "Mukautettu CSS (edistynyt)"
+
+#: ../library/panel/theme-options.php:529
+msgid "Enter your custom CSS styles."
+msgstr "Syötä mukautetut CSS-tyylit."
+
+#: ../library/panel/theme-options.php:530
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr "Tämä CSS päällekirjoittaa style.css tiedoston."
+
+#: ../library/panel/theme-options.php:534
+msgid "Make sure you know what you are doing."
+msgstr "Oletko varma?"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "No Comments"
+msgstr "Ei kommentteja"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "1 Comment"
+msgstr "1 Kommentti"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "Comments Off"
+msgstr "Kommentointi estetty"
+
+#: ../library/structure/content-extensions.php:152
+#: ../library/structure/content-extensions.php:470
+#: ../library/structure/content-extensions.php:582
+#: ../library/structure/content-extensions.php:667
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: ../library/structure/content-extensions.php:167
+#: ../library/structure/content-extensions.php:238
+#: ../library/structure/content-extensions.php:337
+#: ../library/structure/content-extensions.php:388
+#: ../library/structure/content-extensions.php:498
+#: ../library/structure/content-extensions.php:609
+#: ../library/structure/content-extensions.php:721
+msgid "No Posts Found."
+msgstr "Ei artikkeleita"
+
+#: ../library/structure/content-extensions.php:207
+#: ../library/structure/content-extensions.php:306
+#: ../library/structure/content-extensions.php:670
+msgid "Pages:"
+msgstr "Sivuja:"
+
+#: ../library/structure/content-extensions.php:294
+msgid ", "
+msgstr ", "
+
+#: ../library/structure/content-extensions.php:489
+#: ../library/structure/content-extensions.php:600
+#: ../library/structure/content-extensions.php:712
+#: ../library/structure/content-extensions.php:748
+#: ../library/structure/content-extensions.php:768
+msgid "&laquo; Previous"
+msgstr "&laquo; Edellinen"
+
+#: ../library/structure/content-extensions.php:490
+#: ../library/structure/content-extensions.php:601
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
+msgid "Next &raquo;"
+msgstr "Seuraava &raquo;"
+
+#: ../library/structure/content-extensions.php:813
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../library/structure/content-extensions.php:813
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: ../library/structure/content-extensions.php:828
+msgid "Post author"
+msgstr "Kirjoittaja"
+
+#: ../library/structure/content-extensions.php:834
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s kohdassa %2$s"
+
+#: ../library/structure/content-extensions.php:840
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa tarkistusta"
+
+#: ../library/structure/content-extensions.php:845
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: ../library/structure/content-extensions.php:849
+msgid "Reply"
+msgstr "Vastaa"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Theme by"
+msgstr "Teema"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Powered by"
+msgstr "Moottorina"
+
+#: ../library/structure/header-extensions.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: ../library/structure/header-extensions.php:428
+msgid "Search Results"
+msgstr "Hakutulos"
+
+#: ../searchform.php:7 ../searchform.php:8
+msgid "Search"
+msgstr "Hae"
