@@ -46,7 +46,7 @@ add_action( 'travelify_footer', 'travelify_close_sitegenerator_div', 35 );
  */
 function travelify_footer_rightinfo() {
 		echo '<div class="footer-right">';
-		echo get_theme_mod( 'travelify_footer_textbox', '' );
+		echo icl_translate('Footer Right Text', 'footer_textbox', get_theme_mod( 'travelify_footer_textbox' ));
 		echo '</div>';
 }
 add_action( 'travelify_footer', 'travelify_footer_rightinfo', 30 );
