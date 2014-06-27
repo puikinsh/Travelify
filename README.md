@@ -7,16 +7,6 @@ Description: Travelify is a clan, simple and fully responsive WordPress WooComme
 ## More info
 More about this theme you can find in the [following link](http://colorlib.com/wp/themes/travelify/).
 
-## Additional Notes
-
-This theme is based on Attitude WordPress theme by Theme Horse. More about this amazing theme you can read on http://wordpress.org/themes/attitude
-
-The theme is released for free under the terms of the GNU General Public License version 2
-and some parts under their respective licenses.
-In general words, feel free and encouraged to use, modify and redistribute this theme however you like.
-You may remove any copyright references (unless required by third party components) and crediting is not necessary.
-The theme is offered free of charge. If someone asked money for it, someone just tricked you.
-
 ## Installation
 
 #### Manual installation:
@@ -34,9 +24,17 @@ The theme is offered free of charge. If someone asked money for it, someone just
 
 ## Customization
 
-This theme has loads of customization options available via Appearance - Theme Options and via WordPress Customizer under Apperance - Customize. For more information about setup you can read *[Theme Documentationn](http://colorlib.com/wp/support/travelify/)*
+This theme has loads of customization options available via Appearance - Theme Options and via WordPress Customizer under Apperance - Customize. For more information about setup you can read **[Theme Documentationn](http://colorlib.com/wp/support/travelify/)**
 
 ## License
+
+This theme is based on Attitude WordPress theme by Theme Horse.
+
+The theme is released for free under the terms of the GNU General Public License version 2
+and some parts under their respective licenses.
+In general words, feel free and encouraged to use, modify and redistribute this theme however you like.
+You may remove any copyright references (unless required by third party components) and crediting is not necessary.
+The theme is offered free of charge. If someone asked money for it, someone just tricked you.
 
 Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public License version 2, see file license.txt.
 
@@ -79,7 +77,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Fixed problems with navigation bar
 - Slightly imporved RTL support for navigation and header
 - Updated Genericons and changed G+ icon
-- Added Turkish language by https://twitter.com/manisaspildagi
+- Added Turkish language by @anisaspildagi
 - Updated Hungarian translation
 - Updated editor style
 - Changed author URI
@@ -129,7 +127,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Improved support for IE8.
 
 **= 1.3.1 =**
-- Added Chinese translation thanks to Seam Wills (http://seamwills.com)
+- Added Chinese translation thanks to Seam Wills
 - Added missing translation for French and default language files.
 - Fixed meta information when long meta information could overlap post area.
 - Fixed problems with cyrillic writing in featured slider.
