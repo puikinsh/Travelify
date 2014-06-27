@@ -46,10 +46,10 @@ The exceptions to this license are as follows:
 
 == Theme Notes ==
 More about this theme you can find in the following link.
-http://colorawesomeness.com/themes/travelify/
+http://colorlib.com/wp/themes/travelify/
 
 You can drop your queries in our contact form in the following link.
-http://colorawesomeness.com/themes/contact-us/
+http://colorlib.com/wp/contact-us/
 
 == Supported Browser ==
 Mozilla, Chrome, Safari, IE 10,9,8,7
