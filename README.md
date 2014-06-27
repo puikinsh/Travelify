@@ -52,125 +52,123 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
-*2.1.5*
-
+*= 2.1.5 =*
 - Added Polish translation thanks to Kamil Kuczek
 - Added Finnish translation thanks to Antti Vähälummukka
 - Fixed WordPress Customizer style for Firefox
 
-*2.1*
-
+*= 2.1 =*
 - Added Swedish translation
 - Added Brazilian Portuguese translation thanks to Ariel de Souza
 - Improved code consistency for Child Theme support.
 
-*2.0*
-	- Added 15 color pickers via WordPress Customizer API making this theme fully customizable
-	- Improved responsiveness on all devices
-	- Improved footer widget section
-	- Several CSS improvements and bug fixes. Code cleanup.
-	- Added WooCommerce 2.1+ support
-	- Updated translations
-	- Improved Theme Options
-	- Custom Footer text
-	- Updated JavaScript libraries for slider transitions and HTML5
+*= 2.0 =*
+- Added 15 color pickers via WordPress Customizer API making this theme fully customizable
+- Improved responsiveness on all devices
+- Improved footer widget section
+- Several CSS improvements and bug fixes. Code cleanup.
+- Added WooCommerce 2.1+ support
+- Updated translations
+- Improved Theme Options
+- Custom Footer text
+- Updated JavaScript libraries for slider transitions and HTML5
 
-*1.5.0*
-	- Updated Spanish translation
-	- Fixed title issues for single page
-	- Fixed problems with navigation bar
-	- Slightly imporved RTL support for navigation and header
-	- Updated Genericons and changed G+ icon
-	- Added Turkish language by https://twitter.com/manisaspildagi
-	- Updated Hungarian translation
-	- Updated editor style
-	- Changed author URI
+*= 1.5.0 =*
+- Updated Spanish translation
+- Fixed title issues for single page
+- Fixed problems with navigation bar
+- Slightly imporved RTL support for navigation and header
+- Updated Genericons and changed G+ icon
+- Added Turkish language by https://twitter.com/manisaspildagi
+- Updated Hungarian translation
+- Updated editor style
+- Changed author URI
 
-*1.4.2*
-	- Removed rateme notice
+*= 1.4.2 =*
+- Removed rateme notice
 
-*1.4.1*
-	- Tiny single post title tweak
+*= 1.4.1 =*
+- Tiny single post title tweak
 
-*1.4.0*
-	- Added Slovak translation thanks to Lukas Kostensky (www.kostensky.eu)
-	- Added Hebrew translation thanks to Nitzan Eini
-	- Updated translation files
-	- Improved RTL support
-	- Added WooCommerce left sidebar support
-	- Fixed dropdown menu for more than 3 submenus
-	- Changed theme credits
-	- Removed active title link from single posts
-	- Removed custom scripts from header and footer (plugin territory)
-	- Other tweaks and improvements
+*= 1.4.0 =*
+- Added Slovak translation thanks to Lukas Kostensky
+- Added Hebrew translation thanks to Nitzan Eini
+- Updated translation files
+- Improved RTL support
+- Added WooCommerce left sidebar support
+- Fixed dropdown menu for more than 3 submenus
+- Changed theme credits
+- Removed active title link from single posts
+- Removed custom scripts from header and footer (plugin territory)
+- Other tweaks and improvements
 
-*1.3.7*
-	- Dutch translation thanks to Sietze Kuiper
-	- Optimization for Disqus
+*= 1.3.7 =*
+- Dutch translation thanks to Sietze Kuiper
+- Optimization for Disqus
 
-*1.3.7*
-	- Dutch translation thanks to Sietze Kuiper
-	- Optimization for Disqus
+*= 1.3.7 =*
+- Dutch translation thanks to Sietze Kuiper
+- Optimization for Disqus
 
-*1.3.6*
-	- Fixed problems with custom header scripts
+*= 1.3.6 =*
+- Fixed problems with custom header scripts
 
-*1.3.5*
-	- Added Italian and Spanish translations thanks to Mario (www.sustainable-technologies.eu)
+*= 1.3.5 =*
+- Added Italian and Spanish translations thanks to Mario
 
-*1.3.4*
-	- Fixed custom script output in header
-	- Minor CSS tweaks
+*= 1.3.4 =*
+- Fixed custom script output in header
+- Minor CSS tweaks
 
-*1.3.3*
-	- Added Hungarian translation thanks to Tamás (http://a.feny.be/)
-	- Fixed issue with sub-menus.
+*= 1.3.3 =*
+- Added Hungarian translation thanks to Tamás
+- Fixed issue with sub-menus.
 
-*1.3.2*
-	- Added German translation
-	- Improved support for IE8.
+*= 1.3.2 =*
+- Added German translation
+- Improved support for IE8.
 
-*1.3.1*
-	- Added Chinese translation thanks to Seam Wills (http://seamwills.com)
-	- Added missing translation for French and default language files.
-	- Fixed meta information when long meta information could overlap post area.
-	- Fixed problems with cyrillic writing in featured slider.
+*= 1.3.1 =*
+- Added Chinese translation thanks to Seam Wills (http://seamwills.com)
+- Added missing translation for French and default language files.
+- Fixed meta information when long meta information could overlap post area.
+- Fixed problems with cyrillic writing in featured slider.
 
-*1.3.0*
-	- Added French translation thanks to Christophe Rossi (http://www.naturellementvar.net/)
-	- Improved translation process via i18n.php
-	- Improved responsiveness for No Sidebar layout
-	- Fixed mobile navigation
-	- Updated license information
-	- Added custom header
-	- Cleaned functions.php file to leave it for most crucial functions.
+*= 1.3.0 =*
+- Added French translation thanks to Christophe Rossi
+- Improved translation process via i18n.php
+- Improved responsiveness for No Sidebar layout
+- Fixed mobile navigation
+- Updated license information
+- Added custom header
+- Cleaned functions.php file to leave it for most crucial functions.
 
-*1.2.1*
-	- Fixed bug with no-sidebar and full-width page templates
-	- New file added content-nosidebar.php to deal better with no-sidebar pages
+*= 1.2.1 =*
+- Fixed bug with no-sidebar and full-width page templates
+- New file added content-nosidebar.php to deal better with no-sidebar pages
 
-*1.2.0*
-	- Full WooCommerce eCommerce plugin support
-	- Added sidebar.php to support WooCommerce plugin
-	- Updated theme description
-	- Renamed blog page templates to avoid template conflicts
-	- Added documentation for blog page templates.
-	- Added rating button on Theme Options
+*= 1.2.0 =*
+- Full WooCommerce eCommerce plugin support
+- Added sidebar.php to support WooCommerce plugin
+- Updated theme description
+- Renamed blog page templates to avoid template conflicts
+- Added documentation for blog page templates.
+- Added rating button on Theme Options
 
-*1.1.2*
-	- Removed webmaster tools from Theme Options
-	- Other small tweaks in Theme Options
+*= 1.1.2 =*
+- Removed webmaster tools from Theme Options
+- Other small tweaks in Theme Options
 
-*1.1.1*
-	- Updated 404.php file
-	- Updated default language file
-	- Updated theme credits link
-	- Analytics now renamed to Custom Scripts inside Theme Options
+*= 1.1.1 =*
+- Updated 404.php file
+- Updated default language file
+- Updated theme credits link
+- Analytics now renamed to Custom Scripts inside Theme Options
 
-*1.1*
-	- Improved responsiveness for different devices
-	- Fixed footer widget area
-	- Several other minor tweaks and improvements
+*= 1.1 =*
+- Improved responsiveness for different devices
+- Fixed footer widget area
+- Several other minor tweaks and improvements
 
-*1.0*
-	- Initial Release
+*= 1.0 =*
+- Initial Release
