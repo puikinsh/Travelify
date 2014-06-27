@@ -52,17 +52,17 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
-*= 2.1.5 =*
+**= 2.1.5 =**
 - Added Polish translation thanks to Kamil Kuczek
 - Added Finnish translation thanks to Antti Vähälummukka
 - Fixed WordPress Customizer style for Firefox
 
-*= 2.1 =*
+**= 2.1 =**
 - Added Swedish translation
 - Added Brazilian Portuguese translation thanks to Ariel de Souza
 - Improved code consistency for Child Theme support.
 
-*= 2.0 =*
+**= 2.0 =**
 - Added 15 color pickers via WordPress Customizer API making this theme fully customizable
 - Improved responsiveness on all devices
 - Improved footer widget section
@@ -73,7 +73,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Custom Footer text
 - Updated JavaScript libraries for slider transitions and HTML5
 
-*= 1.5.0 =*
+**= 1.5.0 =**
 - Updated Spanish translation
 - Fixed title issues for single page
 - Fixed problems with navigation bar
@@ -84,13 +84,13 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Updated editor style
 - Changed author URI
 
-*= 1.4.2 =*
+**= 1.4.2 =**
 - Removed rateme notice
 
-*= 1.4.1 =*
+**= 1.4.1 =**
 - Tiny single post title tweak
 
-*= 1.4.0 =*
+**= 1.4.0 =**
 - Added Slovak translation thanks to Lukas Kostensky
 - Added Hebrew translation thanks to Nitzan Eini
 - Updated translation files
@@ -102,39 +102,39 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Removed custom scripts from header and footer (plugin territory)
 - Other tweaks and improvements
 
-*= 1.3.7 =*
+**= 1.3.7 =**
 - Dutch translation thanks to Sietze Kuiper
 - Optimization for Disqus
 
-*= 1.3.7 =*
+**= 1.3.7 =**
 - Dutch translation thanks to Sietze Kuiper
 - Optimization for Disqus
 
-*= 1.3.6 =*
+**= 1.3.6 =**
 - Fixed problems with custom header scripts
 
-*= 1.3.5 =*
+**= 1.3.5 =**
 - Added Italian and Spanish translations thanks to Mario
 
-*= 1.3.4 =*
+**= 1.3.4 =**
 - Fixed custom script output in header
 - Minor CSS tweaks
 
-*= 1.3.3 =*
+**= 1.3.3 =**
 - Added Hungarian translation thanks to Tamás
 - Fixed issue with sub-menus.
 
-*= 1.3.2 =*
+**= 1.3.2 =**
 - Added German translation
 - Improved support for IE8.
 
-*= 1.3.1 =*
+**= 1.3.1 =**
 - Added Chinese translation thanks to Seam Wills (http://seamwills.com)
 - Added missing translation for French and default language files.
 - Fixed meta information when long meta information could overlap post area.
 - Fixed problems with cyrillic writing in featured slider.
 
-*= 1.3.0 =*
+**= 1.3.0 =**
 - Added French translation thanks to Christophe Rossi
 - Improved translation process via i18n.php
 - Improved responsiveness for No Sidebar layout
@@ -143,11 +143,11 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Added custom header
 - Cleaned functions.php file to leave it for most crucial functions.
 
-*= 1.2.1 =*
+**= 1.2.1 =**
 - Fixed bug with no-sidebar and full-width page templates
 - New file added content-nosidebar.php to deal better with no-sidebar pages
 
-*= 1.2.0 =*
+**= 1.2.0 =**
 - Full WooCommerce eCommerce plugin support
 - Added sidebar.php to support WooCommerce plugin
 - Updated theme description
@@ -155,20 +155,20 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Added documentation for blog page templates.
 - Added rating button on Theme Options
 
-*= 1.1.2 =*
+**= 1.1.2 =**
 - Removed webmaster tools from Theme Options
 - Other small tweaks in Theme Options
 
-*= 1.1.1 =*
+**= 1.1.1 =**
 - Updated 404.php file
 - Updated default language file
 - Updated theme credits link
 - Analytics now renamed to Custom Scripts inside Theme Options
 
-*= 1.1 =*
+**= 1.1 =**
 - Improved responsiveness for different devices
 - Fixed footer widget area
 - Several other minor tweaks and improvements
 
-*= 1.0 =*
+**= 1.0 =**
 - Initial Release
