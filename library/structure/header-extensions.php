@@ -337,23 +337,23 @@ if ( ! function_exists( 'travelify_featured_post_slider' ) ) :
 /**
  * display featured post slider
  *
- * @uses set_transient and delete_transient
  */
 function travelify_featured_post_slider() {
 	global $post;
 
 	global $travelify_theme_options_settings;
-   $options = $travelify_theme_options_settings;
+  	$options = $travelify_theme_options_settings;
 
-	$travelify_featured_post_slider = '';
-	if( ( !$travelify_featured_post_slider = get_transient( 'travelify_featured_post_slider' ) ) && !empty( $options[ 'featured_post_slider' ] ) ) {
+  $travelify_featured_post_slider = '';
+	if (!empty( $options[ 'featured_post_slider' ] ) ) {
 		$travelify_featured_post_slider .= '
 		<section class="featured-slider"><div class="slider-cycle">';
 			$get_featured_posts = new WP_Query( array(
-				'posts_per_page' 			=> $options[ 'slider_quantity' ],
-				'post_type'					=> array( 'post', 'page' ),
-				'post__in'		 			=> $options[ 'featured_post_slider' ],
-				'orderby' 		 			=> 'post__in',
+				'posts_per_page' 		    => $options[ 'slider_quantity' ],
+				'post_type'					    => array( 'post', 'page' ),
+				'post__in'		 			    => $options[ 'featured_post_slider' ],
+				'orderby' 		 			    => 'post__in',
+				'suppress_filters' 	    => false,
 				'ignore_sticky_posts' 	=> 1 						// ignore sticky posts
 			));
 			$i=0; while ( $get_featured_posts->have_posts()) : $get_featured_posts->the_post(); $i++;
@@ -386,8 +386,6 @@ function travelify_featured_post_slider() {
 		$travelify_featured_post_slider .= '</div>
 		<nav id="controllers" class="clearfix">
 		</nav><!-- #controllers --></section><!-- .featured-slider -->';
-
-	set_transient( 'travelify_featured_post_slider', $travelify_featured_post_slider, 86940 );
 	}
 	echo $travelify_featured_post_slider;
 }
