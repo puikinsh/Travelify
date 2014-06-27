@@ -53,14 +53,16 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 ## Change Log
 
 *2.1.5*
-	- Added Polish translation thanks to Kamil Kuczek
-	- Added Finnish translation thanks to Antti Vähälummukka
-	- Fixed WordPress Customizer style for Firefox
+
+- Added Polish translation thanks to Kamil Kuczek
+- Added Finnish translation thanks to Antti Vähälummukka
+- Fixed WordPress Customizer style for Firefox
 
 *2.1*
-	- Added Swedish translation
-	- Added Brazilian Portuguese translation thanks to Ariel de Souza
-	- Improved code consistency for Child Theme support.
+
+- Added Swedish translation
+- Added Brazilian Portuguese translation thanks to Ariel de Souza
+- Improved code consistency for Child Theme support.
 
 *2.0*
 	- Added 15 color pickers via WordPress Customizer API making this theme fully customizable
