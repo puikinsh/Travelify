@@ -1,4 +1,4 @@
-# [Travelify](http://getbootstrap.com)
+# [Travelify](http://colorlib.com/wp/themes/travelify/)
 
 ## Description
 
@@ -6,6 +6,9 @@ Description: Travelify is a clan, simple and fully responsive WordPress WooComme
 
 ## More info
 More about this theme you can find in the [following link](http://colorlib.com/wp/themes/travelify/).
+
+## Demo
+Travelify preview [is available here](http://colorlib.com/travelify/)
 
 ## Installation
 
