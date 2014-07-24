@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:24+0200\n"
-"PO-Revision-Date: 2014-06-05 16:24+0200\n"
+"POT-Creation-Date: 2014-07-07 16:38+0200\n"
+"PO-Revision-Date: 2014-07-07 16:38+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: nl\n"
@@ -427,7 +427,7 @@ msgstr "Web clip icoon URL"
 #: ../library/panel/theme-options.php:251
 #, fuzzy
 msgid "Upload Web Clip Icon"
-msgstr "Web clip icoon opties"
+msgstr "Web clip icoon URL"
 
 #: ../library/panel/theme-options.php:252
 msgid "Web Clip works as shortcut to website on iOS devices home screen"
@@ -749,7 +749,7 @@ msgstr "Mede mogelijk gemaakt door"
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: ../library/structure/header-extensions.php:428
+#: ../library/structure/header-extensions.php:426
 msgid "Search Results"
 msgstr "Zoekresultaten"
 

@@ -1,6 +1,6 @@
 <wpml-config>
     <admin-texts>
-        <key name="travelify_theme_options_settings">
+        <key name="theme_mods_travelify">
             <key name="travelify_footer_textbox"/>
         </key>
     </admin-texts>

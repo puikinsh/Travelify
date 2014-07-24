@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-05 16:24+0200\n"
-"PO-Revision-Date: 2014-06-05 16:24+0200\n"
+"POT-Creation-Date: 2014-07-07 16:37+0200\n"
+"PO-Revision-Date: 2014-07-07 16:37+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: sk\n"
@@ -745,7 +745,7 @@ msgstr "Založené na"
 msgid "Page %s"
 msgstr "Stránka %s"
 
-#: ../library/structure/header-extensions.php:428
+#: ../library/structure/header-extensions.php:426
 msgid "Search Results"
 msgstr "Výsledky vyhľadávania"
 

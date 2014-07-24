@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-06-15 20:38+0100\n"
-"PO-Revision-Date: 2014-06-15 21:12+0100\n"
+"POT-Creation-Date: 2014-07-07 16:37+0200\n"
+"PO-Revision-Date: 2014-07-07 16:38+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Colorlib <info@colrolib.com>\n"
 "Language: pl_PL\n"
@@ -697,7 +697,6 @@ msgstr "Edytuj"
 msgid "Post author"
 msgstr "Autor"
 
-#. translators: 1: date, 2: time
 #: ../library/structure/content-extensions.php:834
 #, php-format
 msgid "%1$s at %2$s"
@@ -732,7 +731,7 @@ msgstr "Powered by"
 msgid "Page %s"
 msgstr "Strona %s"
 
-#: ../library/structure/header-extensions.php:428
+#: ../library/structure/header-extensions.php:426
 msgid "Search Results"
 msgstr "Wynik wyszukiwania"
 
