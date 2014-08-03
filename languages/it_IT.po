@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-07-07 16:38+0200\n"
-"PO-Revision-Date: 2014-07-07 16:38+0200\n"
+"POT-Creation-Date: 2014-08-03 14:00+0200\n"
+"PO-Revision-Date: 2014-08-03 14:00+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.6.7\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -188,34 +188,34 @@ msgstr ""
 msgid "Copyright text"
 msgstr "Copyright &copia;"
 
-#: ../library/functions/functions.php:296
-#: ../library/functions/functions.php:310
+#: ../library/functions/functions.php:297
+#: ../library/functions/functions.php:311
 msgid "Navigation"
 msgstr "Navigazione"
 
-#: ../library/functions/functions.php:362
+#: ../library/functions/functions.php:363
 #: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Barra laterale sinistra"
 
-#: ../library/functions/functions.php:364
+#: ../library/functions/functions.php:365
 msgid "Shows widgets at Left side."
 msgstr "Mostra widgets a sinistra"
 
-#: ../library/functions/functions.php:373
+#: ../library/functions/functions.php:374
 #: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Barra laterale destra"
 
-#: ../library/functions/functions.php:375
+#: ../library/functions/functions.php:376
 msgid "Shows widgets at Right side."
 msgstr "Mostra widgets a destra"
 
-#: ../library/functions/functions.php:384
+#: ../library/functions/functions.php:385
 msgid "Footer"
 msgstr "Pie di pagina"
 
-#: ../library/functions/functions.php:386
+#: ../library/functions/functions.php:387
 msgid "Shows widgets at footer."
 msgstr "Mostra widgets nel pie di pagina"
 
@@ -737,7 +737,7 @@ msgstr "Rispondere"
 
 #: ../library/structure/footer-extensions.php:35
 msgid "Copyright &copy;"
-msgstr "Copyright &copia;"
+msgstr "Copyright &copy;"
 
 #: ../library/structure/footer-extensions.php:35
 msgid "Theme by"
