@@ -81,7 +81,7 @@ function travelify_setup() {
 	add_image_size( 'slider', 1018, 460, true ); 		// used on Featured Slider on Homepage Header
 	add_image_size( 'gallery', 474, 342, true ); 				// used to show gallery all images
 
-	// This feature enables woocommerce support for a theme.
+	// This feature enables WooCommerce support for a theme.
 	add_theme_support( 'woocommerce' );
 
 	/**

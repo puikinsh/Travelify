@@ -7,23 +7,23 @@
 	   </div><!-- #main -->
 
 	   <?php
-	      /** 
+	      /**
 	       * travelify_after_main hook
 	       */
 	      do_action( 'travelify_after_main' );
 	   ?>
 
-	   <?php 
+	   <?php
 	   	/**
 	   	 * travelify_before_footer hook
 	   	 */
 	   	do_action( 'travelify_before_footer' );
-	   ?>	
-	   
+	   ?>
+
 	   <footer id="footerarea" class="clearfix">
 			<?php
-		      /** 
-		       * travelify_footer hook		       
+		      /**
+		       * travelify_footer hook
 				 *
 				 * HOOKED_FUNCTION_NAME PRIORITY
 				 *
@@ -37,22 +37,22 @@
 		      do_action( 'travelify_footer' );
 		   ?>
 		</footer>
-	   
-		<?php 
+
+		<?php
 	   	/**
 	   	 * travelify_after_footer hook
 	   	 */
 	   	do_action( 'travelify_after_footer' );
-	   ?>	
+	   ?>
 
 	</div><!-- .wrapper -->
 
 	<?php
-		/** 
+		/**
 		 * travelify_after hook
 		 */
 		do_action( 'travelify_after' );
-	?> 
+	?>
 
 <?php wp_footer(); ?>
 

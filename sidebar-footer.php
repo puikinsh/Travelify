@@ -13,7 +13,7 @@
 ?>
 
 <?php
-	/** 
+	/**
 	 * travelify_footer_widget hook
 	 *
 	 * HOOKED_FUNCTION_NAME PRIORITY

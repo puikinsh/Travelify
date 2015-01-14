@@ -57,10 +57,10 @@ function travelify_value( $column_name, $id ) {
 function travelify_post_table_column_css() {
 ?>
 	<style type="text/css">
-		#travelify-column-id { 
-			width: 40px; 
+		#travelify-column-id {
+			width: 40px;
 		}
 	</style>
-<?php	
+<?php
 }
 ?>

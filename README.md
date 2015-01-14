@@ -53,6 +53,11 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.2.1 =**
+
+- Code cleanup
+- Updated Genericons to versions 3.3
+
 **= 2.2.0 =**
 - Added full WPML plugin support. We have also made it certified by WPML.
 - Added Github friendly readme file (README.md)

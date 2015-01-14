@@ -13,7 +13,7 @@
 ?>
 
 <?php
-	/** 
+	/**
 	 * travelify_left_sidebar hook
 	 *
 	 * HOOKED_FUNCTION_NAME PRIORITY

@@ -25,7 +25,7 @@ if ( post_password_required() )
 				}
 				else {
 					printf( __( '%1$s thoughts on &ldquo;%2$s&rdquo;', 'travelify' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
-				}				
+				}
 			?>
 		</h2>
 

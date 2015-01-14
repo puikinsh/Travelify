@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <?php
-	/** 
+	/**
 	 * travelify_before_main_container hook
 	 */
 	do_action( 'travelify_before_main_container' );
@@ -16,7 +16,7 @@
 
 <div id="container">
 	<?php
-		/** 
+		/**
 		 * travelify_main_container hook
 		 *
 		 * HOOKED_FUNCTION_NAME PRIORITY
@@ -28,7 +28,7 @@
 </div><!-- #container -->
 
 <?php
-	/** 
+	/**
 	 * travelify_after_main_container hook
 	 */
 	do_action( 'travelify_after_main_container' );

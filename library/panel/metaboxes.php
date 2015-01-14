@@ -3,26 +3,26 @@
  * Travelify Meta Boxes
  *
  */
- 
+
  add_action( 'add_meta_boxes', 'travelify_add_custom_box' );
 /**
  * Add Meta Boxes.
- * 
+ *
  * Add Meta box in page and post post types.
- */ 
+ */
 function travelify_add_custom_box() {
 	add_meta_box(
 		'siderbar-layout',							  										//Unique ID
 		__( 'Select layout for this specific Page only ( Note: This setting only reflects if page Template is set as Default Template and Blog Type Templates.)', 'travelify' ),   	//Title
 		'travelify_sidebar_layout',                   							//Callback function
 		'page'                                          							//show metabox in pages
-	); 
+	);
 	add_meta_box(
 		'siderbar-layout',							  										//Unique ID
 		__( 'Select layout for this specific Post only', 'travelify' ),   	//Title
 		'travelify_sidebar_layout',                   							//Callback function
 		'post'                                          							//show metabox in posts
-	); 
+	);
 }
 
 /****************************************************************************************/
@@ -52,7 +52,7 @@ $sidebar_layout = array(
 															'value' 		=> 'no-sidebar-one-column',
 															'label' 		=> __( 'No Sidebar, One Column', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/one-column.png'
-															),		
+															),
 							'left-sidebar' => array(
 															'id'			=> 'travelify_sidebarlayout',
 															'value' 		=> 'left-sidebar',
@@ -66,23 +66,23 @@ $sidebar_layout = array(
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/right-sidebar.png'
 															)
 						);
-	
+
 /****************************************************************************************/
 
 /**
  * Displays metabox to for sidebar layout
  */
-function travelify_sidebar_layout() {  
-	global $sidebar_layout, $post;  
-	// Use nonce for verification  
+function travelify_sidebar_layout() {
+	global $sidebar_layout, $post;
+	// Use nonce for verification
 	wp_nonce_field( basename( __FILE__ ), 'custom_meta_box_nonce' );
 
 	// Begin the field table and loop  ?>
 	<table id="sidebar-metabox" class="form-table" width="100%">
-		<tbody> 
+		<tbody>
 			<tr>
-				<?php  
-				foreach ($sidebar_layout as $field) {  
+				<?php
+				foreach ($sidebar_layout as $field) {
 					$meta = get_post_meta( $post->ID, $field['id'], true );
 					if(empty( $meta ) ){
 						$meta='default';
@@ -99,49 +99,49 @@ function travelify_sidebar_layout() {
 							</label>
 						</td>
 					<?php endif;
-				} // end foreach 
+				} // end foreach
 				?>
 			</tr>
 		</tbody>
 	</table>
-	<?php 
+	<?php
 }
 
 /****************************************************************************************/
 
 
-add_action('save_post', 'travelify_save_custom_meta'); 
+add_action('save_post', 'travelify_save_custom_meta');
 /**
  * save the custom metabox data
  * @hooked to save_post hook
  */
-function travelify_save_custom_meta( $post_id ) { 
-	global $sidebar_layout, $post; 
-	
+function travelify_save_custom_meta( $post_id ) {
+	global $sidebar_layout, $post;
+
 	// Verify the nonce before proceeding.
     if ( !isset( $_POST[ 'custom_meta_box_nonce' ] ) || !wp_verify_nonce( $_POST[ 'custom_meta_box_nonce' ], basename( __FILE__ ) ) )
       return;
-		
+
 	// Stop WP from clearing custom fields on autosave
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE)  
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE)
       return;
-		
-	if ('page' == $_POST['post_type']) {  
-      if (!current_user_can( 'edit_page', $post_id ) )  
-         return $post_id;  
-   } 
-   elseif (!current_user_can( 'edit_post', $post_id ) ) {  
-      return $post_id;  
-   }  
-	
-	foreach ($sidebar_layout as $field) {  
+
+	if ('page' == $_POST['post_type']) {
+      if (!current_user_can( 'edit_page', $post_id ) )
+         return $post_id;
+   }
+   elseif (!current_user_can( 'edit_post', $post_id ) ) {
+      return $post_id;
+   }
+
+	foreach ($sidebar_layout as $field) {
 		//Execute this saving function
-		$old = get_post_meta( $post_id, $field['id'], true); 
+		$old = get_post_meta( $post_id, $field['id'], true);
 		$new = $_POST[$field['id']];
-		if ($new && $new != $old) {  
-			update_post_meta($post_id, $field['id'], $new);  
-		} elseif ('' == $new && $old) {  
-			delete_post_meta($post_id, $field['id'], $old);  
-		} 
-	} // end foreach   
+		if ($new && $new != $old) {
+			update_post_meta($post_id, $field['id'], $new);
+		} elseif ('' == $new && $old) {
+			delete_post_meta($post_id, $field['id'], $old);
+		}
+	} // end foreach
 }

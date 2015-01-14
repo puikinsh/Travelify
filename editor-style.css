@@ -5,11 +5,11 @@
 @import url( 'style.css' );
 
 /* Add overwrites as needed so that the content of the editor field is attractive and not broken */
-body { 
+body {
 	padding: 0px 15px;
 	border-top: none;
 	width: 603px;
-} 
+}
 
 li {
 	list-style: disc;

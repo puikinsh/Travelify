@@ -1,7 +1,7 @@
 <?php
 /**
  * Contains all the theme option default values
- * 
+ *
  * Set the default values for all the settings. If no user-defined values
  * is available for any setting, these defaults will be used.
  *
