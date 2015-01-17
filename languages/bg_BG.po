@@ -1,0 +1,756 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travelify\n"
+"POT-Creation-Date: 2015-01-17 22:24+0200\n"
+"PO-Revision-Date: 2015-01-17 22:24+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:11
+msgid "Error 404 - Page NOT Found"
+msgstr "Грешка 404 - Страницата не е намерена"
+
+#: ../404.php:14
+msgid "It seems we can't find what you're looking for."
+msgstr "Изглежда не можем да намерим това което търсите."
+
+#: ../404.php:15
+msgid "This might be because:"
+msgstr "Това може да се е получило поради:"
+
+#: ../404.php:17
+msgid "You have typed the web address incorrectly"
+msgstr "Въвели сте адреса грешно."
+
+#: ../404.php:18
+msgid "The page you were looking for may have been moved, updated or deleted."
+msgstr ""
+"Страницата която търсите може да е била преместена, обновена или изтрита."
+
+#: ../404.php:20
+msgid "Please try the following:"
+msgstr "Моля опитайте следното:"
+
+#: ../404.php:22
+msgid "Check for a mis-typed URL error"
+msgstr "Проверете за печатна грешка в URL адреса."
+
+#: ../404.php:23
+msgid "Press the refresh button on your browser."
+msgstr "Натиснете бутона за обновяване на браузъра си."
+
+#: ../404.php:24
+msgid "Go back to"
+msgstr "Върнете се към"
+
+#: ../404.php:24
+msgid "Homepage"
+msgstr "Начална страница"
+
+#: ../comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Един коментар з &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:27
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s коментара за &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:38
+msgid "Comment navigation"
+msgstr "Навигация в коментарите"
+
+#: ../comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Предишни коментари"
+
+#: ../comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Следващи коментари &rarr;"
+
+#: ../comments.php:47
+msgid "Comments are closed."
+msgstr "Коментарите са забранени."
+
+#: ../functions.php:76
+msgid "Primary Menu"
+msgstr "Главно меню"
+
+#: ../library/functions/customizer.php:7
+msgid "Travelify Header Area"
+msgstr "Заглавна област на Travelify"
+
+#: ../library/functions/customizer.php:8
+msgid "Use the following settings change color for menu and website title"
+msgstr ""
+"Използвайте тези настройки за да промените цвета на менюто и заглавието на "
+"сайта"
+
+#: ../library/functions/customizer.php:24
+msgid "Website Title Color"
+msgstr "Цвят на заглавието на сайта"
+
+#: ../library/functions/customizer.php:44
+msgid "Website Title Hover Color"
+msgstr "Цвят на заглавието на сайта при посочване"
+
+#: ../library/functions/customizer.php:64
+msgid "Menu Bar Color"
+msgstr "Цвят на лентата на менюто"
+
+#: ../library/functions/customizer.php:83
+msgid "Menu Bar Hover Color"
+msgstr "Цвят при посочване на лентата на менюто"
+
+#: ../library/functions/customizer.php:102
+msgid "Menu Item Text Color"
+msgstr "Цвят на текста в елементите на менюто"
+
+#: ../library/functions/customizer.php:122
+msgid "Social Icon Color"
+msgstr "Цвят на иконите на социалните мрежи"
+
+#: ../library/functions/customizer.php:131
+msgid "Travelify Element Color"
+msgstr "Цвят на елементите на Travelify"
+
+#: ../library/functions/customizer.php:132
+msgid "Use the following settings change color for website elements"
+msgstr ""
+"Използвайте тези настройки за да промените цвета на елементите на сайта"
+
+#: ../library/functions/customizer.php:148
+msgid "Element Color"
+msgstr "Цвят на елементите"
+
+#: ../library/functions/customizer.php:168
+msgid "Element Hover Color"
+msgstr "Цвят на елементите при посочване"
+
+#: ../library/functions/customizer.php:188
+msgid "Wrapper Color"
+msgstr "Цвят на обвивката"
+
+#: ../library/functions/customizer.php:208
+msgid "Content Background Color"
+msgstr "Цвят на фона на съдържанието"
+
+#: ../library/functions/customizer.php:217
+msgid "Travelify Typography Color"
+msgstr "Цвят на типографията на Travelify"
+
+#: ../library/functions/customizer.php:218
+msgid ""
+"Use the following settings change color for typography such as links, "
+"headings and content"
+msgstr ""
+"Използвайте тези настройки за да промените цвета на типографията - връзки, "
+"заглавия и съдъжание"
+
+#: ../library/functions/customizer.php:234
+msgid "Entry Content Color"
+msgstr "Цвят на съдържанието"
+
+#: ../library/functions/customizer.php:253
+msgid "Header/Title Color"
+msgstr "Цвят на заглавието"
+
+#: ../library/functions/customizer.php:273
+msgid "Link Color"
+msgstr "Цвят на връзката"
+
+#: ../library/functions/customizer.php:293
+msgid "Link Hover Color"
+msgstr "Цвят на връзката при посочване"
+
+#: ../library/functions/customizer.php:302
+msgid "Travelify Footer"
+msgstr "Долен колонтитул на Travelify"
+
+#: ../library/functions/customizer.php:303
+msgid "Use the following settings customize Footer"
+msgstr "Използвайте тези настройки за долният колонтитул"
+
+#: ../library/functions/customizer.php:317
+msgid "Copyright text"
+msgstr "Авторски права"
+
+#: ../library/functions/functions.php:297
+#: ../library/functions/functions.php:311
+msgid "Navigation"
+msgstr "Навигация"
+
+#: ../library/functions/functions.php:363
+#: ../library/panel/theme-options.php:291
+msgid "Left Sidebar"
+msgstr "Лява странична лента"
+
+#: ../library/functions/functions.php:365
+msgid "Shows widgets at Left side."
+msgstr "Показва джаджите в лявата странична лента"
+
+#: ../library/functions/functions.php:374
+#: ../library/panel/theme-options.php:295
+msgid "Right Sidebar"
+msgstr "Дясна странична лента"
+
+#: ../library/functions/functions.php:376
+msgid "Shows widgets at Right side."
+msgstr "Показва джаджите в дясната странична лента."
+
+#: ../library/functions/functions.php:385
+msgid "Footer"
+msgstr "Долен колонтитул"
+
+#: ../library/functions/functions.php:387
+msgid "Shows widgets at footer."
+msgstr "Показва джаджите под линия"
+
+#: ../library/functions/shortcodes.php:49
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../library/functions/shortcodes.php:58
+#: ../library/panel/theme-options.php:125
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#: ../library/panel/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+"Изберете подреждане само за тази публикация (Забележка: Тази настройка се "
+"активира само ако шаблонът на страницата е \"Шаблона по подразбиране\" или "
+"\"Шаблон Блог\")"
+
+#: ../library/panel/metaboxes.php:22
+msgid "Select layout for this specific Post only"
+msgstr "Изберете подреждане само за тази публикация"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr "Подреждането по подразбиране е активирано"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Theme Settings"
+msgstr "Настройки на темата"
+
+#: ../library/panel/metaboxes.php:41
+msgid "No sidebar"
+msgstr "Без странична лента"
+
+#: ../library/panel/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr "Без странична лента, пълна ширина"
+
+#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
+msgid "No Sidebar, One Column"
+msgstr "Без странична лента, една колона"
+
+#: ../library/panel/metaboxes.php:59
+msgid "Left sidebar"
+msgstr "Лява странична лента"
+
+#: ../library/panel/metaboxes.php:65
+msgid "Right sidebar"
+msgstr "Дясна странична лента"
+
+#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
+msgid "Theme Options"
+msgstr "Настройки на темата"
+
+#: ../library/panel/theme-options.php:125
+msgid "Theme Options by"
+msgstr "Настройки на темата от"
+
+#: ../library/panel/theme-options.php:132
+msgid "Other Themes"
+msgstr "Други теми"
+
+#: ../library/panel/theme-options.php:133
+msgid "Rate this Theme"
+msgstr "Оценете темата"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instruction"
+msgstr "Инструкция за темата"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instructions"
+msgstr "Инструкции за темата"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support Forum"
+msgstr "Форум на поддръжката"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support"
+msgstr "Поддръжка"
+
+#: ../library/panel/theme-options.php:136
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../library/panel/theme-options.php:137
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../library/panel/theme-options.php:152
+msgid "Settings saved."
+msgstr "Настройките са запазени."
+
+#: ../library/panel/theme-options.php:158
+msgid "Main Options"
+msgstr "Основни настройки"
+
+#: ../library/panel/theme-options.php:159
+msgid "Featured Slider"
+msgstr "Плъзгач \"Представени\""
+
+#: ../library/panel/theme-options.php:160
+msgid "Social Links"
+msgstr "Социални връзки"
+
+#: ../library/panel/theme-options.php:161
+msgid "Other"
+msgstr "Други"
+
+#: ../library/panel/theme-options.php:167
+msgid "Header Options"
+msgstr "Настройки на заглавката"
+
+#: ../library/panel/theme-options.php:172
+#: ../library/panel/theme-options.php:182
+msgid "Header Logo"
+msgstr "Заглавно лого"
+
+#: ../library/panel/theme-options.php:175
+msgid "Upload Logo"
+msgstr "Качете лого"
+
+#: ../library/panel/theme-options.php:179
+#: ../library/panel/theme-options.php:224
+#: ../library/panel/theme-options.php:256
+msgid "Preview"
+msgstr "Предварителен преглед"
+
+#: ../library/panel/theme-options.php:187
+msgid "Show"
+msgstr "Покажи"
+
+#: ../library/panel/theme-options.php:190
+msgid "Header Logo Only"
+msgstr "Само заглавно лого"
+
+#: ../library/panel/theme-options.php:193
+msgid "Header Text Only"
+msgstr "Само заглавен текст"
+
+#: ../library/panel/theme-options.php:196
+msgid "Disable"
+msgstr "Изключи"
+
+#: ../library/panel/theme-options.php:201
+#: ../library/panel/theme-options.php:233
+#: ../library/panel/theme-options.php:265
+#: ../library/panel/theme-options.php:310
+#: ../library/panel/theme-options.php:348
+#: ../library/panel/theme-options.php:381
+#: ../library/panel/theme-options.php:419
+#: ../library/panel/theme-options.php:477
+#: ../library/panel/theme-options.php:516
+#: ../library/panel/theme-options.php:539
+msgid "Save All Changes"
+msgstr "Запази всички промени"
+
+#: ../library/panel/theme-options.php:206
+msgid "Favicon Options"
+msgstr "Настройки на иконата на сайта"
+
+#: ../library/panel/theme-options.php:211
+msgid "Disable Favicon"
+msgstr "Изключи иконата на сайта"
+
+#: ../library/panel/theme-options.php:213
+#: ../library/panel/theme-options.php:245
+#: ../library/panel/theme-options.php:431
+msgid "Check to disable"
+msgstr "Избери за да изключиш"
+
+#: ../library/panel/theme-options.php:216
+msgid "Favicon URL"
+msgstr "URL на иконата на сайта"
+
+#: ../library/panel/theme-options.php:219
+msgid "Upload Favicon"
+msgstr "Качете икона на сайта"
+
+#: ../library/panel/theme-options.php:220
+msgid ""
+"Favicon is this tiny icon you see beside URL in your browser address bar"
+msgstr ""
+"Иконата на сайта е тази малка икона, която виждате до URL в адресното поле "
+"на браузъра си"
+
+#: ../library/panel/theme-options.php:227
+msgid "favicon"
+msgstr "икона на сайта"
+
+#: ../library/panel/theme-options.php:238
+msgid "Web Clip Icon Options"
+msgstr "Настройки на Web Clip иконата"
+
+#: ../library/panel/theme-options.php:243
+msgid "Disable Web Clip Icon"
+msgstr "Изключи Web Clip иконата"
+
+#: ../library/panel/theme-options.php:248
+msgid "Web Clip Icon URL"
+msgstr "URL на Web Clip иконата"
+
+#: ../library/panel/theme-options.php:251
+msgid "Upload Web Clip Icon"
+msgstr "Качете Web Clip икона"
+
+#: ../library/panel/theme-options.php:252
+msgid "Web Clip works as shortcut to website on iOS devices home screen"
+msgstr ""
+"Web Clip работи като пряк път към сайта на началният екран на iOS "
+"устройствата"
+
+#: ../library/panel/theme-options.php:259
+msgid "webpage icon"
+msgstr "икона на страницата"
+
+#: ../library/panel/theme-options.php:270
+msgid "Layout Options"
+msgstr "Настройки на подредбата"
+
+#: ../library/panel/theme-options.php:275
+msgid "Default Layout"
+msgstr "Подредба по подразбиране"
+
+#: ../library/panel/theme-options.php:279
+msgid "No Sidebar"
+msgstr "Без странична лента"
+
+#: ../library/panel/theme-options.php:283
+msgid "No Sidebar, Full Width"
+msgstr "Без странична лента, пълна ширина"
+
+#: ../library/panel/theme-options.php:301
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+"Това ще настрои подредбата по подразбиране. Можете да изберете различна "
+"подредба за всяка страница през редактора."
+
+#: ../library/panel/theme-options.php:302
+msgid "Reset Layout"
+msgstr "Възстанови подредбата"
+
+#: ../library/panel/theme-options.php:305
+msgid "Check to reset"
+msgstr "Изберете за да възстановите"
+
+#: ../library/panel/theme-options.php:315
+msgid "Custom Background"
+msgstr "Потребителски фон"
+
+#: ../library/panel/theme-options.php:321
+msgid "Change theme background"
+msgstr "Промени фона на темата"
+
+#: ../library/panel/theme-options.php:324
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Натисни тук</a>"
+
+#: ../library/panel/theme-options.php:334
+msgid "RSS URL"
+msgstr "URL адресс на RSS"
+
+#: ../library/panel/theme-options.php:340
+msgid "Feed Redirect URL"
+msgstr "URL адрес за пренасочване на фийда"
+
+#: ../library/panel/theme-options.php:343
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Въведете вашият предпочитан RSS URL адрес. (Feedburner или друг)"
+
+#: ../library/panel/theme-options.php:353
+msgid "Homepage Post Options"
+msgstr "Настройки за публикациите на началната страница"
+
+#: ../library/panel/theme-options.php:359
+msgid "Homepage posts categories:"
+msgstr "Категории за публикациите на началната страница:"
+
+#: ../library/panel/theme-options.php:361
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Само публикации от избраните категории ще бъдат показани на началната "
+"страница."
+
+#: ../library/panel/theme-options.php:366
+msgid "--Disabled--"
+msgstr "--Изключено--"
+
+#: ../library/panel/theme-options.php:376
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+"Можете да избереш много категории като задържите CTRL (Windows) или cmd "
+"(Mac)."
+
+#: ../library/panel/theme-options.php:389
+msgid "Featured Post/Page Slider Options"
+msgstr "Настройки на плъзгача на представена публикация/страница"
+
+#: ../library/panel/theme-options.php:393
+msgid "Exclude Slider post from Homepage posts?"
+msgstr ""
+"Изключете публикацията \"плъзгач\" от публикациите на началната страница"
+
+#: ../library/panel/theme-options.php:395
+msgid "Check to exclude"
+msgstr "Изберете за да изключите"
+
+#: ../library/panel/theme-options.php:399
+msgid "Number of Slides"
+msgstr "Брой на страниците"
+
+#: ../library/panel/theme-options.php:404
+msgid "Featured Slide #"
+msgstr "Представена страница #"
+
+#: ../library/panel/theme-options.php:406
+msgid "Click Here To Edit"
+msgstr "Натиснете тук за да редактирате"
+
+#: ../library/panel/theme-options.php:412
+msgid "How to use the featured slider?"
+msgstr "Как да изпозлваме плъзгача \"Представени\""
+
+#: ../library/panel/theme-options.php:414
+msgid "Create Post or Page and add featured image to it."
+msgstr ""
+"Създайте публикация или страници и добавете представено изображение към нея."
+
+#: ../library/panel/theme-options.php:415
+msgid ""
+"Add all the Post ID that you want to use in the featured slider. Post ID can "
+"be found at All Posts table in last column"
+msgstr ""
+"Добавете всички IDта на публикации, които искате да използвате в плъзгача "
+"\"Представени\". IDтата на публикациите могат да бъдат намерени в последната "
+"колона на таблицата \"Всички публикации\""
+
+#: ../library/panel/theme-options.php:416
+msgid ""
+"Featured Slider will show featured images, Title and excerpt of the "
+"respected added post IDs."
+msgstr ""
+"Плъзгачът \"Представяни\" ще показва представяните изображения, заглавие и "
+"откъс от съответно добавените IDта на публикации"
+
+#: ../library/panel/theme-options.php:417
+msgid "The recommended image size is"
+msgstr "Препоръчвания размер на изображението е"
+
+#: ../library/panel/theme-options.php:425
+msgid "Slider Options"
+msgstr "Опции на плъзгача"
+
+#: ../library/panel/theme-options.php:429
+msgid "Disable Slider"
+msgstr "Изключи плъзгача"
+
+#: ../library/panel/theme-options.php:435
+msgid "Transition Effect:"
+msgstr "Ефект на прехода"
+
+#: ../library/panel/theme-options.php:455
+#: ../library/panel/theme-options.php:507
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../library/panel/theme-options.php:463
+msgid "Transition Delay"
+msgstr "Забавяне на прехода"
+
+#: ../library/panel/theme-options.php:466
+#: ../library/panel/theme-options.php:473
+msgid "second(s)"
+msgstr "секунда(и)"
+
+#: ../library/panel/theme-options.php:470
+msgid "Transition Length"
+msgstr "Дължина на прехода"
+
+#: ../library/panel/theme-options.php:501
+msgid "Enter URLs for your social networks e.g."
+msgstr "Въведете URL адрес за вашите социални мрежи например:"
+
+#: ../library/panel/theme-options.php:524
+msgid "Custom CSS (Advanced)"
+msgstr "Потребителски CSS стил (Разширен)"
+
+#: ../library/panel/theme-options.php:529
+msgid "Enter your custom CSS styles."
+msgstr "Въведете вашият потребителски CSS стил."
+
+#: ../library/panel/theme-options.php:530
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr "Този CSS стил ще предефинира CSS стилаa от style.css файлът."
+
+#: ../library/panel/theme-options.php:534
+msgid "Make sure you know what you are doing."
+msgstr "Бъдете сигурни, че знаете какво правите!"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "No Comments"
+msgstr "Няма коментари"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "% Comments"
+msgstr "% коментари"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "Comments Off"
+msgstr "Коментарите са изключени"
+
+#: ../library/structure/content-extensions.php:152
+#: ../library/structure/content-extensions.php:470
+#: ../library/structure/content-extensions.php:582
+#: ../library/structure/content-extensions.php:667
+msgid "Read more"
+msgstr "Още ..."
+
+#: ../library/structure/content-extensions.php:167
+#: ../library/structure/content-extensions.php:238
+#: ../library/structure/content-extensions.php:337
+#: ../library/structure/content-extensions.php:388
+#: ../library/structure/content-extensions.php:498
+#: ../library/structure/content-extensions.php:609
+#: ../library/structure/content-extensions.php:721
+msgid "No Posts Found."
+msgstr "Няма открити статии."
+
+#: ../library/structure/content-extensions.php:207
+#: ../library/structure/content-extensions.php:306
+#: ../library/structure/content-extensions.php:670
+msgid "Pages:"
+msgstr "Страници: "
+
+#: ../library/structure/content-extensions.php:294
+msgid ", "
+msgstr ", "
+
+#: ../library/structure/content-extensions.php:489
+#: ../library/structure/content-extensions.php:600
+#: ../library/structure/content-extensions.php:712
+#: ../library/structure/content-extensions.php:748
+#: ../library/structure/content-extensions.php:768
+msgid "&laquo; Previous"
+msgstr "&laquo; Предишни статии"
+
+#: ../library/structure/content-extensions.php:490
+#: ../library/structure/content-extensions.php:601
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
+msgid "Next &raquo;"
+msgstr "Следващи статии &raquo;"
+
+#: ../library/structure/content-extensions.php:813
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../library/structure/content-extensions.php:813
+msgid "(Edit)"
+msgstr "(Редактирайте)"
+
+#: ../library/structure/content-extensions.php:828
+msgid "Post author"
+msgstr "Автор"
+
+#: ../library/structure/content-extensions.php:834
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: ../library/structure/content-extensions.php:840
+msgid "Your comment is awaiting moderation."
+msgstr "Вашият коментар очаква одобрение!"
+
+#: ../library/structure/content-extensions.php:845
+msgid "Edit"
+msgstr "Редактирайте"
+
+#: ../library/structure/content-extensions.php:849
+msgid "Reply"
+msgstr "Отговорете"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Theme by"
+msgstr "Тема"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Powered by"
+msgstr "за"
+
+#: ../library/structure/header-extensions.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../library/structure/header-extensions.php:426
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: ../searchform.php:7 ../searchform.php:8
+msgid "Search"
+msgstr "Търси"
