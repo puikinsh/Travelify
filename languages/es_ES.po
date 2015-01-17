@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-07-07 16:38+0200\n"
-"PO-Revision-Date: 2014-07-07 16:38+0200\n"
+"POT-Creation-Date: 2015-01-17 22:39+0200\n"
+"PO-Revision-Date: 2015-01-17 22:39+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorlib.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -91,7 +91,7 @@ msgstr "Menú Principal"
 #: ../library/functions/customizer.php:7
 #, fuzzy
 msgid "Travelify Header Area"
-msgstr "Opciones del encabezado"
+msgstr "Solo logo en el encabezado"
 
 #: ../library/functions/customizer.php:8
 msgid "Use the following settings change color for menu and website title"
@@ -121,7 +121,7 @@ msgstr ""
 #: ../library/functions/customizer.php:122
 #, fuzzy
 msgid "Social Icon Color"
-msgstr "Links a redes sociales"
+msgstr "Color del icono Social"
 
 #: ../library/functions/customizer.php:131
 msgid "Travelify Element Color"
@@ -132,21 +132,23 @@ msgid "Use the following settings change color for website elements"
 msgstr ""
 
 #: ../library/functions/customizer.php:148
+#, fuzzy
 msgid "Element Color"
-msgstr ""
+msgstr "Colore elemento"
 
 #: ../library/functions/customizer.php:168
 msgid "Element Hover Color"
 msgstr ""
 
 #: ../library/functions/customizer.php:188
+#, fuzzy
 msgid "Wrapper Color"
-msgstr ""
+msgstr "Colore elemento"
 
 #: ../library/functions/customizer.php:208
 #, fuzzy
 msgid "Content Background Color"
-msgstr "Fondo personalizado"
+msgstr "Cambiar el fondo del tema"
 
 #: ../library/functions/customizer.php:217
 msgid "Travelify Typography Color"
@@ -165,15 +167,17 @@ msgstr ""
 #: ../library/functions/customizer.php:253
 #, fuzzy
 msgid "Header/Title Color"
-msgstr "Opciones del encabezado"
+msgstr "Solo logo en el encabezado"
 
 #: ../library/functions/customizer.php:273
+#, fuzzy
 msgid "Link Color"
-msgstr ""
+msgstr "Colore del link"
 
 #: ../library/functions/customizer.php:293
+#, fuzzy
 msgid "Link Hover Color"
-msgstr ""
+msgstr "Colore del link:hover"
 
 #: ../library/functions/customizer.php:302
 #, fuzzy
@@ -187,36 +191,36 @@ msgstr ""
 #: ../library/functions/customizer.php:317
 #, fuzzy
 msgid "Copyright text"
-msgstr "Copyright &copia;"
+msgstr "Testo dei copyright nel piè di pagina"
 
-#: ../library/functions/functions.php:296
-#: ../library/functions/functions.php:310
+#: ../library/functions/functions.php:297
+#: ../library/functions/functions.php:311
 msgid "Navigation"
 msgstr "Navegación"
 
-#: ../library/functions/functions.php:362
+#: ../library/functions/functions.php:363
 #: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Barra lateral izquierda"
 
-#: ../library/functions/functions.php:364
+#: ../library/functions/functions.php:365
 msgid "Shows widgets at Left side."
 msgstr "Muestra widgets a izquierda"
 
-#: ../library/functions/functions.php:373
+#: ../library/functions/functions.php:374
 #: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Barra lateral derecha"
 
-#: ../library/functions/functions.php:375
+#: ../library/functions/functions.php:376
 msgid "Shows widgets at Right side."
 msgstr "Muestra widgets a derecha"
 
-#: ../library/functions/functions.php:384
+#: ../library/functions/functions.php:385
 msgid "Footer"
 msgstr "Pie de página"
 
-#: ../library/functions/functions.php:386
+#: ../library/functions/functions.php:387
 msgid "Shows widgets at footer."
 msgstr "Muestra widgets en el pie de página"
 

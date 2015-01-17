@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-08-03 14:00+0200\n"
-"PO-Revision-Date: 2014-08-03 14:00+0200\n"
+"POT-Creation-Date: 2015-01-17 22:39+0200\n"
+"PO-Revision-Date: 2015-01-17 22:40+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -90,7 +90,7 @@ msgstr "Menu Principale"
 #: ../library/functions/customizer.php:7
 #, fuzzy
 msgid "Travelify Header Area"
-msgstr "Opzioni intestazione"
+msgstr "Solo logo nell'intestazione"
 
 #: ../library/functions/customizer.php:8
 msgid "Use the following settings change color for menu and website title"
@@ -120,7 +120,7 @@ msgstr ""
 #: ../library/functions/customizer.php:122
 #, fuzzy
 msgid "Social Icon Color"
-msgstr "Link a reti sociali"
+msgstr "icona della pagina web"
 
 #: ../library/functions/customizer.php:131
 msgid "Travelify Element Color"
@@ -145,7 +145,7 @@ msgstr ""
 #: ../library/functions/customizer.php:208
 #, fuzzy
 msgid "Content Background Color"
-msgstr "Sfondo personalizzato"
+msgstr "Cambiare lo sfondo del tema"
 
 #: ../library/functions/customizer.php:217
 msgid "Travelify Typography Color"
@@ -164,7 +164,7 @@ msgstr ""
 #: ../library/functions/customizer.php:253
 #, fuzzy
 msgid "Header/Title Color"
-msgstr "Opzioni intestazione"
+msgstr "Solo logo nell'intestazione"
 
 #: ../library/functions/customizer.php:273
 msgid "Link Color"
@@ -596,7 +596,7 @@ msgstr "Effetto di transizione"
 #: ../library/panel/theme-options.php:507
 #, fuzzy, php-format
 msgid "%s"
-msgstr "%1$s presso %2$s"
+msgstr "secondo(i)"
 
 #: ../library/panel/theme-options.php:463
 msgid "Transition Delay"

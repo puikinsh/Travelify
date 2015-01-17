@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2014-07-07 16:38+0200\n"
-"PO-Revision-Date: 2014-07-07 16:38+0200\n"
+"POT-Creation-Date: 2015-01-17 22:40+0200\n"
+"PO-Revision-Date: 2015-01-17 22:40+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -89,7 +89,7 @@ msgstr "Hoofd Menu"
 #: ../library/functions/customizer.php:7
 #, fuzzy
 msgid "Travelify Header Area"
-msgstr "Hoofd opties"
+msgstr "Alleen hoofd logo"
 
 #: ../library/functions/customizer.php:8
 msgid "Use the following settings change color for menu and website title"
@@ -119,7 +119,7 @@ msgstr ""
 #: ../library/functions/customizer.php:122
 #, fuzzy
 msgid "Social Icon Color"
-msgstr "Sociale links"
+msgstr "Social Icoon Kleur"
 
 #: ../library/functions/customizer.php:131
 msgid "Travelify Element Color"
@@ -130,21 +130,23 @@ msgid "Use the following settings change color for website elements"
 msgstr ""
 
 #: ../library/functions/customizer.php:148
+#, fuzzy
 msgid "Element Color"
-msgstr ""
+msgstr "Elementkleur"
 
 #: ../library/functions/customizer.php:168
 msgid "Element Hover Color"
 msgstr ""
 
 #: ../library/functions/customizer.php:188
+#, fuzzy
 msgid "Wrapper Color"
-msgstr ""
+msgstr "Elementkleur"
 
 #: ../library/functions/customizer.php:208
 #, fuzzy
 msgid "Content Background Color"
-msgstr "Aangepaste achtergrond"
+msgstr "Verander thema achtergrond"
 
 #: ../library/functions/customizer.php:217
 msgid "Travelify Typography Color"
@@ -163,15 +165,17 @@ msgstr ""
 #: ../library/functions/customizer.php:253
 #, fuzzy
 msgid "Header/Title Color"
-msgstr "Hoofd opties"
+msgstr "Alleen hoofd logo"
 
 #: ../library/functions/customizer.php:273
+#, fuzzy
 msgid "Link Color"
-msgstr ""
+msgstr "Link Kleur"
 
 #: ../library/functions/customizer.php:293
+#, fuzzy
 msgid "Link Hover Color"
-msgstr ""
+msgstr "Link:hover Kleur"
 
 #: ../library/functions/customizer.php:302
 #, fuzzy
@@ -185,36 +189,36 @@ msgstr ""
 #: ../library/functions/customizer.php:317
 #, fuzzy
 msgid "Copyright text"
-msgstr "Copyright &copy;"
+msgstr "Copyright tekst in footer"
 
-#: ../library/functions/functions.php:296
-#: ../library/functions/functions.php:310
+#: ../library/functions/functions.php:297
+#: ../library/functions/functions.php:311
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: ../library/functions/functions.php:362
+#: ../library/functions/functions.php:363
 #: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Linker Sidebar"
 
-#: ../library/functions/functions.php:364
+#: ../library/functions/functions.php:365
 msgid "Shows widgets at Left side."
 msgstr "Laat de Widgets aan de linkerkant zien."
 
-#: ../library/functions/functions.php:373
+#: ../library/functions/functions.php:374
 #: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Rechter Sidebar"
 
-#: ../library/functions/functions.php:375
+#: ../library/functions/functions.php:376
 msgid "Shows widgets at Right side."
 msgstr "Laat de Widgets aan de rechterkant zien."
 
-#: ../library/functions/functions.php:384
+#: ../library/functions/functions.php:385
 msgid "Footer"
 msgstr "Voettekst"
 
-#: ../library/functions/functions.php:386
+#: ../library/functions/functions.php:387
 msgid "Shows widgets at footer."
 msgstr "Laat de widgets in de voettekst zien."
 
@@ -297,19 +301,21 @@ msgstr "Thema instructies"
 #: ../library/panel/theme-options.php:135
 #, fuzzy
 msgid "Support Forum"
-msgstr "Ondersteuning"
+msgstr "Colorlib support forum"
 
 #: ../library/panel/theme-options.php:135
 msgid "Support"
 msgstr "Ondersteuning"
 
 #: ../library/panel/theme-options.php:136
+#, fuzzy
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../library/panel/theme-options.php:137
+#, fuzzy
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: ../library/panel/theme-options.php:152
 msgid "Settings saved."
@@ -593,7 +599,7 @@ msgstr "Transitie effect"
 #: ../library/panel/theme-options.php:507
 #, fuzzy, php-format
 msgid "%s"
-msgstr "%1$s bij %2$s"
+msgstr "Seconde(n)"
 
 #: ../library/panel/theme-options.php:463
 msgid "Transition Delay"
