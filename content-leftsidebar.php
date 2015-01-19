@@ -40,7 +40,7 @@
 		 * travelify_next_previous 5
 		 * travelify_loop_after 10
        */
-      do_action( 'travelify_after_loop_content' );      
+      do_action( 'travelify_after_loop_content' );
    ?>
 </div><!-- #primary -->
 

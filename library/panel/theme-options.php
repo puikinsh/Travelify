@@ -484,17 +484,18 @@ function travelify_theme_options_do_page() {
 				<div id="sociallinks">
 					<?php
 						$social_links = array();
-						$social_links = array( 	'Facebook' 		=> 'social_facebook',
-														'Twitter' 		=> 'social_twitter',
-														'Google-Plus'	=> 'social_googleplus',
-														'Pinterest' 	=> 'social_pinterest',
-														'YouTube'		=> 'social_youtube',
-														'Vimeo'			=> 'social_vimeo',
-														'LinkedIn'		=> 'social_linkedin',
-														'Flickr'		=> 'social_flickr',
-														'Tumblr'		=> 'social_tumblr',
-														'Instagram'		=> 'social_instagram',
-														'RSS'			=> 'social_rss'
+						$social_links = array(
+														'Facebook'    => 'social_facebook',
+														'Twitter'     => 'social_twitter',
+														'Google-Plus' => 'social_googleplus',
+														'Pinterest'   => 'social_pinterest',
+														'YouTube'     => 'social_youtube',
+														'Vimeo'       => 'social_vimeo',
+														'LinkedIn'    => 'social_linkedin',
+														'Flickr'      => 'social_flickr',
+														'Tumblr'      => 'social_tumblr',
+														'Instagram'   => 'social_instagram',
+														'RSS'         => 'social_rss'
 													);
 					?>
 					<table class="form-table">
