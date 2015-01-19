@@ -122,19 +122,19 @@ function travelify_theme_options_do_page() {
 
    		<div class="theme-option-header">
 			<div class="theme-option-block clearfix">
-		<div class="theme-option-title"><h2><?php _e( 'Theme Options by', 'travelify' ); ?></h2></div><div class="theme-option-link"><a href="<?php echo esc_url( 'http://colorlib.com/'); ?>" title="Colorlib" target="_blank"><img src="<?php echo get_template_directory_uri() . '/library/panel/images/logo.png'; ?>" alt="'<?php _e( 'Colorlib', 'travelify' ); ?>" /></a> </div>
+		<div class="theme-option-title"><h2><?php _e( 'Theme Options by', 'travelify' ); ?></h2></div><div class="theme-option-link"><a href="<?php echo esc_url('http://colorlib.com/'); ?>" title="Colorlib" target="_blank"><img src="<?php echo get_template_directory_uri() . '/library/panel/images/logo.png'; ?>" alt="'<?php _e( 'Colorlib', 'travelify' ); ?>" /></a> </div>
 			<div id="social-share">
 		    	<div class="fb-like" data-href="https://www.facebook.com/colorlib" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
-		    	<div class="tw-follow" >		<a href="<?php echo esc_url( 'https://twitter.com/colorlib'); ?>" class="twitter-follow-button" data-show-count="false">Follow @colorlib</a></div>
+		    	<div class="tw-follow" >		<a href="<?php echo esc_url('https://twitter.com/colorlib'); ?>" class="twitter-follow-button" data-show-count="false">Follow @colorlib</a></div>
 			</div>
 			    <div id="theme-support">
               <ul>
-              	<li><a class="button" href="<?php echo esc_url( 'http://colorlib.com/'); ?>" title="<?php esc_attr_e('Other Themes', 'travelify'); ?>" target="_blank"><?php printf(__('Other Themes','travelify')); ?></a></li>
-              	<li><a class="button" href="<?php echo esc_url( 'http://wordpress.org/support/view/theme-reviews/travelify?filter=5'); ?>" title="<?php esc_attr_e('Rate this Theme', 'travelify'); ?>" target="_blank"><?php printf(__('Rate this Theme','travelify')); ?></a></li>
-								<li><a class="button" href="<?php echo esc_url( 'http://colorlib.com/wp/support/travelify/'); ?>" title="<?php esc_attr_e('Theme Instruction', 'travelify'); ?>" target="_blank"><?php printf(__('Theme Instructions','travelify')); ?></a></li>
-                <li><a class="button" href="<?php echo esc_url( 'http://colorlib.com/wp/forums/'); ?>" title="<?php esc_attr_e('Support Forum', 'travelify'); ?>" target="_blank"><?php printf(__('Support','travelify')); ?></a></li>
-                <li><a class="button" href="<?php echo esc_url( 'http://www.facebook.com/colorlib'); ?>" title="Like Colorlib on Facebook" target="_blank"><?php printf(__('Facebook','travelify')); ?></a></li>
-                <li><a class="button" href="<?php echo esc_url( 'http://twitter.com/colorlib/'); ?>" title="Follow Colrolib on Twitter" target="_blank"><?php printf(__('Twitter','travelify')); ?></a></li>
+              	<li><a class="button" href="<?php echo esc_url('http://colorlib.com/'); ?>" title="<?php esc_attr_e('Other Themes', 'travelify'); ?>" target="_blank"><?php printf(__('Other Themes','travelify')); ?></a></li>
+              	<li><a class="button" href="<?php echo esc_url('http://wordpress.org/support/view/theme-reviews/travelify?filter=5'); ?>" title="<?php esc_attr_e('Rate this Theme', 'travelify'); ?>" target="_blank"><?php printf(__('Rate this Theme','travelify')); ?></a></li>
+								<li><a class="button" href="<?php echo esc_url('http://colorlib.com/wp/support/travelify/'); ?>" title="<?php esc_attr_e('Theme Instruction', 'travelify'); ?>" target="_blank"><?php printf(__('Theme Instructions','travelify')); ?></a></li>
+                <li><a class="button" href="<?php echo esc_url('http://colorlib.com/wp/forums/'); ?>" title="<?php esc_attr_e('Support Forum', 'travelify'); ?>" target="_blank"><?php printf(__('Support','travelify')); ?></a></li>
+                <li><a class="button" href="<?php echo esc_url('http://www.facebook.com/colorlib'); ?>" title="Like Colorlib on Facebook" target="_blank"><?php printf(__('Facebook','travelify')); ?></a></li>
+                <li><a class="button" href="<?php echo esc_url('http://twitter.com/colorlib/'); ?>" title="Follow Colrolib on Twitter" target="_blank"><?php printf(__('Twitter','travelify')); ?></a></li>
               </ul>
           </div>
 			</div>
