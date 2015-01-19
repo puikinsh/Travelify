@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-01-17 22:40+0200\n"
-"PO-Revision-Date: 2015-01-17 22:40+0200\n"
+"POT-Creation-Date: 2015-01-19 17:39+0200\n"
+"PO-Revision-Date: 2015-01-19 17:39+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Ariel de Souza <arieldsx@gmail.com>\n"
 "Language: pt_BR\n"
@@ -89,77 +89,77 @@ msgstr "Comentários estão encerrados"
 msgid "Primary Menu"
 msgstr "Menu Primário"
 
-#: ../library/functions/customizer.php:7
+#: ../library/functions/customizer.php:9
 msgid "Travelify Header Area"
 msgstr "Travelify - Área do Cabeçalho"
 
-#: ../library/functions/customizer.php:8
+#: ../library/functions/customizer.php:10
 msgid "Use the following settings change color for menu and website title"
 msgstr ""
 "Use as configurações seguintes para mudar a cor do Menu e do Título do Site"
 
-#: ../library/functions/customizer.php:24
+#: ../library/functions/customizer.php:27
 msgid "Website Title Color"
 msgstr "Cor do Título do Site"
 
-#: ../library/functions/customizer.php:44
+#: ../library/functions/customizer.php:48
 msgid "Website Title Hover Color"
 msgstr ""
 "Cor do Título do site em modo Hover (Quando o ponteiro do mouse está sobre o "
 "elemento)"
 
-#: ../library/functions/customizer.php:64
+#: ../library/functions/customizer.php:69
 msgid "Menu Bar Color"
 msgstr "Cor da Barra do Menu"
 
-#: ../library/functions/customizer.php:83
+#: ../library/functions/customizer.php:89
 msgid "Menu Bar Hover Color"
 msgstr ""
 "Cor da barra do Menu em modo Hover (Quando o ponteiro do mouse está sobre o "
 "elemento)"
 
-#: ../library/functions/customizer.php:102
+#: ../library/functions/customizer.php:109
 msgid "Menu Item Text Color"
 msgstr "Cor do texto do ítem do Menu"
 
-#: ../library/functions/customizer.php:122
+#: ../library/functions/customizer.php:130
 msgid "Social Icon Color"
 msgstr "Cor do Ícone de Rede Social"
 
-#: ../library/functions/customizer.php:131
+#: ../library/functions/customizer.php:139
 msgid "Travelify Element Color"
 msgstr "Travelify - Cores dos Elementos"
 
-#: ../library/functions/customizer.php:132
+#: ../library/functions/customizer.php:140
 msgid "Use the following settings change color for website elements"
 msgstr ""
 "Utilize as configurações seguintes para modificar as cores dos elementos do "
 "Site"
 
-#: ../library/functions/customizer.php:148
+#: ../library/functions/customizer.php:157
 msgid "Element Color"
 msgstr "Cor do Elemento"
 
-#: ../library/functions/customizer.php:168
+#: ../library/functions/customizer.php:178
 msgid "Element Hover Color"
 msgstr ""
 "Cor do Elemento em modo Hover (Quando o ponteiro do mouse está sobre o "
 "elemento)"
 
-#: ../library/functions/customizer.php:188
+#: ../library/functions/customizer.php:199
 msgid "Wrapper Color"
 msgstr "Cor do Wrapper (Envoltório do Site)"
 
-#: ../library/functions/customizer.php:208
+#: ../library/functions/customizer.php:220
 #, fuzzy
 msgid "Content Background Color"
 msgstr "Cor do Conteúdo de Entrada"
 
-#: ../library/functions/customizer.php:217
+#: ../library/functions/customizer.php:229
 msgid "Travelify Typography Color"
 msgstr "Travelify - Cor do Texto"
 
-#: ../library/functions/customizer.php:218
+#: ../library/functions/customizer.php:230
 msgid ""
 "Use the following settings change color for typography such as links, "
 "headings and content"
@@ -167,71 +167,70 @@ msgstr ""
 "Use as seguintes configurações para mudar as cores dos textos, tais como "
 "links, títulos e conteúdo"
 
-#: ../library/functions/customizer.php:234
+#: ../library/functions/customizer.php:247
 msgid "Entry Content Color"
 msgstr "Cor do Conteúdo de Entrada"
 
-#: ../library/functions/customizer.php:253
+#: ../library/functions/customizer.php:267
 msgid "Header/Title Color"
 msgstr "Cor do Título do Cabeçalho"
 
-#: ../library/functions/customizer.php:273
+#: ../library/functions/customizer.php:288
 msgid "Link Color"
 msgstr "Cor do Link"
 
-#: ../library/functions/customizer.php:293
+#: ../library/functions/customizer.php:309
 msgid "Link Hover Color"
 msgstr ""
 "Cor do Link  em modo Hover (Quando o ponteiro do mouse está sobre o elemento)"
 
-#: ../library/functions/customizer.php:302
+#: ../library/functions/customizer.php:318
 msgid "Travelify Footer"
 msgstr "Travelify - Rodapé"
 
-#: ../library/functions/customizer.php:303
+#: ../library/functions/customizer.php:319
 msgid "Use the following settings customize Footer"
 msgstr "Use as seguintes configurações para personalizar o Rodapé"
 
-#: ../library/functions/customizer.php:317
+#: ../library/functions/customizer.php:334
 msgid "Copyright text"
 msgstr "Texto de Copyright (Direitos Autorais)"
 
-#: ../library/functions/functions.php:297
-#: ../library/functions/functions.php:311
+#: ../library/functions/functions.php:275
 msgid "Navigation"
 msgstr "Navegação"
 
-#: ../library/functions/functions.php:363
+#: ../library/functions/functions.php:327
 #: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Barra Lateral à esquerda"
 
-#: ../library/functions/functions.php:365
+#: ../library/functions/functions.php:329
 msgid "Shows widgets at Left side."
 msgstr "Exibir os Widgets no lado Esquerdo"
 
-#: ../library/functions/functions.php:374
+#: ../library/functions/functions.php:338
 #: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Barra Lateral à direita"
 
-#: ../library/functions/functions.php:376
+#: ../library/functions/functions.php:340
 msgid "Shows widgets at Right side."
 msgstr "Exibir os Widgets no lado Direito"
 
-#: ../library/functions/functions.php:385
+#: ../library/functions/functions.php:349
 msgid "Footer"
 msgstr "Rodapé"
 
-#: ../library/functions/functions.php:387
+#: ../library/functions/functions.php:351
 msgid "Shows widgets at footer."
 msgstr "Exibir os Widgets no Rodapé"
 
-#: ../library/functions/shortcodes.php:49
+#: ../library/functions/shortcodes.php:18
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../library/functions/shortcodes.php:58
+#: ../library/functions/shortcodes.php:27
 #: ../library/panel/theme-options.php:125
 msgid "Colorlib"
 msgstr "Colorlib"
@@ -749,12 +748,12 @@ msgstr "Tema por"
 msgid "Powered by"
 msgstr "Desenvolvido em"
 
-#: ../library/structure/header-extensions.php:75
+#: ../library/structure/header-extensions.php:44
 #, php-format
 msgid "Page %s"
 msgstr "Página %s"
 
-#: ../library/structure/header-extensions.php:426
+#: ../library/structure/header-extensions.php:407
 msgid "Search Results"
 msgstr "Resultados da Pesquisa"
 

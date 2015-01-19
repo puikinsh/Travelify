@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-01-17 22:24+0200\n"
-"PO-Revision-Date: 2015-01-17 22:24+0200\n"
+"POT-Creation-Date: 2015-01-19 17:37+0200\n"
+"PO-Revision-Date: 2015-01-19 17:38+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: \n"
 "Language: bg_BG\n"
@@ -88,70 +88,70 @@ msgstr "Коментарите са забранени."
 msgid "Primary Menu"
 msgstr "Главно меню"
 
-#: ../library/functions/customizer.php:7
+#: ../library/functions/customizer.php:9
 msgid "Travelify Header Area"
 msgstr "Заглавна област на Travelify"
 
-#: ../library/functions/customizer.php:8
+#: ../library/functions/customizer.php:10
 msgid "Use the following settings change color for menu and website title"
 msgstr ""
 "Използвайте тези настройки за да промените цвета на менюто и заглавието на "
 "сайта"
 
-#: ../library/functions/customizer.php:24
+#: ../library/functions/customizer.php:27
 msgid "Website Title Color"
 msgstr "Цвят на заглавието на сайта"
 
-#: ../library/functions/customizer.php:44
+#: ../library/functions/customizer.php:48
 msgid "Website Title Hover Color"
 msgstr "Цвят на заглавието на сайта при посочване"
 
-#: ../library/functions/customizer.php:64
+#: ../library/functions/customizer.php:69
 msgid "Menu Bar Color"
 msgstr "Цвят на лентата на менюто"
 
-#: ../library/functions/customizer.php:83
+#: ../library/functions/customizer.php:89
 msgid "Menu Bar Hover Color"
 msgstr "Цвят при посочване на лентата на менюто"
 
-#: ../library/functions/customizer.php:102
+#: ../library/functions/customizer.php:109
 msgid "Menu Item Text Color"
 msgstr "Цвят на текста в елементите на менюто"
 
-#: ../library/functions/customizer.php:122
+#: ../library/functions/customizer.php:130
 msgid "Social Icon Color"
 msgstr "Цвят на иконите на социалните мрежи"
 
-#: ../library/functions/customizer.php:131
+#: ../library/functions/customizer.php:139
 msgid "Travelify Element Color"
 msgstr "Цвят на елементите на Travelify"
 
-#: ../library/functions/customizer.php:132
+#: ../library/functions/customizer.php:140
 msgid "Use the following settings change color for website elements"
 msgstr ""
 "Използвайте тези настройки за да промените цвета на елементите на сайта"
 
-#: ../library/functions/customizer.php:148
+#: ../library/functions/customizer.php:157
 msgid "Element Color"
 msgstr "Цвят на елементите"
 
-#: ../library/functions/customizer.php:168
+#: ../library/functions/customizer.php:178
 msgid "Element Hover Color"
 msgstr "Цвят на елементите при посочване"
 
-#: ../library/functions/customizer.php:188
+#: ../library/functions/customizer.php:199
 msgid "Wrapper Color"
 msgstr "Цвят на обвивката"
 
-#: ../library/functions/customizer.php:208
+#: ../library/functions/customizer.php:220
 msgid "Content Background Color"
 msgstr "Цвят на фона на съдържанието"
 
-#: ../library/functions/customizer.php:217
+#: ../library/functions/customizer.php:229
 msgid "Travelify Typography Color"
 msgstr "Цвят на типографията на Travelify"
 
-#: ../library/functions/customizer.php:218
+#: ../library/functions/customizer.php:230
 msgid ""
 "Use the following settings change color for typography such as links, "
 "headings and content"
@@ -159,70 +159,69 @@ msgstr ""
 "Използвайте тези настройки за да промените цвета на типографията - връзки, "
 "заглавия и съдъжание"
 
-#: ../library/functions/customizer.php:234
+#: ../library/functions/customizer.php:247
 msgid "Entry Content Color"
 msgstr "Цвят на съдържанието"
 
-#: ../library/functions/customizer.php:253
+#: ../library/functions/customizer.php:267
 msgid "Header/Title Color"
 msgstr "Цвят на заглавието"
 
-#: ../library/functions/customizer.php:273
+#: ../library/functions/customizer.php:288
 msgid "Link Color"
 msgstr "Цвят на връзката"
 
-#: ../library/functions/customizer.php:293
+#: ../library/functions/customizer.php:309
 msgid "Link Hover Color"
 msgstr "Цвят на връзката при посочване"
 
-#: ../library/functions/customizer.php:302
+#: ../library/functions/customizer.php:318
 msgid "Travelify Footer"
 msgstr "Долен колонтитул на Travelify"
 
-#: ../library/functions/customizer.php:303
+#: ../library/functions/customizer.php:319
 msgid "Use the following settings customize Footer"
 msgstr "Използвайте тези настройки за долният колонтитул"
 
-#: ../library/functions/customizer.php:317
+#: ../library/functions/customizer.php:334
 msgid "Copyright text"
 msgstr "Авторски права"
 
-#: ../library/functions/functions.php:297
-#: ../library/functions/functions.php:311
+#: ../library/functions/functions.php:275
 msgid "Navigation"
 msgstr "Навигация"
 
-#: ../library/functions/functions.php:363
+#: ../library/functions/functions.php:327
 #: ../library/panel/theme-options.php:291
 msgid "Left Sidebar"
 msgstr "Лява странична лента"
 
-#: ../library/functions/functions.php:365
+#: ../library/functions/functions.php:329
 msgid "Shows widgets at Left side."
 msgstr "Показва джаджите в лявата странична лента"
 
-#: ../library/functions/functions.php:374
+#: ../library/functions/functions.php:338
 #: ../library/panel/theme-options.php:295
 msgid "Right Sidebar"
 msgstr "Дясна странична лента"
 
-#: ../library/functions/functions.php:376
+#: ../library/functions/functions.php:340
 msgid "Shows widgets at Right side."
 msgstr "Показва джаджите в дясната странична лента."
 
-#: ../library/functions/functions.php:385
+#: ../library/functions/functions.php:349
 msgid "Footer"
 msgstr "Долен колонтитул"
 
-#: ../library/functions/functions.php:387
+#: ../library/functions/functions.php:351
 msgid "Shows widgets at footer."
 msgstr "Показва джаджите под линия"
 
-#: ../library/functions/shortcodes.php:49
+#: ../library/functions/shortcodes.php:18
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../library/functions/shortcodes.php:58
+#: ../library/functions/shortcodes.php:27
 #: ../library/panel/theme-options.php:125
 msgid "Colorlib"
 msgstr "Colorlib"
@@ -742,12 +741,12 @@ msgstr "Тема"
 msgid "Powered by"
 msgstr "за"
 
-#: ../library/structure/header-extensions.php:75
+#: ../library/structure/header-extensions.php:44
 #, php-format
 msgid "Page %s"
 msgstr "Страница %s"
 
-#: ../library/structure/header-extensions.php:426
+#: ../library/structure/header-extensions.php:407
 msgid "Search Results"
 msgstr "Резултати от търсенето"
 
