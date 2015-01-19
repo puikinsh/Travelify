@@ -53,6 +53,13 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.3.0 =**
+- Created sanitize callback for WordPress Customizer
+- Removed  add_shortcode functionality (plugin territory)
+- Escaped URLs where needed
+- Added support for title-tag as for WordPress 4.1
+- Some minor code cleanup
+
 **= 2.2.2 =**
 
 - Added Bulgarian translation thanks to Kaloyan Dimitrov

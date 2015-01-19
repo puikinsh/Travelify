@@ -10,17 +10,6 @@
 
 	<?php
 		/**
-		 * travelify_title hook
-		 *
-		 * HOOKED_FUNCTION_NAME PRIORITY
-		 *
-		 * travelify_add_meta 5
-		 * travelify_show_title 10
-		 *
-		 */
-		do_action( 'travelify_title' );
-
-		/**
 		 * travelify_meta hook
 		 */
 		do_action( 'travelify_meta' );
@@ -38,7 +27,7 @@
 		do_action( 'travelify_links' );
 
 		/**
-		 * This hook is important for wordpress plugins and other many things
+		 * This hook is important for WordPress plugins and other many things
 		 */
 		wp_head();
 	?>

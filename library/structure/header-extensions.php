@@ -6,78 +6,59 @@
 
 /****************************************************************************************/
 
-add_action( 'travelify_title', 'travelify_add_meta', 5 );
+add_action( 'wp_head', 'travelify_add_meta', 5 );
 /**
  * Add meta tags.
  */
 function travelify_add_meta() {
 ?>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <?php
 }
 
 /****************************************************************************************/
 
-add_action( 'travelify_title', 'travelify_show_title', 10 );
-/**
- * Showing the title in the browser tab.
- *
- * @uses wp_title() Display the title on the browser tab.
- */
-function travelify_show_title() {
-?>
-	<title>
-		<?php
-		/**
-		 * Print the <title> tag based on what is being viewed.
-		 */
-		wp_title( '|', true, 'right' );
-		?>
-	</title>
-<?php
-}
-
-add_filter( 'wp_title', 'travelify_filter_wp_title' );
-/**
- * Modifying the Title
- *
- * Function tied to the wp_title filter hook.
- * @uses filter wp_title
- */
-function travelify_filter_wp_title( $title ) {
-	global $page, $paged;
-
-	// Get the Site Name
-   $site_name = get_bloginfo( 'name' );
-
-   // Get the Site Description
-   $site_description = get_bloginfo( 'description' );
-
-   $filtered_title = '';
-
-	// For Homepage or Frontpage
-   if(  is_home() || is_front_page() ) {
-		$filtered_title .= $site_name;
-		if ( !empty( $site_description ) )  {
-        	$filtered_title .= ' &#124; '. $site_description;
+if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
+	/**
+	 * Filters wp_title to print a neat <title> tag based on what is being viewed.
+	 *
+	 * @param string $title Default title text for current view.
+	 * @param string $sep Optional separator.
+	 * @return string The filtered title.
+	 */
+	function travelify_wp_title( $title, $sep ) {
+		if ( is_feed() ) {
+			return $title;
 		}
-   }
-	elseif( is_feed() ) {
-		$filtered_title = '';
+		global $page, $paged;
+		// Add the blog name
+		$title .= get_bloginfo( 'name', 'display' );
+		// Add the blog description for the home/front page.
+		$site_description = get_bloginfo( 'description', 'display' );
+		if ( $site_description && ( is_home() || is_front_page() ) ) {
+			$title .= " $sep $site_description";
+		}
+		// Add a page number if necessary:
+		if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
+			$title .= " $sep " . sprintf( __( 'Page %s', 'travelify' ), max( $paged, $page ) );
+		}
+		return $title;
 	}
-	else{
-		$filtered_title = $title . $site_name;
+	add_filter( 'wp_title', 'travelify_wp_title', 10, 2 );
+	/**
+	 * Title shim for sites older than WordPress 4.1.
+	 *
+	 * @link https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
+	 * @todo Remove this function when WordPress 4.3 is released.
+	 */
+	function travelify_render_title() {
+		?>
+		<title><?php wp_title( '|', true, 'right' ); ?></title>
+		<?php
 	}
-
-	// Add a page number if necessary:
-	if( $paged >= 2 || $page >= 2 ) {
-		$filtered_title .= ' &#124; ' . sprintf( __( 'Page %s', 'travelify' ), max( $paged, $page ) );
-	}
-
-	// Return the modified title
-   return $filtered_title;
-}
+	add_action( 'wp_head', 'travelify_render_title' );
+endif;
 
 /****************************************************************************************/
 

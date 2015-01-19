@@ -30,39 +30,39 @@ function travelify_add_custom_box() {
 global $sidebar_layout;
 $sidebar_layout = array(
 							'default-sidebar' 		=> array(
-															'id'			=> 'travelify_sidebarlayout',
-															'value' 		=> 'default',
-															'label' 		=> __( 'Default Layout Set in', 'travelify' ).' '.'<a href="'.get_bloginfo('url').'/wp-admin/themes.php?page=theme_options" target="_blank">'.__( 'Theme Settings', 'travelify' ).'</a>',
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'default',
+															'label'     => __( 'Default Layout Set in', 'travelify' ).' '.'<a href="'.esc_url( home_url( '/' ) ).'/wp-admin/themes.php?page=theme_options" target="_blank">'.__( 'Theme Settings', 'travelify' ).'</a>',
 															'thumbnail' => ' '
 															),
-							'no-sidebar' 				=> array(
-															'id'			=> 'travelify_sidebarlayout',
-															'value' 		=> 'no-sidebar',
-															'label' 		=> __( 'No sidebar', 'travelify' ),
+							'no-sidebar'         => array(
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'no-sidebar',
+															'label'     => __( 'No sidebar', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/no-sidebar.png'
 															),
 							'no-sidebar-full-width' => array(
-															'id'			=> 'travelify_sidebarlayout',
-															'value' 		=> 'no-sidebar-full-width',
-															'label' 		=> __( 'No sidebar, Full Width', 'travelify' ),
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'no-sidebar-full-width',
+															'label'     => __( 'No sidebar, Full Width', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/no-sidebar-fullwidth.png'
 															),
 							'no-sidebar-one-column' => array(
-															'id'			=> 'travelify_sidebarlayout',
-															'value' 		=> 'no-sidebar-one-column',
-															'label' 		=> __( 'No Sidebar, One Column', 'travelify' ),
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'no-sidebar-one-column',
+															'label'     => __( 'No Sidebar, One Column', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/one-column.png'
 															),
 							'left-sidebar' => array(
-															'id'			=> 'travelify_sidebarlayout',
-															'value' 		=> 'left-sidebar',
-															'label' 		=> __( 'Left sidebar', 'travelify' ),
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'left-sidebar',
+															'label'     => __( 'Left sidebar', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/left-sidebar.png'
 															),
 							'right-sidebar' => array(
-															'id' 			=> 'travelify_sidebarlayout',
-															'value' 		=> 'right-sidebar',
-															'label' 		=> __( 'Right sidebar', 'travelify' ),
+															'id'        => 'travelify_sidebarlayout',
+															'value'     => 'right-sidebar',
+															'label'     => __( 'Right sidebar', 'travelify' ),
 															'thumbnail' => get_template_directory_uri() . '/library/panel/images/right-sidebar.png'
 															)
 						);

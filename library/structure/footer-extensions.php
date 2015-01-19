@@ -32,8 +32,7 @@ add_action( 'travelify_footer', 'travelify_footer_info', 30 );
  * function to show the footer info, copyright information
  */
 function travelify_footer_info() {
-   $output = '<div class="copyright">'.__( 'Copyright &copy;', 'travelify' ).' '.'[the-year] [site-link]'.' '.__( 'Theme by', 'travelify' ).' '.'[th-link]'.' '.__( 'Powered by', 'travelify' ).' '.'[wp-link] '.'</div><!-- .copyright -->';
-   echo do_shortcode( $output );
+   echo '<div class="copyright">'.__( 'Copyright &copy;', 'travelify' ).' '.date('Y').' '.travelify_site_link().'. '.__( 'Theme by', 'travelify' ).' '.travelify_colorlib_link().' '.__( 'Powered by', 'travelify' ).' '.travelify_wp_link().'</div><!-- .copyright -->';
 }
 
 /****************************************************************************************/
