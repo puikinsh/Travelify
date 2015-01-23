@@ -53,6 +53,9 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.3.1 =**
+- Added Persian (Farsi) translation thanks to Farzam Parto
+
 **= 2.3.0 =**
 - Created sanitize callback for WordPress Customizer
 - Removed  add_shortcode functionality (plugin territory)
@@ -61,11 +64,9 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 - Some minor code cleanup
 
 **= 2.2.2 =**
-
 - Added Bulgarian translation thanks to Kaloyan Dimitrov
 
 **= 2.2.1 =**
-
 - Code cleanup
 - Updated Genericons to versions 3.3
 
