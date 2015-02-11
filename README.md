@@ -55,6 +55,8 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 **= 2.3.1 =**
 - Added Persian (Farsi) translation thanks to Farzam Parto
+- Improved output from WordPress Theme Customizer
+- Removed changelog from readme.txt and now this is going to be the only place for changelog.
 
 **= 2.3.0 =**
 - Created sanitize callback for WordPress Customizer
