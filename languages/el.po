@@ -1,0 +1,755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travelify\n"
+"POT-Creation-Date: 2015-03-19 19:17+0200\n"
+"PO-Revision-Date: 2015-03-19 19:17+0200\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
+"Language-Team: Colorlib <info@colrolib.com>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:11
+msgid "Error 404 - Page NOT Found"
+msgstr "Σφάλμα 404 - Η σελίδα δεν βρέθηκε"
+
+#: ../404.php:14
+msgid "It seems we can't find what you're looking for."
+msgstr "Φαίνεται ότι δεν μπορούμε να βρούμε αυτό που ψάχνετε."
+
+#: ../404.php:15
+msgid "This might be because:"
+msgstr "Αυτό μπορεί να είναι επειδή:"
+
+#: ../404.php:17
+msgid "You have typed the web address incorrectly"
+msgstr "Έχετε πληκτρολογήσει εσφαλμένα τη διεύθυνση ιστού"
+
+#: ../404.php:18
+msgid "The page you were looking for may have been moved, updated or deleted."
+msgstr ""
+"Η σελίδα που ψάχνατε μπορεί να έχει μετακινηθεί, ενημερωθεί ή διαγραφεί."
+
+#: ../404.php:20
+msgid "Please try the following:"
+msgstr "Παρακαλώ δοκιμάστε τα εξής:"
+
+#: ../404.php:22
+msgid "Check for a mis-typed URL error"
+msgstr "Ελέγξτε για μια λάθος δακτυλογραφημένη URL "
+
+#: ../404.php:23
+msgid "Press the refresh button on your browser."
+msgstr "Πατήστε το κουμπί \"Ανανέωση\" στον browser σας."
+
+#: ../404.php:24
+msgid "Go back to"
+msgstr "Επιστροφή σε"
+
+#: ../404.php:24
+msgid "Homepage"
+msgstr "Αρχική Σελίδα"
+
+#: ../comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "1 σκέψη για &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:27
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s σκέψεις για &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:38
+msgid "Comment navigation"
+msgstr "Πλοήγηση σχολίων"
+
+#: ../comments.php:39
+msgid "&larr; Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: ../comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια"
+
+#: ../comments.php:47
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά"
+
+#: ../functions.php:76
+msgid "Primary Menu"
+msgstr "Βασικό Μενού"
+
+#: ../library/functions/customizer.php:9
+msgid "Travelify Header Area"
+msgstr "Περιοχή Header του Travelify"
+
+#: ../library/functions/customizer.php:10
+msgid "Use the following settings change color for menu and website title"
+msgstr ""
+"Χρησιμοποιήστε τις ακόλουθες ρυθμίσεις αλλάή χρώματος για το μενού και "
+"τίτλος ιστοσελίδας"
+
+#: ../library/functions/customizer.php:27
+msgid "Website Title Color"
+msgstr "Χρώμα τίτλου ιστοσελίδας"
+
+#: ../library/functions/customizer.php:48
+msgid "Website Title Hover Color"
+msgstr "Χρώμα κατάδειξης τίτλου Ιστοσελίδας "
+
+#: ../library/functions/customizer.php:69
+msgid "Menu Bar Color"
+msgstr "Χρώμα γραμμής μενού"
+
+#: ../library/functions/customizer.php:89
+msgid "Menu Bar Hover Color"
+msgstr "Χρώμα κατάδειξης γραμμής μενού"
+
+#: ../library/functions/customizer.php:109
+msgid "Menu Item Text Color"
+msgstr "Χρώμα κειμένου στοιχείων μενού "
+
+#: ../library/functions/customizer.php:130
+msgid "Social Icon Color"
+msgstr "Χρώμα για εικονίδια κοινωνικών δικτύων"
+
+#: ../library/functions/customizer.php:139
+msgid "Travelify Element Color"
+msgstr "Χρώμα στοιχείων Travelify"
+
+#: ../library/functions/customizer.php:140
+msgid "Use the following settings change color for website elements"
+msgstr ""
+"Χρησιμοποιήστε τις ακόλουθες ρυθμίσεις για να αλλάξετε χρώμα των στοιχείων "
+"ιστοσελίδας"
+
+#: ../library/functions/customizer.php:157
+msgid "Element Color"
+msgstr "Χρώμα στοιχείου"
+
+#: ../library/functions/customizer.php:178
+msgid "Element Hover Color"
+msgstr "Χρώμα κατάδειξης στοιχείων"
+
+#: ../library/functions/customizer.php:199
+msgid "Wrapper Color"
+msgstr "Χρώμα περικαλύμματος"
+
+#: ../library/functions/customizer.php:220
+msgid "Content Background Color"
+msgstr "Χρώμα περιεχομένου φόντου"
+
+#: ../library/functions/customizer.php:229
+msgid "Travelify Typography Color"
+msgstr "Χρώμα τυπογραφίας Travelify "
+
+#: ../library/functions/customizer.php:230
+msgid ""
+"Use the following settings change color for typography such as links, "
+"headings and content"
+msgstr ""
+"Χρησιμοποιήστε τις ακόλουθες ρυθμίσεις για να αλλάξετε χρώμα για την "
+"τυπογραφία όπως συνδέσμους, τίτλους και περιεχόμενο"
+
+#: ../library/functions/customizer.php:247
+msgid "Entry Content Color"
+msgstr "Χρώμα περιεχομένου ισαγωγής"
+
+#: ../library/functions/customizer.php:267
+msgid "Header/Title Color"
+msgstr "Χρώμα κεφαλίδα/τίτλου "
+
+#: ../library/functions/customizer.php:288
+msgid "Link Color"
+msgstr "Χρώμα συνδέσμου"
+
+#: ../library/functions/customizer.php:309
+msgid "Link Hover Color"
+msgstr "Χρώμα κατάδειξης συνδέσμων"
+
+#: ../library/functions/customizer.php:318
+msgid "Travelify Footer"
+msgstr "Περιοχή Footer του Travelify"
+
+#: ../library/functions/customizer.php:319
+msgid "Use the following settings customize Footer"
+msgstr ""
+"Χρησιμοποιήστε τις ακόλουθες ρυθμίσεις για να προσαρμόσετε το footer "
+"(υποσέλιδο)"
+
+#: ../library/functions/customizer.php:334
+msgid "Copyright text"
+msgstr "Κείμενο Copyright (Πνευματικά Δικαιώματα)"
+
+#: ../library/functions/functions.php:275
+msgid "Navigation"
+msgstr "Πλοήγηση"
+
+#: ../library/functions/functions.php:327
+#: ../library/panel/theme-options.php:291
+msgid "Left Sidebar"
+msgstr "Αριστερή πλευρική στήλη"
+
+#: ../library/functions/functions.php:329
+msgid "Shows widgets at Left side."
+msgstr "Δείχνει τα γραφικά στοιχεία στην αριστερή πλευρά."
+
+#: ../library/functions/functions.php:338
+#: ../library/panel/theme-options.php:295
+msgid "Right Sidebar"
+msgstr "Δεξιά πλευρική στήλη"
+
+#: ../library/functions/functions.php:340
+msgid "Shows widgets at Right side."
+msgstr "Δείχνει τα γραφικά στοιχεία στην δεξιά πλευρά."
+
+#: ../library/functions/functions.php:349
+msgid "Footer"
+msgstr "Υποσέλιδο (Footer)"
+
+#: ../library/functions/functions.php:351
+msgid "Shows widgets at footer."
+msgstr "Δείχνει τα γραφικά στοιχεία στο υποσέλιδο."
+
+#: ../library/functions/shortcodes.php:18
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../library/functions/shortcodes.php:27
+#: ../library/panel/theme-options.php:125
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#: ../library/panel/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+"Επιλογή διάταξης για αυτή τη συγκεκριμένη σελίδα μόνο (Σημείωση: Η ρύθμιση "
+"αυτή αντανακλά μόνο αν η σελίδα Πρότυπο (Template) έχει οριστεί ως "
+"προεπιλογή Προτύπου και Πρότυπος Τύπος Blog.)"
+
+#: ../library/panel/metaboxes.php:22
+msgid "Select layout for this specific Post only"
+msgstr "Επιλογή διάταξης για αυτό το συγκεκριμένο άρθρο μόνο"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr "Η Προεπιλογή Διάταξη βρίσκεται σε"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Theme Settings"
+msgstr "Ρυθμίσεις θέματος"
+
+#: ../library/panel/metaboxes.php:41
+msgid "No sidebar"
+msgstr "Χωρίς πλευρική στήλη"
+
+#: ../library/panel/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr "Χωρίς πλευρική στήλη, Πλήρης Πλάτος"
+
+#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
+msgid "No Sidebar, One Column"
+msgstr "Χωρίς πλευρική στήλη, Μία στήλη"
+
+#: ../library/panel/metaboxes.php:59
+msgid "Left sidebar"
+msgstr "Αριστερή πλευρική στήλη"
+
+#: ../library/panel/metaboxes.php:65
+msgid "Right sidebar"
+msgstr "Δεξιά πλευρική στήλη"
+
+#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: ../library/panel/theme-options.php:125
+msgid "Theme Options by"
+msgstr "Επιλογές θέματος από"
+
+#: ../library/panel/theme-options.php:132
+msgid "Other Themes"
+msgstr "Άλλα θέματα"
+
+#: ../library/panel/theme-options.php:133
+msgid "Rate this Theme"
+msgstr "Βαθμολογήστε αυτό το θέμα"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instruction"
+msgstr "Οδηγία θέματος"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instructions"
+msgstr "Οδηγίες θέματος"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support Forum"
+msgstr "Κοινότητα υποστήριξης"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: ../library/panel/theme-options.php:136
+msgid "Facebook"
+msgstr ""
+
+#: ../library/panel/theme-options.php:137
+msgid "Twitter"
+msgstr ""
+
+#: ../library/panel/theme-options.php:152
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: ../library/panel/theme-options.php:158
+msgid "Main Options"
+msgstr "Κύριες ρυθμίσεις"
+
+#: ../library/panel/theme-options.php:159
+msgid "Featured Slider"
+msgstr "Επιλεγμένη Κύλιση"
+
+#: ../library/panel/theme-options.php:160
+msgid "Social Links"
+msgstr "Σύνδεσμοι κοινωνικών δικτύων"
+
+#: ../library/panel/theme-options.php:161
+msgid "Other"
+msgstr "Άλλη"
+
+#: ../library/panel/theme-options.php:167
+msgid "Header Options"
+msgstr "Επιλογές Κεφαλίδας (Header)"
+
+#: ../library/panel/theme-options.php:172
+#: ../library/panel/theme-options.php:182
+msgid "Header Logo"
+msgstr "Λογότυπο Κεφαλίδας "
+
+#: ../library/panel/theme-options.php:175
+msgid "Upload Logo"
+msgstr "Φόρτωση Λογότυπου"
+
+#: ../library/panel/theme-options.php:179
+#: ../library/panel/theme-options.php:224
+#: ../library/panel/theme-options.php:256
+msgid "Preview"
+msgstr "Προεπισκόπηση "
+
+#: ../library/panel/theme-options.php:187
+msgid "Show"
+msgstr "Προβολή"
+
+#: ../library/panel/theme-options.php:190
+msgid "Header Logo Only"
+msgstr "Μόνο Λογότυπο Κεφαλίδας "
+
+#: ../library/panel/theme-options.php:193
+msgid "Header Text Only"
+msgstr "Μόνο Κείμενο Κεφαλίδας "
+
+#: ../library/panel/theme-options.php:196
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: ../library/panel/theme-options.php:201
+#: ../library/panel/theme-options.php:233
+#: ../library/panel/theme-options.php:265
+#: ../library/panel/theme-options.php:310
+#: ../library/panel/theme-options.php:348
+#: ../library/panel/theme-options.php:381
+#: ../library/panel/theme-options.php:419
+#: ../library/panel/theme-options.php:477
+#: ../library/panel/theme-options.php:517
+#: ../library/panel/theme-options.php:540
+msgid "Save All Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: ../library/panel/theme-options.php:206
+msgid "Favicon Options"
+msgstr "Επιλογές favicon"
+
+#: ../library/panel/theme-options.php:211
+msgid "Disable Favicon"
+msgstr "Απενεργοποίηση favicon"
+
+#: ../library/panel/theme-options.php:213
+#: ../library/panel/theme-options.php:245
+#: ../library/panel/theme-options.php:431
+msgid "Check to disable"
+msgstr "Επιλογή για απενεργοποίηση"
+
+#: ../library/panel/theme-options.php:216
+msgid "Favicon URL"
+msgstr ""
+
+#: ../library/panel/theme-options.php:219
+msgid "Upload Favicon"
+msgstr "Φόρτωση Favicon"
+
+#: ../library/panel/theme-options.php:220
+msgid ""
+"Favicon is this tiny icon you see beside URL in your browser address bar"
+msgstr ""
+"Favicon είναι αυτό το μικρό εικονίδιο που βλέπετε δίπλα στην διεύθυνση URL "
+"στη γραμμή διευθύνσεων του προγράμματος περιήγησης"
+
+#: ../library/panel/theme-options.php:227
+msgid "favicon"
+msgstr ""
+
+#: ../library/panel/theme-options.php:238
+msgid "Web Clip Icon Options"
+msgstr "Επιλογές εικονιδίου Web Clip"
+
+#: ../library/panel/theme-options.php:243
+msgid "Disable Web Clip Icon"
+msgstr "Απενεργοποίηση εικονιδίου Web Clip"
+
+#: ../library/panel/theme-options.php:248
+msgid "Web Clip Icon URL"
+msgstr "URL εικονιδίου Web Clip"
+
+#: ../library/panel/theme-options.php:251
+msgid "Upload Web Clip Icon"
+msgstr "Φόρτωση εικονιδίου Web Clip"
+
+#: ../library/panel/theme-options.php:252
+msgid "Web Clip works as shortcut to website on iOS devices home screen"
+msgstr ""
+"Web Clip λειτουργεί ως συντόμευση στην ιστοσελίδα για συσκευές iOS αρχική "
+"οθόνη"
+
+#: ../library/panel/theme-options.php:259
+msgid "webpage icon"
+msgstr "Εικονίδιου ιστοσελίδας"
+
+#: ../library/panel/theme-options.php:270
+msgid "Layout Options"
+msgstr "Επιλογές διάταξης"
+
+#: ../library/panel/theme-options.php:275
+msgid "Default Layout"
+msgstr "Προεπιλεγμένη διάταξη"
+
+#: ../library/panel/theme-options.php:279
+msgid "No Sidebar"
+msgstr "Χωρίς πλευρική στήλη"
+
+#: ../library/panel/theme-options.php:283
+msgid "No Sidebar, Full Width"
+msgstr "Χωρίς πλευρική στήλη, Πλήρης Πλάτος"
+
+#: ../library/panel/theme-options.php:301
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+"Αυτό θα ορίσει το προεπιλεγμένο στυλ διάταξης. Ωστόσο, μπορείτε να επιλέξετε "
+"διαφορετική διάταξη για κάθε σελίδα μέσω του συντάκτη (editor)"
+
+#: ../library/panel/theme-options.php:302
+msgid "Reset Layout"
+msgstr "Επαναφορά διάταξης"
+
+#: ../library/panel/theme-options.php:305
+msgid "Check to reset"
+msgstr "Ελέγξτε για να επαναφέρετε"
+
+#: ../library/panel/theme-options.php:315
+msgid "Custom Background"
+msgstr "Προσαρμοσμένη φόντο"
+
+#: ../library/panel/theme-options.php:321
+msgid "Change theme background"
+msgstr "Αλλαγή φόντοy θέματος"
+
+#: ../library/panel/theme-options.php:324
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Πατήστε εδώ</a>"
+
+#: ../library/panel/theme-options.php:334
+msgid "RSS URL"
+msgstr ""
+
+#: ../library/panel/theme-options.php:340
+msgid "Feed Redirect URL"
+msgstr "Διεύθυνση URL ανακατεύθυνσης ροής"
+
+#: ../library/panel/theme-options.php:343
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Εισάγετε το RSS URL σας. (Feedburner ή άλλο)"
+
+#: ../library/panel/theme-options.php:353
+msgid "Homepage Post Options"
+msgstr "Επιλογές άρθρων Αρχικής σελίδας"
+
+#: ../library/panel/theme-options.php:359
+msgid "Homepage posts categories:"
+msgstr "Κατηγορίες άρθρων Αρχικής σελίδας :"
+
+#: ../library/panel/theme-options.php:361
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Μόνο τα άρθρα που ανήκουν στις κατηγορίες που επιλέγονται εδώ θα εμφανίζεται "
+"στην πρώτη σελίδα."
+
+#: ../library/panel/theme-options.php:366
+msgid "--Disabled--"
+msgstr "--Απενεργοποιημένα--"
+
+#: ../library/panel/theme-options.php:376
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+"Μπορείτε να επιλέξετε πολλαπλές κατηγορίες, κρατώντας πατημένο το πλήκτρο "
+"Ctrl (Windows) ή cmd (Mac)."
+
+#: ../library/panel/theme-options.php:389
+msgid "Featured Post/Page Slider Options"
+msgstr "Επιλεγμένες Επιλογές Κύλισης Άρθρου/Σελίδας"
+
+#: ../library/panel/theme-options.php:393
+msgid "Exclude Slider post from Homepage posts?"
+msgstr "Εξαίρεση Κύλισης από τα άρθρα της αρχικής σελίδας?"
+
+#: ../library/panel/theme-options.php:395
+msgid "Check to exclude"
+msgstr "Ελέγξτε για να αποκλείσετε"
+
+#: ../library/panel/theme-options.php:399
+msgid "Number of Slides"
+msgstr "Αριθμός Διαφανεινών Κύλισης"
+
+#: ../library/panel/theme-options.php:404
+msgid "Featured Slide #"
+msgstr "Επιλεγμένη Κύλιση"
+
+#: ../library/panel/theme-options.php:406
+msgid "Click Here To Edit"
+msgstr "Πατήστε εδώ για επεξεργασία"
+
+#: ../library/panel/theme-options.php:412
+msgid "How to use the featured slider?"
+msgstr "Πως να χρησιμοποιήσετε την Επιλεγμένη Κύλιση?"
+
+#: ../library/panel/theme-options.php:414
+msgid "Create Post or Page and add featured image to it."
+msgstr "Δημιουργήστε Άρθρο ή Σελίδα και προσθέστε επιλεγμένη εικόνα σε αυτό."
+
+#: ../library/panel/theme-options.php:415
+msgid ""
+"Add all the Post ID that you want to use in the featured slider. Post ID can "
+"be found at All Posts table in last column"
+msgstr ""
+"Προσθέστε όλα τα ID Αναρτήσεων που θέλετε να χρησιμοποιήσετε στην Επιλεγμένη "
+"Κύλιση. Τα ID των αναρτήσεων μπορούν να βρεθούν στην τελευταία στήλη των "
+"πινάκων στην περιοχή Όλες τα άρθρα."
+
+#: ../library/panel/theme-options.php:416
+msgid ""
+"Featured Slider will show featured images, Title and excerpt of the "
+"respected added post IDs."
+msgstr ""
+"Η Επιλεγμένα Κύλιση θα δείξει επιλεγμένες εικόνες, τίτλο και απόσπασμα από "
+"τις ταυτότητες των προστιθέμενων ID."
+
+#: ../library/panel/theme-options.php:417
+msgid "The recommended image size is"
+msgstr "Το προτεινόμενο μέγεθος εικόνας είναι"
+
+#: ../library/panel/theme-options.php:425
+msgid "Slider Options"
+msgstr "Επιλογές Κύλισης"
+
+#: ../library/panel/theme-options.php:429
+msgid "Disable Slider"
+msgstr "Απενεργοποίηση Κύλισης"
+
+#: ../library/panel/theme-options.php:435
+msgid "Transition Effect:"
+msgstr "Επίπτωση Μετάβασης:"
+
+#: ../library/panel/theme-options.php:455
+#: ../library/panel/theme-options.php:508
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../library/panel/theme-options.php:463
+msgid "Transition Delay"
+msgstr "Καθυστέρηση Μετάβασης "
+
+#: ../library/panel/theme-options.php:466
+#: ../library/panel/theme-options.php:473
+msgid "second(s)"
+msgstr "Δευτερόλεπτα"
+
+#: ../library/panel/theme-options.php:470
+msgid "Transition Length"
+msgstr "Μήκος Μετάβασης"
+
+#: ../library/panel/theme-options.php:502
+msgid "Enter URLs for your social networks e.g."
+msgstr "Εισάγετε τις διευθύνσεις URL για τα κοινωνικά σας δίκτυα π.χ."
+
+#: ../library/panel/theme-options.php:525
+msgid "Custom CSS (Advanced)"
+msgstr "Προσαρμοσμένη CSS (Προχωρημένο)"
+
+#: ../library/panel/theme-options.php:530
+msgid "Enter your custom CSS styles."
+msgstr "Εισάγετε τα προσαρμοσμένα στυλ της CSS σας."
+
+#: ../library/panel/theme-options.php:531
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr "Αυτή η CSS θα αντικαταστήσει την CSS του αρχείου style.css."
+
+#: ../library/panel/theme-options.php:535
+msgid "Make sure you know what you are doing."
+msgstr "Βεβαιωθείτε ότι ξέρετε τι κάνετε."
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "No Comments"
+msgstr "Καθόλου Σχόλια"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "Comments Off"
+msgstr "Σχόλια απενεργοποιημένα"
+
+#: ../library/structure/content-extensions.php:152
+#: ../library/structure/content-extensions.php:470
+#: ../library/structure/content-extensions.php:582
+#: ../library/structure/content-extensions.php:667
+msgid "Read more"
+msgstr "Περισσότερα..."
+
+#: ../library/structure/content-extensions.php:167
+#: ../library/structure/content-extensions.php:238
+#: ../library/structure/content-extensions.php:337
+#: ../library/structure/content-extensions.php:388
+#: ../library/structure/content-extensions.php:498
+#: ../library/structure/content-extensions.php:609
+#: ../library/structure/content-extensions.php:721
+msgid "No Posts Found."
+msgstr "Δεν βρέθηκαν άρθρα."
+
+#: ../library/structure/content-extensions.php:207
+#: ../library/structure/content-extensions.php:306
+#: ../library/structure/content-extensions.php:670
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: ../library/structure/content-extensions.php:294
+msgid ", "
+msgstr ""
+
+#: ../library/structure/content-extensions.php:489
+#: ../library/structure/content-extensions.php:600
+#: ../library/structure/content-extensions.php:712
+#: ../library/structure/content-extensions.php:748
+#: ../library/structure/content-extensions.php:768
+msgid "&laquo; Previous"
+msgstr "Προηγούμενο"
+
+#: ../library/structure/content-extensions.php:490
+#: ../library/structure/content-extensions.php:601
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
+msgid "Next &raquo;"
+msgstr "Επόμενο"
+
+#: ../library/structure/content-extensions.php:813
+msgid "Pingback:"
+msgstr "Ειδοποίηση προσθήκης: "
+
+#: ../library/structure/content-extensions.php:813
+msgid "(Edit)"
+msgstr "(Επεξεργασία)"
+
+#: ../library/structure/content-extensions.php:828
+msgid "Post author"
+msgstr "Συντάκτης άρθρου"
+
+#: ../library/structure/content-extensions.php:834
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s από %2$s"
+
+#: ../library/structure/content-extensions.php:840
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας αναμένει έλεγχο."
+
+#: ../library/structure/content-extensions.php:845
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: ../library/structure/content-extensions.php:849
+msgid "Reply"
+msgstr "Aπάντηση"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Copyright &copy;"
+msgstr "Πνευματικά δικαιώματα & αντιγραφή;"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Theme by"
+msgstr "Θέμα από"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Powered by"
+msgstr "Τροφοδοτείται από"
+
+#: ../library/structure/header-extensions.php:44
+#, php-format
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: ../library/structure/header-extensions.php:407
+msgid "Search Results"
+msgstr "Αποτελέσματα αναζήτησης"
+
+#: ../searchform.php:7 ../searchform.php:8
+msgid "Search"
+msgstr "Αναζήτηση..."
