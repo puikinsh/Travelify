@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-01-19 17:38+0200\n"
-"PO-Revision-Date: 2015-01-19 17:38+0200\n"
+"POT-Creation-Date: 2015-03-20 16:07+0200\n"
+"PO-Revision-Date: 2015-03-20 16:08+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -167,7 +167,7 @@ msgstr ""
 #: ../library/functions/customizer.php:247
 #, fuzzy
 msgid "Entry Content Color"
-msgstr "Länkfärg"
+msgstr "Färg för Meny"
 
 #: ../library/functions/customizer.php:267
 #, fuzzy
@@ -390,8 +390,8 @@ msgstr "Kikapcsolás"
 #: ../library/panel/theme-options.php:381
 #: ../library/panel/theme-options.php:419
 #: ../library/panel/theme-options.php:477
-#: ../library/panel/theme-options.php:516
-#: ../library/panel/theme-options.php:539
+#: ../library/panel/theme-options.php:517
+#: ../library/panel/theme-options.php:540
 msgid "Save All Changes"
 msgstr "Minden beállítás mentése."
 
@@ -604,7 +604,7 @@ msgid "Transition Effect:"
 msgstr "Átmenet-beállítás"
 
 #: ../library/panel/theme-options.php:455
-#: ../library/panel/theme-options.php:507
+#: ../library/panel/theme-options.php:508
 #, fuzzy, php-format
 msgid "%s"
 msgstr "%s"
@@ -622,23 +622,23 @@ msgstr "másodperc"
 msgid "Transition Length"
 msgstr "Az átmenet hossza"
 
-#: ../library/panel/theme-options.php:501
+#: ../library/panel/theme-options.php:502
 msgid "Enter URLs for your social networks e.g."
 msgstr "Add meg a szociális hálózati azonosítódat (URL), pl. "
 
-#: ../library/panel/theme-options.php:524
+#: ../library/panel/theme-options.php:525
 msgid "Custom CSS (Advanced)"
 msgstr "Egyedi CSS (Haladóknak)"
 
-#: ../library/panel/theme-options.php:529
+#: ../library/panel/theme-options.php:530
 msgid "Enter your custom CSS styles."
 msgstr "Add meg az egyedi CSS stílusokat."
 
-#: ../library/panel/theme-options.php:530
+#: ../library/panel/theme-options.php:531
 msgid "This CSS will overwrite the CSS of style.css file."
 msgstr "Ez a CSS felülírja a style.css file-ban megadottakat. "
 
-#: ../library/panel/theme-options.php:534
+#: ../library/panel/theme-options.php:535
 msgid "Make sure you know what you are doing."
 msgstr "Csak akkor, ha tudod, mit csinálsz!"
 

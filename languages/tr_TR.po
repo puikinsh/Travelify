@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-01-19 17:39+0200\n"
-"PO-Revision-Date: 2015-01-19 17:39+0200\n"
+"POT-Creation-Date: 2015-03-20 16:08+0200\n"
+"PO-Revision-Date: 2015-03-20 16:08+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: \n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -100,8 +100,9 @@ msgid "Website Title Color"
 msgstr ""
 
 #: ../library/functions/customizer.php:48
+#, fuzzy
 msgid "Website Title Hover Color"
-msgstr ""
+msgstr "Aşağı düşen vurgulanmış nesne rengi"
 
 #: ../library/functions/customizer.php:69
 #, fuzzy
@@ -109,17 +110,19 @@ msgid "Menu Bar Color"
 msgstr "İlk Menü"
 
 #: ../library/functions/customizer.php:89
+#, fuzzy
 msgid "Menu Bar Hover Color"
-msgstr ""
+msgstr "Üst navigasyon nesne vurgulanmış rengi"
 
 #: ../library/functions/customizer.php:109
+#, fuzzy
 msgid "Menu Item Text Color"
-msgstr ""
+msgstr "Eylem için çağır yazı rengi"
 
 #: ../library/functions/customizer.php:130
 #, fuzzy
 msgid "Social Icon Color"
-msgstr "web sayfası simgesi"
+msgstr "Sosyak ikon rengi"
 
 #: ../library/functions/customizer.php:139
 msgid "Travelify Element Color"
@@ -130,21 +133,23 @@ msgid "Use the following settings change color for website elements"
 msgstr ""
 
 #: ../library/functions/customizer.php:157
+#, fuzzy
 msgid "Element Color"
-msgstr ""
+msgstr "Element rengi"
 
 #: ../library/functions/customizer.php:178
 msgid "Element Hover Color"
 msgstr ""
 
 #: ../library/functions/customizer.php:199
+#, fuzzy
 msgid "Wrapper Color"
-msgstr ""
+msgstr "Element rengi"
 
 #: ../library/functions/customizer.php:220
 #, fuzzy
 msgid "Content Background Color"
-msgstr "Tema arka planını değiştirme"
+msgstr "Üst navigason arkaplan rengi"
 
 #: ../library/functions/customizer.php:229
 msgid "Travelify Typography Color"
@@ -157,21 +162,24 @@ msgid ""
 msgstr ""
 
 #: ../library/functions/customizer.php:247
+#, fuzzy
 msgid "Entry Content Color"
-msgstr ""
+msgstr "Ren seçilmediyse ön ayarlı renk kullanılır"
 
 #: ../library/functions/customizer.php:267
 #, fuzzy
 msgid "Header/Title Color"
-msgstr "Başlık Sadece Logo "
+msgstr "Header"
 
 #: ../library/functions/customizer.php:288
+#, fuzzy
 msgid "Link Color"
-msgstr ""
+msgstr "Bağlantı rengi"
 
 #: ../library/functions/customizer.php:309
+#, fuzzy
 msgid "Link Hover Color"
-msgstr ""
+msgstr "Bağlantı:vurgulanmış rengi"
 
 #: ../library/functions/customizer.php:318
 #, fuzzy
@@ -185,7 +193,7 @@ msgstr ""
 #: ../library/functions/customizer.php:334
 #, fuzzy
 msgid "Copyright text"
-msgstr "Copyright &copy;"
+msgstr "Site altındaki telif hakkı yazısı"
 
 #: ../library/functions/functions.php:275
 msgid "Navigation"
@@ -370,8 +378,8 @@ msgstr "devre dışı"
 #: ../library/panel/theme-options.php:381
 #: ../library/panel/theme-options.php:419
 #: ../library/panel/theme-options.php:477
-#: ../library/panel/theme-options.php:516
-#: ../library/panel/theme-options.php:539
+#: ../library/panel/theme-options.php:517
+#: ../library/panel/theme-options.php:540
 msgid "Save All Changes"
 msgstr "Tüm Değişiklikleri Kaydet"
 
@@ -581,7 +589,7 @@ msgid "Transition Effect:"
 msgstr "Geçiş Efekti:"
 
 #: ../library/panel/theme-options.php:455
-#: ../library/panel/theme-options.php:507
+#: ../library/panel/theme-options.php:508
 #, php-format
 msgid "%s"
 msgstr "%s"
@@ -599,23 +607,23 @@ msgstr "saniye(s)"
 msgid "Transition Length"
 msgstr "Geçiş Süresi"
 
-#: ../library/panel/theme-options.php:501
+#: ../library/panel/theme-options.php:502
 msgid "Enter URLs for your social networks e.g."
 msgstr "Sosyal ağlar için URL'leri girin, örneğin."
 
-#: ../library/panel/theme-options.php:524
+#: ../library/panel/theme-options.php:525
 msgid "Custom CSS (Advanced)"
 msgstr "Özel CSS (Gelişmiş)"
 
-#: ../library/panel/theme-options.php:529
+#: ../library/panel/theme-options.php:530
 msgid "Enter your custom CSS styles."
 msgstr "Özel CSS stilleri girin."
 
-#: ../library/panel/theme-options.php:530
+#: ../library/panel/theme-options.php:531
 msgid "This CSS will overwrite the CSS of style.css file."
 msgstr "Bu CSS style.css dosyasının CSS üzerine yazacaktır."
 
-#: ../library/panel/theme-options.php:534
+#: ../library/panel/theme-options.php:535
 msgid "Make sure you know what you are doing."
 msgstr "Ne yaptığınızı bildiğinizden emin olun."
 
