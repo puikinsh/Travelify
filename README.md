@@ -53,6 +53,9 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.3.3 =**
+- Added GitHub icon that you can set via Theme Options >> Social Links
+
 **= 2.3.2 =**
 
 - Added Greek translation thanks to Ecoengineer 

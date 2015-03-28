@@ -148,18 +148,20 @@ function travelify_headerdetails() {
    	$options = $travelify_theme_options_settings;
 
    	$elements = array();
-		$elements = array( 	$options[ 'social_facebook' ],
-									$options[ 'social_twitter' ],
-									$options[ 'social_googleplus' ],
-									$options[ 'social_linkedin' ],
-									$options[ 'social_pinterest' ],
-									$options[ 'social_youtube' ],
-									$options[ 'social_vimeo' ],
-									$options[ 'social_flickr' ],
-									$options[ 'social_tumblr' ],
-									$options[ 'social_instagram' ],
-									$options[ 'social_rss' ]
-							 	);
+		$elements = array(
+			$options[ 'social_facebook' ],
+			$options[ 'social_twitter' ],
+			$options[ 'social_googleplus' ],
+			$options[ 'social_linkedin' ],
+			$options[ 'social_pinterest' ],
+			$options[ 'social_youtube' ],
+			$options[ 'social_vimeo' ],
+			$options[ 'social_flickr' ],
+			$options[ 'social_tumblr' ],
+			$options[ 'social_instagram' ],
+			$options[ 'social_rss' ],
+			$options[ 'social_github' ]
+		);
 
 		$flag = 0;
 		if( !empty( $elements ) ) {
@@ -281,18 +283,20 @@ function travelify_socialnetworks( $flag ) {
 				<ul>';
 
 				$social_links = array();
-				$social_links = array( 	'Facebook' 		=> 'social_facebook',
-										'Twitter' 		=> 'social_twitter',
-										'Google-Plus'	=> 'social_googleplus',
-										'Pinterest' 	=> 'social_pinterest',
-										'YouTube'		=> 'social_youtube',
-										'Vimeo'			=> 'social_vimeo',
-										'LinkedIn'		=> 'social_linkedin',
-										'Flickr'		=> 'social_flickr',
-										'Tumblr'		=> 'social_tumblr',
-										'Instagram'		=> 'social_instagram',
-										'RSS'			=> 'social_rss'
-									);
+				$social_links = array(
+					'Facebook'    => 'social_facebook',
+					'Twitter'     => 'social_twitter',
+					'Google-Plus' => 'social_googleplus',
+					'Pinterest'   => 'social_pinterest',
+					'YouTube'     => 'social_youtube',
+					'Vimeo'       => 'social_vimeo',
+					'LinkedIn'    => 'social_linkedin',
+					'Flickr'      => 'social_flickr',
+					'Tumblr'      => 'social_tumblr',
+					'Instagram'   => 'social_instagram',
+					'RSS'         => 'social_rss',
+					'GitHub'      => 'social_github'
+				);
 
 				foreach( $social_links as $key => $value ) {
 					if ( !empty( $options[ $value ] ) ) {

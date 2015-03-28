@@ -485,18 +485,19 @@ function travelify_theme_options_do_page() {
 					<?php
 						$social_links = array();
 						$social_links = array(
-														'Facebook'    => 'social_facebook',
-														'Twitter'     => 'social_twitter',
-														'Google-Plus' => 'social_googleplus',
-														'Pinterest'   => 'social_pinterest',
-														'YouTube'     => 'social_youtube',
-														'Vimeo'       => 'social_vimeo',
-														'LinkedIn'    => 'social_linkedin',
-														'Flickr'      => 'social_flickr',
-														'Tumblr'      => 'social_tumblr',
-														'Instagram'   => 'social_instagram',
-														'RSS'         => 'social_rss'
-													);
+							'Facebook'    => 'social_facebook',
+							'Twitter'     => 'social_twitter',
+							'Google-Plus' => 'social_googleplus',
+							'Pinterest'   => 'social_pinterest',
+							'YouTube'     => 'social_youtube',
+							'Vimeo'       => 'social_vimeo',
+							'LinkedIn'    => 'social_linkedin',
+							'Flickr'      => 'social_flickr',
+							'Tumblr'      => 'social_tumblr',
+							'Instagram'   => 'social_instagram',
+							'RSS'         => 'social_rss',
+							'GitHub'      => 'social_github'
+						);
 					?>
 					<table class="form-table">
 						<p><?php _e( 'Enter URLs for your social networks e.g.', 'travelify' ); ?> https://twitter.com/colorlib</p>
@@ -675,6 +676,9 @@ function travelify_theme_options_validate( $options ) {
 	}
 	if( isset( $input[ 'social_rss' ] ) ) {
 		$input_validated[ 'social_rss' ] = esc_url_raw( $input[ 'social_rss' ] );
+	}
+	if( isset( $input[ 'social_github' ] ) ) {
+		$input_validated[ 'social_github' ] = esc_url_raw( $input[ 'social_github' ] );
 	}
 
 	//Custom CSS Style Validation

@@ -32,6 +32,7 @@ $travelify_theme_options_defaults = array(
 	'social_flickr'        => '',
 	'social_tumblr'        => '',
 	'social_instagram'     => '',
+	'social_github'        => '',
 	'social_rss'           => '',
 	'social_youtube'       => '',
 	'customscripts_header' => '',
@@ -42,9 +43,8 @@ $travelify_theme_options_defaults = array(
 	'header_show'          => 'header-text',
 	'button_text'          => '',
 	'redirect_button_link' => '',
-
-
  );
+
 global $travelify_theme_options_settings;
 $travelify_theme_options_settings = travelify_theme_options_set_defaults( $travelify_theme_options_defaults );
 
