@@ -53,6 +53,11 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.4.0 =**
+* Improved markup to pass Schema tests and eliminate all errors in Google Webmaster Tools. Might be useful for SEO. 
+* Improved RTL support 
+* Minor code cleanup
+
 **= 2.3.3 =**
 - Added GitHub icon that you can set via Theme Options >> Social Links
 

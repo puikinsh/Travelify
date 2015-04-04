@@ -428,28 +428,30 @@ function travelify_admin_header_image() {
 
 <?php }
 
-/****************************************************************************************/
 
-add_action('wp_head', 'travelify_headercode');
+if ( ! function_exists( 'travelify_posted_on' ) ) :
 /**
- * Custom header scripts
+ * Prints HTML with meta information for the current post-date/time and author.
  */
-function travelify_headercode() {
-
-   $travelify_headercode = '';
-	if ( ( !$travelify_headercode = get_transient( 'travelify_headercode' ) )  ) {
-
-		global $travelify_theme_options_settings;
-		$options = $travelify_theme_options_settings;
-
-		// custom scripts header code
-		if ( !empty( $options['customscripts_header'] ) ) {
-		$travelify_headercode .=  $options[ 'customscripts_header' ] ;
-		}
-
-		set_transient( 'travelify_headercode', $travelify_headercode, 86940 );
+function travelify_posted_on() {
+	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
 	}
-	echo $travelify_headercode;
+	$time_string = sprintf( $time_string,
+		esc_attr( get_the_date( 'c' ) ),
+		esc_html( get_the_date() ),
+		esc_attr( get_the_modified_date( 'c' ) ),
+		esc_html( get_the_modified_date() )
+	);
+	$posted_on = sprintf(
+		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+	);
+	$byline = sprintf(
+		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+	);
+	echo '<span class="byline"> ' . $byline . '</span><span class="posted-on">' . $posted_on . '</span>';
 }
+endif;
 
 ?>

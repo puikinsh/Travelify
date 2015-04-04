@@ -4,7 +4,7 @@ Theme URI: http://colorlib.com/wp/travelify/
 Author: Colorlib
 Author URI: http://colorlib.com/wp/
 Description: Travelify is a clean, simple, responsive and customizable WordPress WooCommerce theme that looks awesome on any device. It adjusts automatically to any screen size including tablets and smartphones as well as Retina displays. Theme is built using HTML5 / CSS3 and is SEO friendly. This WordPress theme was built with travel, adventures, languages and nature in mind but it can be used for anything so be creative and unleash its full potential in blogging, ecommerce, business and other websites. Along the awesome design this theme is customizable via a simple but yet powerful theme options. Some of the nicest features are featured post slider, social icons, custom logo, translation ready (compatible with WPML plugin) and many more. This theme out-of-the-box plays nicely with WooCommerce, Breadcrumb NavXT, WP-PageNavi, Contact Form 7 and other popular plugins. Theme available in English, French, German, Hungarian, Italian, Spanish, Dutch, Hebrew, Slovak, Turkish, Swedish, Brazilian Portuguese, Polish, Finnish, Bulgarian, Persian (Farsi), Greek and Chinese.
-Version: 2.3.3
+Version: 2.4.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: white, light, green , custom-background, custom-header, custom-menu, fluid-layout, featured-images, full-width-template, left-sidebar, right-sidebar, one-column, two-columns, three-columns, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging, holiday
@@ -994,6 +994,9 @@ a.more-link:hover {
 	font-size: 12px;
 	margin: 0 1.3%;
 }
+.updated:not(.published) {
+	display: none;
+}
 .entry-meta a {
 	color: #555;
 }
@@ -1004,7 +1007,7 @@ a.more-link:hover {
 	padding-right: 8px
 }
 .entry-meta .author:before,
-.entry-meta .date:before,
+.entry-meta .entry-date:before,
 .entry-meta .category:before,
 .entry-meta .comments:before,
 .tags:before,
@@ -1022,7 +1025,7 @@ a.more-link:hover {
 .entry-meta .author:before{
 	content: '\f304';
 }
-.entry-meta .date:before{
+.entry-meta .entry-date:before{
 	content: '\f303';
 }
 .entry-meta .category:before{
@@ -1097,28 +1100,7 @@ tr:hover td,tr:hover th {
 thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
 	background: #d8d8d8;
 }
-/* Column */
-.column {
-	margin-left: -3.06%;
-}
-.column a {
-	margin-bottom: 10px;
-	display: block;
-}
-.one-half,.one-third,.one-fourth {
-	float: left;
-	margin: 0 0 0 2.97%;
-	padding-bottom: 20px;
-}
-.one-half {
-	width: 47.03%;
-}
-.one-third {
-	width: 30.36%;
-}
-.one-fourth {
-	width: 22.02%;
-}
+
 /* Sidebar */
 #secondary {
 	float: left;
@@ -1681,7 +1663,7 @@ ul.default-wp-page li a:active {
 #footerarea {
 	margin-bottom: 10px;
 }
-#footerarea form input,#footerarea form textarea {
+#footerarea form input,#footerarea form textarea,#footerarea .widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -1698,14 +1680,16 @@ ul.default-wp-page li a:active {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.col-3 {
+#footerarea .col-3 {
 	width: 31.6%;
 	float: left;
 	margin-left: 2.5%;
 }
-
-.col-3:first-child {
+#footerarea .col-3:first-child {
     margin-left: 0;
+}
+#footerarea .widget {
+	width: 100%;
 }
 #footerarea .widget_archive,#footerarea .widget_pages,#footerarea .widget_nav_menu,#footerarea .widget_recent_entries,#footerarea .widget_categories,#footerarea .widget_recent_comments,#footerarea .widget_meta,#footerarea .widget_rss {
 	margin-bottom: 22px;
@@ -1876,7 +1860,7 @@ article {
 	#primary,
 	#secondary,
 	#content-woocommerce,
-	.col-3  {
+	#footerarea .col-3  {
 		float: none;
 		margin-left: 0;
 		width: auto;
@@ -2029,14 +2013,6 @@ article {
 	}
 	#site-title a img {
 		max-width: 420px;
-	}
-	/* Column */
-	.column {
-		margin-left: -3.57%;
-	}
-	.one-half,.one-third,.one-fourth {
-		margin: 0 0 0 3.44%;
-		width: 46.56%;
 	}
 	.widget_service .column {
 		margin-left: 0;

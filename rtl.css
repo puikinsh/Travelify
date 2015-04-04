@@ -55,3 +55,18 @@ span.meta-nav {
 #site-logo {
     float: right;
 }
+#footerarea .col-3:last-child {
+	margin-left: 0;
+}
+#footerarea .col-3:first-child {
+	margin-left: 2.5%;
+}
+#footerarea .col-3 {
+	float: right;
+}
+@media only screen and (max-width: 767px) {
+	#footerarea .col-3 {
+		float: none;
+		width: 100%;
+	}
+}
