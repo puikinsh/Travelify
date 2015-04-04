@@ -1007,7 +1007,7 @@ a.more-link:hover {
 	padding-right: 8px
 }
 .entry-meta .author:before,
-.entry-meta .entry-date:before,
+.entry-meta .posted-on:before,
 .entry-meta .category:before,
 .entry-meta .comments:before,
 .tags:before,
@@ -1025,7 +1025,7 @@ a.more-link:hover {
 .entry-meta .author:before{
 	content: '\f304';
 }
-.entry-meta .entry-date:before{
+.entry-meta .posted-on:before{
 	content: '\f303';
 }
 .entry-meta .category:before{
