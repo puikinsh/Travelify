@@ -1865,6 +1865,10 @@ article {
 		margin-left: 0;
 		width: auto;
 	}
+	.left-sidebar-template #primary,
+	.left-sidebar-template #content-woocommerce {
+		float: none;
+	}
 	.featured-title,.featured-content,.featured-text {
 		display: none;
 	}
