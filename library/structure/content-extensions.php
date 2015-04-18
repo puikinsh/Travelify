@@ -91,7 +91,7 @@ function travelify_theloop() {
 
 if ( ! function_exists( 'travelify_theloop_for_archive' ) ) :
 /**
- * Fuction to show the archive loop content.
+ * Function to show the archive loop content.
  */
 function travelify_theloop_for_archive() {
 	global $post;
@@ -173,7 +173,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_page' ) ) :
 /**
- * Fuction to show the page content.
+ * Function to show the page content.
  */
 function travelify_theloop_for_page() {
 	global $post;
@@ -244,7 +244,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_single' ) ) :
 /**
- * Fuction to show the single post content.
+ * Function to show the single post content.
  */
 function travelify_theloop_for_single() {
 	global $post;
@@ -342,7 +342,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_search' ) ) :
 /**
- * Fuction to show the search results.
+ * Function to show the search results.
  */
 function travelify_theloop_for_search() {
 	global $post;
@@ -393,7 +393,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_template_blog_image_large' ) ) :
 /**
- * Fuction to show the content of page template blog image large content.
+ * Function to show the content of page template blog image large content.
  */
 function travelify_theloop_for_template_blog_image_large() {
 	global $post;
@@ -504,7 +504,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_template_blog_image_medium' ) ) :
 /**
- * Fuction to show the content of page template blog image medium content.
+ * Function to show the content of page template blog image medium content.
  */
 function travelify_theloop_for_template_blog_image_medium() {
 	global $post;
@@ -613,7 +613,7 @@ endif;
 
 if ( ! function_exists( 'travelify_theloop_for_template_blog_full_content' ) ) :
 /**
- * Fuction to show the content of page template full content display.
+ * Function to show the content of page template full content display.
  */
 function travelify_theloop_for_template_blog_full_content() {
 	global $post;

@@ -53,9 +53,13 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 2.4.1 =**
+* Removed redundant sprintf from travelify_posted_on
+* Fixed numerous typos
+
 **= 2.4.0 =**
 * Improved markup to pass Schema tests and eliminate all errors in Google Webmaster Tools. Might be useful for SEO. 
-* Improved RTL support 
+* Improved RTL support
 * Minor code cleanup
 
 **= 2.3.3 =**
@@ -63,7 +67,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 **= 2.3.2 =**
 
-- Added Greek translation thanks to Ecoengineer 
+- Added Greek translation thanks to Ecoengineer
 
 **= 2.3.1 =**
 - Added Persian (Farsi) translation thanks to Farzam Parto
