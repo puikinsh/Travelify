@@ -282,7 +282,6 @@ function travelify_socialnetworks( $flag ) {
 			<div class="social-icons clearfix">
 				<ul>';
 
-				$social_links = array();
 				$social_links = array(
 					'Facebook'    => 'social_facebook',
 					'Twitter'     => 'social_twitter',
