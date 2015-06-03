@@ -245,6 +245,7 @@ function travelify_headerdetails() {
    				travelify_featured_post_slider();
    		}
    		}
+
 		else {
 			if( ( '' != travelify_header_title() ) || function_exists( 'bcn_display_list' ) ) {
 		?>

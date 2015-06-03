@@ -1,0 +1,746 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Travelify\n"
+"POT-Creation-Date: 2015-06-02 00:04+0100\n"
+"PO-Revision-Date: 2015-06-02 12:19+0100\n"
+"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
+"Language-Team: Colorlib <info@colrolib.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:11
+msgid "Error 404 - Page NOT Found"
+msgstr "Ошибка 404: страница не найдена"
+
+#: ../404.php:14
+msgid "It seems we can't find what you're looking for."
+msgstr "Кажется, мы не можем найти то, что вы ищете."
+
+#: ../404.php:15
+msgid "This might be because:"
+msgstr "Это может быть, потому что:"
+
+#: ../404.php:17
+msgid "You have typed the web address incorrectly"
+msgstr "Возможно, Вы ввели адрес неправильно"
+
+#: ../404.php:18
+msgid "The page you were looking for may have been moved, updated or deleted."
+msgstr "Запрашиваемая Вами страница возможно была перемещена или удалена."
+
+#: ../404.php:20
+msgid "Please try the following:"
+msgstr "Пожалуйста, попробуйте следующее"
+
+#: ../404.php:22
+msgid "Check for a mis-typed URL error"
+msgstr "Проверьте правильность URL-адреса"
+
+#: ../404.php:23
+msgid "Press the refresh button on your browser."
+msgstr "Нажмите кнопку \"Обновить\" в Вашем браузере."
+
+#: ../404.php:24
+msgid "Go back to"
+msgstr "Вернуться к"
+
+#: ../404.php:24
+msgid "Homepage"
+msgstr "Главная"
+
+#: ../comments.php:24
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Одна идея о &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:27
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s идей о &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:38
+msgid "Comment navigation"
+msgstr "Навигация по коментариям"
+
+#: ../comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Более поздние коментарии"
+
+#: ../comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Более ранние коментарии &rarr;"
+
+#: ../comments.php:47
+msgid "Comments are closed."
+msgstr "Коментарии отключены"
+
+#: ../functions.php:76
+msgid "Primary Menu"
+msgstr "Основное Меню"
+
+#: ../library/functions/customizer.php:9
+msgid "Travelify Header Area"
+msgstr "Область заголовка Travelify"
+
+#: ../library/functions/customizer.php:10
+msgid "Use the following settings change color for menu and website title"
+msgstr "Данные настройки отвечают за цвет меню и заголовка сайта"
+
+#: ../library/functions/customizer.php:27
+msgid "Website Title Color"
+msgstr "Цвет заголовка сайта"
+
+#: ../library/functions/customizer.php:48
+msgid "Website Title Hover Color"
+msgstr "Цвет заголовка сайта при наведении"
+
+#: ../library/functions/customizer.php:69
+msgid "Menu Bar Color"
+msgstr "Основной цвет меню"
+
+#: ../library/functions/customizer.php:89
+msgid "Menu Bar Hover Color"
+msgstr "Основной цвет меню при наведении"
+
+#: ../library/functions/customizer.php:109
+msgid "Menu Item Text Color"
+msgstr "Цвет элемента меню"
+
+#: ../library/functions/customizer.php:130
+msgid "Social Icon Color"
+msgstr "Цвет иконок социальных сетей"
+
+#: ../library/functions/customizer.php:139
+msgid "Travelify Element Color"
+msgstr "Цвет элементов Travelify"
+
+#: ../library/functions/customizer.php:140
+msgid "Use the following settings change color for website elements"
+msgstr "Данные настройки отвечают за цвет элементов вебсайта"
+
+#: ../library/functions/customizer.php:157
+msgid "Element Color"
+msgstr "Цвет элементов"
+
+#: ../library/functions/customizer.php:178
+msgid "Element Hover Color"
+msgstr "Цвет элементов при выделении"
+
+#: ../library/functions/customizer.php:199
+msgid "Wrapper Color"
+msgstr "Цвет полотна"
+
+#: ../library/functions/customizer.php:220
+msgid "Content Background Color"
+msgstr "Цвет фона контента"
+
+#: ../library/functions/customizer.php:229
+msgid "Travelify Typography Color"
+msgstr "Цвет шрифтов Travelify"
+
+#: ../library/functions/customizer.php:230
+msgid ""
+"Use the following settings change color for typography such as links, "
+"headings and content"
+msgstr ""
+"Данные настройки отвечают за цвет текста, такого как ссылки, заголовки и "
+"содержание"
+
+#: ../library/functions/customizer.php:247
+msgid "Entry Content Color"
+msgstr "Цвет записи"
+
+#: ../library/functions/customizer.php:267
+msgid "Header/Title Color"
+msgstr "Цвет заголовков"
+
+#: ../library/functions/customizer.php:288
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: ../library/functions/customizer.php:309
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: ../library/functions/customizer.php:318
+msgid "Travelify Footer"
+msgstr "Футер Travelify"
+
+#: ../library/functions/customizer.php:319
+msgid "Use the following settings customize Footer"
+msgstr "Данные настройки отвечают за футер"
+
+#: ../library/functions/customizer.php:334
+msgid "Copyright text"
+msgstr "Текст копирайта"
+
+#: ../library/functions/functions.php:275
+msgid "Navigation"
+msgstr "Навигация"
+
+#: ../library/functions/functions.php:327
+#: ../library/panel/theme-options.php:291
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+#: ../library/functions/functions.php:329
+msgid "Shows widgets at Left side."
+msgstr "Показывать виджеты слева"
+
+#: ../library/functions/functions.php:338
+#: ../library/panel/theme-options.php:295
+msgid "Right Sidebar"
+msgstr "Правый сайдбар"
+
+#: ../library/functions/functions.php:340
+msgid "Shows widgets at Right side."
+msgstr "Показывать виджеты справа"
+
+#: ../library/functions/functions.php:349
+msgid "Footer"
+msgstr "Футер"
+
+#: ../library/functions/functions.php:351
+msgid "Shows widgets at footer."
+msgstr "Показывать выджеты в футере"
+
+#: ../library/functions/shortcodes.php:18
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../library/functions/shortcodes.php:27
+#: ../library/panel/theme-options.php:125
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#: ../library/panel/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+"Задать разметку для этой страницы (Эта опция работает только если у страницы "
+"стоит шаблон По Умолчанию  или Шаблон Блога) "
+
+#: ../library/panel/metaboxes.php:22
+msgid "Select layout for this specific Post only"
+msgstr "Задать разметку для этого поста"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr "Шаблон по умолчанию задан в"
+
+#: ../library/panel/metaboxes.php:35
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: ../library/panel/metaboxes.php:41
+msgid "No sidebar"
+msgstr "Без сайдбара"
+
+#: ../library/panel/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr "Без сайдбара, в полную ширину"
+
+#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
+msgid "No Sidebar, One Column"
+msgstr "Без сайдбара, одна колонка"
+
+#: ../library/panel/metaboxes.php:59
+msgid "Left sidebar"
+msgstr "Левый сайдбар"
+
+#: ../library/panel/metaboxes.php:65
+msgid "Right sidebar"
+msgstr "Правый сайдбар"
+
+#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
+msgid "Theme Options"
+msgstr "Опции Темы"
+
+#: ../library/panel/theme-options.php:125
+msgid "Theme Options by"
+msgstr "Опции Темы по"
+
+#: ../library/panel/theme-options.php:132
+msgid "Other Themes"
+msgstr "Другие Темы"
+
+#: ../library/panel/theme-options.php:133
+msgid "Rate this Theme"
+msgstr "Оценить эту Тему"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instruction"
+msgstr "Инструкция для Темы"
+
+#: ../library/panel/theme-options.php:134
+msgid "Theme Instructions"
+msgstr "Инструкции для Темы"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: ../library/panel/theme-options.php:135
+msgid "Support"
+msgstr "Поддержка"
+
+#: ../library/panel/theme-options.php:136
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../library/panel/theme-options.php:137
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../library/panel/theme-options.php:152
+msgid "Settings saved."
+msgstr "Настройки сохранены"
+
+#: ../library/panel/theme-options.php:158
+msgid "Main Options"
+msgstr "Основные опции"
+
+#: ../library/panel/theme-options.php:159
+msgid "Featured Slider"
+msgstr "Встроенный слайдер"
+
+#: ../library/panel/theme-options.php:160
+msgid "Social Links"
+msgstr "Социальные сети"
+
+#: ../library/panel/theme-options.php:161
+msgid "Other"
+msgstr "Другое"
+
+#: ../library/panel/theme-options.php:167
+msgid "Header Options"
+msgstr "Опции хедера"
+
+#: ../library/panel/theme-options.php:172
+#: ../library/panel/theme-options.php:182
+msgid "Header Logo"
+msgstr "Логотип хедера"
+
+#: ../library/panel/theme-options.php:175
+msgid "Upload Logo"
+msgstr "Загрузить лого"
+
+#: ../library/panel/theme-options.php:179
+#: ../library/panel/theme-options.php:224
+#: ../library/panel/theme-options.php:256
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: ../library/panel/theme-options.php:187
+msgid "Show"
+msgstr "Показать"
+
+#: ../library/panel/theme-options.php:190
+msgid "Header Logo Only"
+msgstr "Только логотип хедера"
+
+#: ../library/panel/theme-options.php:193
+msgid "Header Text Only"
+msgstr "Только текст хедера"
+
+#: ../library/panel/theme-options.php:196
+msgid "Disable"
+msgstr "Отключить"
+
+#: ../library/panel/theme-options.php:201
+#: ../library/panel/theme-options.php:233
+#: ../library/panel/theme-options.php:265
+#: ../library/panel/theme-options.php:310
+#: ../library/panel/theme-options.php:348
+#: ../library/panel/theme-options.php:381
+#: ../library/panel/theme-options.php:419
+#: ../library/panel/theme-options.php:477
+#: ../library/panel/theme-options.php:517
+#: ../library/panel/theme-options.php:540
+msgid "Save All Changes"
+msgstr "Сохранить все изменения"
+
+#: ../library/panel/theme-options.php:206
+msgid "Favicon Options"
+msgstr "Опции Фавикона"
+
+#: ../library/panel/theme-options.php:211
+msgid "Disable Favicon"
+msgstr "Отключить фавикон"
+
+#: ../library/panel/theme-options.php:213
+#: ../library/panel/theme-options.php:245
+#: ../library/panel/theme-options.php:431
+msgid "Check to disable"
+msgstr "Отметьте для отключения"
+
+#: ../library/panel/theme-options.php:216
+msgid "Favicon URL"
+msgstr "URL фавикона"
+
+#: ../library/panel/theme-options.php:219
+msgid "Upload Favicon"
+msgstr "Загрузить фавикон"
+
+#: ../library/panel/theme-options.php:220
+msgid ""
+"Favicon is this tiny icon you see beside URL in your browser address bar"
+msgstr ""
+"Фавикон это маленькая иконка, которая отображается рядом с адресом сайта в "
+"браузере"
+
+#: ../library/panel/theme-options.php:227
+msgid "favicon"
+msgstr "фавикон"
+
+#: ../library/panel/theme-options.php:238
+msgid "Web Clip Icon Options"
+msgstr "Опции Web Clip иконки"
+
+#: ../library/panel/theme-options.php:243
+msgid "Disable Web Clip Icon"
+msgstr "Отключить Web Clip иконку"
+
+#: ../library/panel/theme-options.php:248
+msgid "Web Clip Icon URL"
+msgstr "URL адрес Web Clip иконки"
+
+#: ../library/panel/theme-options.php:251
+msgid "Upload Web Clip Icon"
+msgstr "Загрузить Web Clip иконку"
+
+#: ../library/panel/theme-options.php:252
+msgid "Web Clip works as shortcut to website on iOS devices home screen"
+msgstr "Web Clip работает в качестве ярлыка к вебсайту на домашнем экране iOS"
+
+#: ../library/panel/theme-options.php:259
+msgid "webpage icon"
+msgstr "иконка вебстраницы"
+
+#: ../library/panel/theme-options.php:270
+msgid "Layout Options"
+msgstr "Опции разметки"
+
+#: ../library/panel/theme-options.php:275
+msgid "Default Layout"
+msgstr "Разметка по умолчанию"
+
+#: ../library/panel/theme-options.php:279
+msgid "No Sidebar"
+msgstr "Без сайдбара"
+
+#: ../library/panel/theme-options.php:283
+msgid "No Sidebar, Full Width"
+msgstr "Без сайдбара, в полную ширину"
+
+#: ../library/panel/theme-options.php:301
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+"Это установит стиль разметки по умолчанию. Однако вы можете выбрать в "
+"редакторе другую разметку для каждой страницы"
+
+#: ../library/panel/theme-options.php:302
+msgid "Reset Layout"
+msgstr "Сбросить разметку"
+
+#: ../library/panel/theme-options.php:305
+msgid "Check to reset"
+msgstr "Отметьте чтобы сбросить"
+
+#: ../library/panel/theme-options.php:315
+msgid "Custom Background"
+msgstr "Пользовательский фон"
+
+#: ../library/panel/theme-options.php:321
+msgid "Change theme background"
+msgstr "Изменить фон темы"
+
+#: ../library/panel/theme-options.php:324
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Нажмите сюда</a>"
+
+#: ../library/panel/theme-options.php:334
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../library/panel/theme-options.php:340
+msgid "Feed Redirect URL"
+msgstr "Feed Redirect URL"
+
+#: ../library/panel/theme-options.php:343
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Введите ваш предпочитаемый адрес RSS (например Feedburner)"
+
+#: ../library/panel/theme-options.php:353
+msgid "Homepage Post Options"
+msgstr "Опции постов на домашней странице"
+
+#: ../library/panel/theme-options.php:359
+msgid "Homepage posts categories:"
+msgstr "Категории постов на домашней странице "
+
+#: ../library/panel/theme-options.php:361
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Только посты принадлежащие выбранным категориям будут отображены на домашней "
+"странице"
+
+#: ../library/panel/theme-options.php:366
+msgid "--Disabled--"
+msgstr "--Отключенные--"
+
+#: ../library/panel/theme-options.php:376
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+"Вы можете выделить несколько категорий зажав CTRL (Windows) или cmd (Mac)."
+
+#: ../library/panel/theme-options.php:389
+msgid "Featured Post/Page Slider Options"
+msgstr "Опции слайдера с избранными постами/страницами"
+
+#: ../library/panel/theme-options.php:393
+msgid "Exclude Slider post from Homepage posts?"
+msgstr "Исключить посты в слайдере из постов домашней страницы"
+
+#: ../library/panel/theme-options.php:395
+msgid "Check to exclude"
+msgstr "Отметьте чтобы исключить"
+
+#: ../library/panel/theme-options.php:399
+msgid "Number of Slides"
+msgstr "Количество слайдов"
+
+#: ../library/panel/theme-options.php:404
+msgid "Featured Slide #"
+msgstr "Встроенный слайд #"
+
+#: ../library/panel/theme-options.php:406
+msgid "Click Here To Edit"
+msgstr "Нажмите для редактирования"
+
+#: ../library/panel/theme-options.php:412
+msgid "How to use the featured slider?"
+msgstr "Как использовать встроенный слайдер?"
+
+#: ../library/panel/theme-options.php:414
+msgid "Create Post or Page and add featured image to it."
+msgstr ""
+"Создайте пост или страницу и установите нужное изображение в качестве "
+"миниатюры"
+
+#: ../library/panel/theme-options.php:415
+msgid ""
+"Add all the Post ID that you want to use in the featured slider. Post ID can "
+"be found at All Posts table in last column"
+msgstr ""
+"Вставьте ID всех постов, которые вы хотите показывать в слайдере. ID поста "
+"может быть найден в списке всех постов в последней колонке"
+
+#: ../library/panel/theme-options.php:416
+msgid ""
+"Featured Slider will show featured images, Title and excerpt of the "
+"respected added post IDs."
+msgstr ""
+"Встроенный слайдер отображает изображения, заголовки и выдержки из "
+"добавленных постов"
+
+#: ../library/panel/theme-options.php:417
+msgid "The recommended image size is"
+msgstr "Рекомендуемы размер изображения"
+
+#: ../library/panel/theme-options.php:425
+msgid "Slider Options"
+msgstr "Опции слайдера"
+
+#: ../library/panel/theme-options.php:429
+msgid "Disable Slider"
+msgstr "Отключить слайдер"
+
+#: ../library/panel/theme-options.php:435
+msgid "Transition Effect:"
+msgstr "Эффект при смене слайда"
+
+#: ../library/panel/theme-options.php:455
+#: ../library/panel/theme-options.php:508
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../library/panel/theme-options.php:463
+msgid "Transition Delay"
+msgstr "Задержка смене слайда"
+
+#: ../library/panel/theme-options.php:466
+#: ../library/panel/theme-options.php:473
+msgid "second(s)"
+msgstr "секунд(ы)"
+
+#: ../library/panel/theme-options.php:470
+msgid "Transition Length"
+msgstr "Время каждого слайда"
+
+#: ../library/panel/theme-options.php:502
+msgid "Enter URLs for your social networks e.g."
+msgstr "Введите адреса ваших социальных сетей"
+
+#: ../library/panel/theme-options.php:525
+msgid "Custom CSS (Advanced)"
+msgstr "Пользовательский CSS (Advanced)"
+
+#: ../library/panel/theme-options.php:530
+msgid "Enter your custom CSS styles."
+msgstr "Введите ваши пользовательские CSS стили"
+
+#: ../library/panel/theme-options.php:531
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr "Данный CSS имеет приоритет выше, чем файл style.css"
+
+#: ../library/panel/theme-options.php:535
+msgid "Make sure you know what you are doing."
+msgstr "Убедитесь ,что вы в полной мере знаете что делаете"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "1 Comment"
+msgstr "1 коментарий"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "% Comments"
+msgstr "% комментария(ев)"
+
+#: ../library/structure/content-extensions.php:148
+#: ../library/structure/content-extensions.php:282
+#: ../library/structure/content-extensions.php:466
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:692
+msgid "Comments Off"
+msgstr "Комментарии отключены"
+
+#: ../library/structure/content-extensions.php:152
+#: ../library/structure/content-extensions.php:470
+#: ../library/structure/content-extensions.php:582
+#: ../library/structure/content-extensions.php:667
+msgid "Read more"
+msgstr "Читать"
+
+#: ../library/structure/content-extensions.php:167
+#: ../library/structure/content-extensions.php:238
+#: ../library/structure/content-extensions.php:337
+#: ../library/structure/content-extensions.php:388
+#: ../library/structure/content-extensions.php:498
+#: ../library/structure/content-extensions.php:609
+#: ../library/structure/content-extensions.php:721
+msgid "No Posts Found."
+msgstr "Не найдено ни одного поста"
+
+#: ../library/structure/content-extensions.php:207
+#: ../library/structure/content-extensions.php:306
+#: ../library/structure/content-extensions.php:670
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../library/structure/content-extensions.php:294
+msgid ", "
+msgstr ","
+
+#: ../library/structure/content-extensions.php:489
+#: ../library/structure/content-extensions.php:600
+#: ../library/structure/content-extensions.php:712
+#: ../library/structure/content-extensions.php:748
+#: ../library/structure/content-extensions.php:768
+msgid "&laquo; Previous"
+msgstr "&laquo; Предыдущий"
+
+#: ../library/structure/content-extensions.php:490
+#: ../library/structure/content-extensions.php:601
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
+msgid "Next &raquo;"
+msgstr "Следующий &raquo;"
+
+#: ../library/structure/content-extensions.php:813
+msgid "Pingback:"
+msgstr "Пингбэк:"
+
+#: ../library/structure/content-extensions.php:813
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: ../library/structure/content-extensions.php:828
+msgid "Post author"
+msgstr "Автор поста"
+
+#: ../library/structure/content-extensions.php:834
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s на %2$s"
+
+#: ../library/structure/content-extensions.php:840
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки"
+
+#: ../library/structure/content-extensions.php:845
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ../library/structure/content-extensions.php:849
+msgid "Reply"
+msgstr "Ответить"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Copyright &copy;"
+msgstr "Авторские права &copy;"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Theme by"
+msgstr "Тема от"
+
+#: ../library/structure/footer-extensions.php:35
+msgid "Powered by"
+msgstr "Powered by"
+
+#: ../library/structure/header-extensions.php:44
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../library/structure/header-extensions.php:407
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: ../searchform.php:7 ../searchform.php:8
+msgid "Search"
+msgstr "Поиск"
