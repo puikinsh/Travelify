@@ -100,14 +100,14 @@ function travelify_options_menu() {
 
 /****************************************************************************************/
 
-add_action( 'admin_init', 'travelify_register_settings' );
+//add_action( 'admin_init', 'travelify_register_settings' );
 /**
  * Register options and validation callbacks
  *
  * @uses register_setting
  */
-function travelify_register_settings() {
-   register_setting( 'travelify_theme_options', 'travelify_theme_options', 'travelify_theme_options_validate' );
+function travelify_register_settings1() {
+   //register_setting( 'travelify_theme_options', 'travelify_theme_options', 'travelify_theme_options_validate' );
 }
 
 /****************************************************************************************/
@@ -558,7 +558,7 @@ function travelify_theme_options_do_page() {
  *
  * @uses esc_url_raw, absint, esc_textarea, sanitize_text_field, travelify_invalidate_caches
  */
-function travelify_theme_options_validate( $options ) {
+function travelify_theme_options_validate1( $options ) {
 	global $travelify_theme_options_settings, $travelify_theme_options_defaults;
 	$input_validated = $travelify_theme_options_settings;
 	$input = array();
