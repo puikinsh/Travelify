@@ -8,7 +8,7 @@
 
 /****************************************************************************************/
 
-add_action( 'admin_enqueue_scripts', 'travelify_jquery_cookie' );
+//add_action( 'admin_enqueue_scripts', 'travelify_jquery_cookie' );
 /**
  * Register jquery cookie javascript file.
  *
@@ -22,21 +22,21 @@ function travelify_jquery_cookie() {
 
 /****************************************************************************************/
 
-add_action( 'admin_print_scripts-appearance_page_theme_options', 'travelify_admin_scripts' );
+//add_action( 'admin_print_scripts-appearance_page_theme_options', 'travelify_admin_scripts' );
 /**
  * Enqueuing some scripts.
  *
  * @uses wp_enqueue_script to register javascripts.
  * @uses wp_enqueue_script to add javascripts to WordPress generated pages.
  */
-function travelify_admin_scripts() {
+function travelify_admin_scripts1() {
    wp_enqueue_script( 'travelify_admin', get_template_directory_uri() . '/library/panel/js/admin.min.js', array( 'jquery', 'jquery-ui-tabs', 'jquery-cookie', 'jquery-ui-sortable', 'jquery-ui-draggable' ) );
    wp_enqueue_script( 'travelify_image_upload', get_template_directory_uri() . '/library/panel/js/add-image-script.min.js', array( 'jquery','media-upload', 'thickbox' ) );
 }
 
 /****************************************************************************************/
 
-add_action( 'admin_print_styles-appearance_page_theme_options', 'travelify_admin_styles' );
+//add_action( 'admin_print_styles-appearance_page_theme_options', 'travelify_admin_styles' );
 /**
  * Enqueuing some styles.
  *
@@ -50,7 +50,7 @@ function travelify_admin_styles() {
 
 /****************************************************************************************/
 
-add_action( 'admin_print_styles-appearance_page_theme_options', 'travelify_social_script', 100);
+//add_action( 'admin_print_styles-appearance_page_theme_options', 'travelify_social_script', 100);
 /**
  * Facebook, twitter script hooked at head
  *
@@ -80,7 +80,7 @@ function travelify_social_script()
 
 /****************************************************************************************/
 
-add_action( 'admin_menu', 'travelify_options_menu' );
+//add_action( 'admin_menu', 'travelify_options_menu' );
 /**
  * Create sub-menu page.
  *
@@ -115,7 +115,7 @@ function travelify_register_settings1() {
 /**
  * Render Travelify Theme Options page
  */
-function travelify_theme_options_do_page() {
+function travelify_theme_options_do_page2() {
 ?>
 
    <div id="colorawesomeness" class="wrap">

@@ -166,23 +166,28 @@
                 if( primary.length != 0 ){
                   primary.attr("id","content");
                 }
+                sidebar.hide();
                 break;
             case 'no-sidebar-full-width':
                 body.removeClass('right-sidebar-template left-sidebar-template one-column-template no-sidebar-template')
                 if( primary.length != 0 ){
                   primary.attr("id","content");
                 }
+                sidebar.hide();
                 break;
             case 'no-sidebar-one-column':
-                sidebar.remove();
                 body.removeClass('right-sidebar-template left-sidebar-template no-sidebar-template').addClass("one-column-template");
                 if( primary.length != 0 ){
                   primary.attr("id","content");
                 }
+                sidebar.hide();
                 break;
             case 'left-sidebar':
                 if( sidebar.length == 0){
                     jQuery("#container").append('<div class="no-margin-left" id="secondary">');
+                }
+                else{
+                    sidebar.show();
                 }
                 body.removeClass('right-sidebar-template one-column-template no-sidebar-template').addClass("left-sidebar-template");
                 if( content.length != 0 && primary.length == 0 ){
@@ -194,7 +199,7 @@
                     jQuery("#container").append('<div id="secondary">');
                 }
                 else{
-                    sidebar.removeClass('no-margin-left');
+                    sidebar.removeClass('no-margin-left').show();
                 }
                 if( content.length != 0 && primary.length == 0){
                     content.attr("id","primary");
@@ -207,10 +212,5 @@
       });
   });
   
-    
-  // Menu item text color
-//  wp.customize( 'travelify_theme_options[featured_post_slider][1]', function( value ) {
-//      console.log(value);
-//  });
-
+  
 } )( jQuery );

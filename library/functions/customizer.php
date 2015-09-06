@@ -1,4 +1,6 @@
 <?php
+error_reporting(-1);
+ini_set('display_errors', 'On');
 /**
  * Add block to WordPress theme customizer
  * @package Travelify
@@ -689,7 +691,7 @@ function travelify_customizer_css() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  * @package Travelify
  */
-function travelify_customize_preview_js() {
+function travelify_customize_preview_js() {echo get_template_directory_uri();
     wp_enqueue_script('travelify_customizer', get_template_directory_uri() . '/library/js/customizer.js', array('customize-preview'), '20140425', true);
 }
 
@@ -703,6 +705,7 @@ function travelify_theme_options_validate( $options ) {
 	$input_validated = $travelify_theme_options_settings;
 	$input = array();
 	$input = $options;
+        $input_validated = $input;
   
         // Slider settings verification
 	if ( isset( $input[ 'slider_quantity' ] ) ) {
