@@ -1,5 +1,5 @@
 <?php
-error_reporting(-1);
+error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 /**
  * Add block to WordPress theme customizer
@@ -220,7 +220,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_main_options'
     ));    
         $wp_customize->add_setting('travelify_theme_options[header_logo]', array(
-            'default' => $options['header_logo'],
+            'default' => $travelify_theme_options_defaults['header_logo'],
             'type' => 'option',
             'capability' => 'edit_theme_options',            
             'sanitize_callback' => 'esc_url_raw'
@@ -233,7 +233,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         )));
     
         $wp_customize->add_setting('travelify_theme_options[header_show]', array(
-            'default' => 'header-text',
+            'default' => $travelify_theme_options_defaults['header_show'],
             'type' => 'option',
         ));    
         $wp_customize->add_control('travelify_theme_options[header_show]', array(
@@ -247,77 +247,6 @@ function travelify_options_register_theme_customizer($wp_customize)
             )
         ));
     
-    /* Favicon Options */
-        
-    global $wp_version;
-    if ( $wp_version <= 4.3 ) {
-    $wp_customize->add_section('travelify_favicon_options', array(
-        'priority' => 20,
-        'capability' => 'edit_theme_options',
-        'theme_supports' => '',
-        'title' => __('Favicon Options', 'travelify'),
-        'description' => __('Section to update theme options for Favicon', 'travelify'),
-        'panel' => 'travelify_main_options'
-    ));    
-        $wp_customize->add_setting('travelify_theme_options[disable_favicon]', array(
-            'default' => '',
-            'type' => 'option',
-            'capability' => 'edit_theme_options'
-        ));
-        $wp_customize->add_control('travelify_theme_options[disable_favicon]', array(
-            'label' => __('Check to disable Favicon', 'travelify'),
-            'section' => 'travelify_favicon_options',
-            'type' => 'checkbox',
-            'settings' => 'travelify_theme_options[disable_favicon]'
-        ));
-    
-        $wp_customize->add_setting('travelify_theme_options[favicon]', array(
-            'default' => '',
-            'type' => 'option',
-            'capability' => 'edit_theme_options',
-            'sanitize_callback' => 'esc_url_raw'
-        ));
-        $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'travelify_theme_options[favicon]', array(
-            'label' => __('Favicon', 'travelify'),
-            'section' => 'travelify_favicon_options',
-            'mime_type' => 'image',
-            'settings' => 'travelify_theme_options[favicon]'
-        )));
-    
-    /* Web Clip Options */
-    $wp_customize->add_section('travelify_webclip_options', array(
-        'priority' => 30,
-        'capability' => 'edit_theme_options',
-        'theme_supports' => '',
-        'title' => __('Web Clip Options', 'travelify'),
-        'panel' => 'travelify_main_options'
-    ));    
-        $wp_customize->add_setting('travelify_theme_options[disable_webpageicon]', array(
-            'default' => '',
-            'type' => 'option',
-            'capability' => 'edit_theme_options'
-        ));    
-        $wp_customize->add_control('travelify_theme_options[disable_webpageicon]', array(
-            'label' => __('Check to disable Web Clip icon', 'travelify'),
-            'section' => 'travelify_webclip_options',
-            'type' => 'checkbox',
-            'settings' => 'travelify_theme_options[disable_webpageicon]'
-        ));
-    
-        $wp_customize->add_setting('travelify_theme_options[webpageicon]', array(
-            'default' => '',
-            'type' => 'option',
-            'capability' => 'edit_theme_options',
-            'sanitize_callback' => 'esc_url_raw'
-        ));
-        $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'travelify_theme_options[webpageicon]', array(
-            'label' => __('Web Clip Icon', 'travelify'),
-            'section' => 'travelify_webclip_options',
-            'mime_type' => 'image',
-            'settings' => 'travelify_theme_options[webpageicon]'
-        )));
-    }
-    
     /* Layout Options */
     $wp_customize->add_section('travelify_layout_options', array(
         'priority' => 30,
@@ -327,7 +256,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_main_options'
     ));    
         $wp_customize->add_setting('travelify_theme_options[default_layout]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['default_layout'],
             'type' => 'option',
             'capability' => 'edit_theme_options',
         ));
@@ -358,21 +287,6 @@ function travelify_options_register_theme_customizer($wp_customize)
             'settings' => 'travelify_theme_options[reset_layout]'
         ));
     
-    /* Custom Background */
-    $wp_customize->add_section('travelify_background_options', array(
-        'priority' => 40,
-        'capability' => 'edit_theme_options',
-        'theme_supports' => '',
-        'title' => __('Custom Background', 'travelify'),
-        //'description' => __('Section to update theme options for Favicon','travelify'),
-        'panel' => 'travelify_main_options'
-    ));
-        $wp_customize->add_control(new WP_Background_Nav_Customize_Control($wp_customize, 'background_color', array(
-            'section' => 'travelify_background_options',
-            'priority' => 10,
-            'type' => 'background_nav'
-        )));
-    
     /* RSS URL */
     $wp_customize->add_section('travelify_rss_options', array(
         'priority' => 50,
@@ -383,7 +297,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_main_options'
     ));
         $wp_customize->add_setting('travelify_theme_options[feed_url]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['feed_url'],
             'type' => 'option',
             'capability' => 'edit_theme_options',
             'sanitize_callback' => 'esc_url_raw'
@@ -402,9 +316,10 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_main_options'
     ));
         $wp_customize->add_setting('travelify_theme_options[front_page_category]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['front_page_category'],
             'type' => 'option',
             'capability' => 'edit_theme_options',
+            'transport' => 'postMessage'
         ));
         $wp_customize->add_control(new tavelify_Customize_Control_Multi_Select_Category($wp_customize, 'travelify_theme_options[front_page_category]', array(
             'description' => __('You may select multiple categories by holding down the CTRL (Windows) or cmd (Mac).', 'travelify'),
@@ -429,7 +344,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_slider_options'
     ));
         $wp_customize->add_setting('travelify_theme_options[exclude_slider_post]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['exclude_slider_post'],
             'type' => 'option',
             'capability' => 'edit_theme_options'
         ));
@@ -441,7 +356,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         ));
     
         $wp_customize->add_setting('travelify_theme_options[slider_quantity]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['slider_quantity'],
             'type' => 'option',
             'capability' => 'edit_theme_options'
         ));
@@ -452,7 +367,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         ));
    
         $wp_customize->add_setting( 'travelify_theme_options[featured_post_slider]', array(
-            'default' => '',
+            'default' => $travelify_theme_options_defaults['featured_post_slider'],
             'type'    => 'option',
             'capability' => 'edit_theme_options',
             'transport' => 'postMessage'
@@ -691,7 +606,7 @@ function travelify_customizer_css() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  * @package Travelify
  */
-function travelify_customize_preview_js() {echo get_template_directory_uri();
+function travelify_customize_preview_js() {
     wp_enqueue_script('travelify_customizer', get_template_directory_uri() . '/library/js/customizer.js', array('customize-preview'), '20140425', true);
 }
 

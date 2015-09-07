@@ -133,6 +133,7 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
       * @access public
       */
     public function enqueue() {
+        wp_enqueue_script( 'travelify_cloneya_js', get_template_directory_uri() . '/library/js/jquery-cloneya.min.js', array( 'jquery' ) );
         wp_enqueue_script( 'travelify_custom_js', get_template_directory_uri() . '/library/js/customizer_custom.js', array( 'jquery', 'jquery-ui-sortable', 'jquery-ui-draggable' ) );
     }
      
@@ -143,14 +144,17 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
     { ?>
                  <!-- Option for Featured Post Slider -->
            <div id="featuredslider">
-               <ul class="featured-slider-sortable"><?php
+               <ul class="featured-slider-sortable clone-wrapper"><?php
                     $options = get_option('travelify_theme_options');
-
-                    for ( $i = 1; $i <= $options[ 'slider_quantity' ]; $i++ ): ?>
-                        <li>
+                    $slider_count = ( isset($options[ 'featured_post_slider' ]) && count( $options[ 'featured_post_slider' ] ) != 0 ) ? count( $options[ 'featured_post_slider' ] ) : 3 ;
+                    for ( $i = 1; $i <= $slider_count; $i++ ): ?>
+                        <li class="toclone">
                             <label class="handle customize-control-title"><?php _e( 'Featured Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
-                            <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( array_key_exists( 'featured_post_slider', $options ) && array_key_exists( $i, $options[ 'featured_post_slider' ] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
-                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( array_key_exists ( 'featured_post_slider', $options ) && array_key_exists ( $i, $options[ 'featured_post_slider' ] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
+                            <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
+                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
+                        
+                            <a href="#" class="clone">+</a>
+                            <a href="#" class="delete">-</a>
                         </li>
                     <?php endfor; ?>
                 </ul><?php

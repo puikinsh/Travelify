@@ -9,15 +9,11 @@
 
 global $travelify_theme_options_defaults;
 $travelify_theme_options_defaults = array(
-	'disable_slider'       => '0',
-	'exclude_slider_post'  => '0',
+	'disable_slider'       => 0,
+	'exclude_slider_post'  => 0,
 	'default_layout'       => 'right-sidebar',
-	'reset_layout'         => '0',
+	'reset_layout'         => 0,
 	'custom_css'           => '',
-	'disable_favicon'      => '1',
-	'favicon'              => '',
-	'disable_webpageicon'  => '1',
-	'webpageicon'          => '',
 	'slider_quantity'      => '4',
 	'featured_post_slider' => array(),
 	'transition_effect'    => 'fade',
