@@ -344,7 +344,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_slider_options'
     ));
         $wp_customize->add_setting('travelify_theme_options[exclude_slider_post]', array(
-            'default' => $travelify_theme_options_defaults['exclude_slider_post'],
+            'default' => 0,
             'type' => 'option',
             'capability' => 'edit_theme_options'
         ));
@@ -355,7 +355,7 @@ function travelify_options_register_theme_customizer($wp_customize)
             'settings' => 'travelify_theme_options[exclude_slider_post]'
         ));
     
-        $wp_customize->add_setting('travelify_theme_options[slider_quantity]', array(
+        /*$wp_customize->add_setting('travelify_theme_options[slider_quantity]', array(
             'default' => $travelify_theme_options_defaults['slider_quantity'],
             'type' => 'option',
             'capability' => 'edit_theme_options'
@@ -364,7 +364,7 @@ function travelify_options_register_theme_customizer($wp_customize)
             'label' => __('Number of slides', 'travelify'),
             'section' => 'travelify_post_slider_options',
             'settings' => 'travelify_theme_options[slider_quantity]'
-        ));
+        ));*/
    
         $wp_customize->add_setting( 'travelify_theme_options[featured_post_slider]', array(
             'default' => $travelify_theme_options_defaults['featured_post_slider'],
@@ -391,7 +391,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'panel' => 'travelify_slider_options'
     ));
         $wp_customize->add_setting('travelify_theme_options[disable_slider]', array(
-            'default' => '',
+            'default' => 0,
             'type' => 'option',
             'capability' => 'edit_theme_options'
         ));
@@ -399,7 +399,7 @@ function travelify_options_register_theme_customizer($wp_customize)
             'label' => __('Check to disable Slider', 'travelify'),
             'section' => 'travelify_slide_effect_options',
             'type' => 'checkbox',
-            'settings' => 'travelify_theme_options[exclude_slider_post]'
+            'settings' => 'travelify_theme_options[disable_slider]'
         ));
         
         $wp_customize->add_setting('travelify_theme_options[transition_effect]', array(
@@ -460,6 +460,7 @@ function travelify_options_register_theme_customizer($wp_customize)
     
         $social_links = array( 'Facebook' => 'social_facebook', 'Twitter' => 'social_twitter', 'Google-Plus' => 'social_googleplus', 'Pinterest' => 'social_pinterest', 'YouTube' => 'social_youtube', 'Vimeo' => 'social_vimeo', 'LinkedIn' => 'social_linkedin', 'Flickr' => 'social_flickr', 'Tumblr' => 'social_tumblr', 'Instagram' => 'social_instagram', 'RSS' => 'social_rss', 'GitHub' => 'social_github' );
         foreach ($social_links as $key => $val) {
+            
             $wp_customize->add_setting('travelify_theme_options[' . $val . ']', array(
                 'default' => '',
                 'type' => 'option',
@@ -622,23 +623,22 @@ function travelify_theme_options_validate( $options ) {
 	$input = $options;
         $input_validated = $input;
   
-        // Slider settings verification
-	if ( isset( $input[ 'slider_quantity' ] ) ) {
-		$input_validated[ 'slider_quantity' ] = absint( $input[ 'slider_quantity' ] ) ? $input [ 'slider_quantity' ] : 4;
-	}
-        
-	if ( isset( $input[ 'featured_post_slider' ] ) ) {
+   	if ( isset( $input[ 'featured_post_slider' ] ) ) {
 		$input_validated[ 'featured_post_slider' ] = array();
-	};
-        
-	if( isset( $input[ 'slider_quantity' ] ) ){
-            $input[ 'featured_post_slider' ] = is_array( $input[ 'featured_post_slider' ]  ) ? $input['featured_post_slider'] : json_decode($input['featured_post_slider']) ;
-            for ( $i = 1; $i <= $input [ 'slider_quantity' ]; $i++ ) {
+		
+        $input[ 'featured_post_slider' ] = is_array( $input[ 'featured_post_slider' ]  ) ? $input['featured_post_slider'] : json_decode($input['featured_post_slider']) ;
+        $slide_count = count( $input[ 'featured_post_slider' ] );
+        if ( $slide_count > 0 ){
+            for ( $i = 1; $i <= $slide_count; $i++ ) {
                 if ( intval( $input[ 'featured_post_slider' ][ $i ] ) ) {
                         $input_validated[ 'featured_post_slider' ][ $i ] = absint($input[ 'featured_post_slider' ][ $i ] );
                 }
             }
         }
+            
+                // Slider settings updation
+        $input_validated[ 'slider_quantity' ] = $slide_count > 0 ? $slide_count : 3;
+    }
    
 	// Layout settings verification
 	if (isset($input['reset_layout'])) {
@@ -651,9 +651,31 @@ function travelify_theme_options_validate( $options ) {
         } else {
             $input_validated['default_layout'] = $travelify_theme_options_defaults['default_layout'];
         }
+        
+        //Clearing the theme option cache
+	    if( function_exists( 'travelify_themeoption_invalidate_caches' ) ) travelify_themeoption_invalidate_caches();
 
    return $input_validated;
 }
+
+/**
+ * Clearing the cache if any changes in Customizer
+ */
+function travelify_themeoption_invalidate_caches(){
+	delete_transient( 'travelify_featured_post_slider' );
+	delete_transient( 'travelify_socialnetworks' );
+	delete_transient( 'travelify_footercode' );
+	delete_transient( 'travelify_internal_css' );
+	delete_transient( 'travelify_headercode' );
+}
+
+/**
+ * Clearing the cache if any changes in post or page
+ */
+function travelify_post_invalidate_caches(){
+   delete_transient( 'travelify_featured_post_slider' );
+}
+
 /**
  * Register options and validation callbacks
  *
@@ -667,4 +689,5 @@ add_action('customize_register', 'travelify_options_register_theme_customizer');
 add_action('wp_head', 'travelify_customizer_css');
 add_action('customize_preview_init', 'travelify_customize_preview_js');
 add_action( 'admin_init', 'travelify_register_settings' );
+add_action( 'save_post', 'travelify_post_invalidate_caches' );
 ?>

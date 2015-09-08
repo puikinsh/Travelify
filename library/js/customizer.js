@@ -158,20 +158,27 @@
       value.bind( function( to ) {
         var sidebar = jQuery( "#secondary" );
         var body = jQuery("body");
-        var content = jQuery("#content");
+        var content = jQuery("#container > #content");
         var primary = jQuery("#primary");
         switch(to) {
             case 'no-sidebar':
                 body.removeClass('right-sidebar-template left-sidebar-template one-column-template').addClass('no-sidebar-template');
+                
                 if( primary.length != 0 ){
-                  primary.attr("id","content");
+                  primary.attr("id","content").removeClass("no-margin-left").css({"width" : "668px","margin" : "0 auto"});
+                }
+                else{
+                    jQuery(".no-sidebar-template #content").removeClass("no-margin-left").css({"width" : "668px","margin" :"0 auto"});
                 }
                 sidebar.hide();
                 break;
             case 'no-sidebar-full-width':
                 body.removeClass('right-sidebar-template left-sidebar-template one-column-template no-sidebar-template')
                 if( primary.length != 0 ){
-                  primary.attr("id","content");
+                  primary.attr("id","content").removeAttr("style");
+                }
+                else{
+                    jQuery("#content").removeAttr("style");
                 }
                 sidebar.hide();
                 break;
@@ -191,7 +198,7 @@
                 }
                 body.removeClass('right-sidebar-template one-column-template no-sidebar-template').addClass("left-sidebar-template");
                 if( content.length != 0 && primary.length == 0 ){
-                  content.attr("id","primary");
+                  content.attr("id","primary").removeAttr("style");;
                 }
                 break;
             default:
@@ -201,12 +208,10 @@
                 else{
                     sidebar.removeClass('no-margin-left').show();
                 }
-                if( content.length != 0 && primary.length == 0){
-                    content.attr("id","primary");
-                }                
-                else{
-                    primary.addClass('no-margin-left');
+                if( content.length != 0 ){
+                    content.attr("id","primary").removeAttr("style").addClass('no-margin-left');
                 }
+                primary.addClass('no-margin-left');
                 body.removeClass('left-sidebar-template one-column-template no-sidebar-template').addClass("right-sidebar-template");                
         } 
       });

@@ -144,17 +144,19 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
     { ?>
                  <!-- Option for Featured Post Slider -->
            <div id="featuredslider">
+               <h3><?php _e( 'Featured Slider', 'travelify' ); ?></h3>
                <ul class="featured-slider-sortable clone-wrapper"><?php
                     $options = get_option('travelify_theme_options');
-                    $slider_count = ( isset($options[ 'featured_post_slider' ]) && count( $options[ 'featured_post_slider' ] ) != 0 ) ? count( $options[ 'featured_post_slider' ] ) : 3 ;
+                    $slider_count = ( isset($options[ 'featured_post_slider' ]) && count( $options[ 'featured_post_slider' ] ) > 0 ) ? count( $options[ 'featured_post_slider' ] ) : 3 ;
+                    
                     for ( $i = 1; $i <= $slider_count; $i++ ): ?>
                         <li class="toclone">
-                            <label class="handle customize-control-title"><?php _e( 'Featured Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
+                            <label class="handle customize-control-title"><?php _e( 'Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
                             <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
                             <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
                         
-                            <a href="#" class="clone">+</a>
-                            <a href="#" class="delete">-</a>
+                            <a href="#" class="clone button-primary">+</a>
+                            <a href="#" class="delete button">-</a>
                         </li>
                     <?php endfor; ?>
                 </ul><?php
@@ -238,6 +240,9 @@ function travelify_customizer_custom_control_css() {
         #featuredslider .slider-note { list-style-type: square; margin: 0 auto; width: 80%;}
         #customize-control-travelify_theme_options-transition_duration input[type="text"], #customize-control-travelify_theme_options-transition_delay input[type="text"], #customize-control-travelify_theme_options-slider_quantity input[type="text"]{ width: 40px !important; }
         #customize-control-travelify_theme_options-transition_duration span, #customize-control-travelify_theme_options-transition_delay span, #customize-control-travelify_theme_options-slider_quantity span{ display: inline; margin-right: 10px; }
+        .featured-slider-sortable li a.clone { display: none; }
+        .featured-slider-sortable li:last-child  a.clone { display: inline-block; }
+        .featured-slider-sortable li:first-child  a.delete { display: none; }
     </style><?php
 }
 add_action( 'customize_controls_print_styles', 'travelify_customizer_custom_control_css' ); ?>
