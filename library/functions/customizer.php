@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
 /**
  * Add block to WordPress theme customizer
  * @package Travelify
@@ -21,7 +19,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         'priority' => 10 // Mixed with top-level-section hierarchy.
     ));
     
-    /* Travelify Header Area */    
+    /* Travelify Header Area */
     $wp_customize->add_section('travelify_menu_options', array(
         'title' => __('Travelify Header Area', 'travelify'),
         'description' => sprintf(__('Use the following settings change color for menu and website title', 'travelify')),
@@ -235,6 +233,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         $wp_customize->add_setting('travelify_theme_options[header_show]', array(
             'default' => $travelify_theme_options_defaults['header_show'],
             'type' => 'option',
+            'sanitize_callback' => 'travelify_sanitize_radio_header'
         ));    
         $wp_customize->add_control('travelify_theme_options[header_show]', array(
             'type' => 'radio',
@@ -258,7 +257,8 @@ function travelify_options_register_theme_customizer($wp_customize)
         $wp_customize->add_setting('travelify_theme_options[default_layout]', array(
             'default' => $travelify_theme_options_defaults['default_layout'],
             'type' => 'option',
-            'capability' => 'edit_theme_options',
+            'capability' => 'edit_theme_options',            
+            'sanitize_callback' => 'travelify_sanitize_radio_layout'
         ));
         $wp_customize->add_control(new Travelify_Layout_Picker_Custom_Control($wp_customize, 'travelify_theme_options[default_layout]', array(
             'description' => __('This will set the default layout style. However, you can choose different layout for each page via editor', 'travelify'),
@@ -278,7 +278,8 @@ function travelify_options_register_theme_customizer($wp_customize)
             'default' => $travelify_theme_options_defaults['reset_layout'],
             'type' => 'option',
             'capability' => 'edit_theme_options',
-            'transport' => 'postMessage'
+            'transport' => 'postMessage',
+            'sanitize_callback' => 'travelify_sanitize_checkbox'
         ));
         $wp_customize->add_control('travelify_theme_options[reset_layout]', array(
             'label' => __('Check to reset Layout', 'travelify'),
@@ -319,7 +320,8 @@ function travelify_options_register_theme_customizer($wp_customize)
             'default' => $travelify_theme_options_defaults['front_page_category'],
             'type' => 'option',
             'capability' => 'edit_theme_options',
-            'transport' => 'postMessage'
+            'transport' => 'postMessage',
+            'sanitize_callback' => 'travelify_sanitize_multiselect'
         ));
         $wp_customize->add_control(new tavelify_Customize_Control_Multi_Select_Category($wp_customize, 'travelify_theme_options[front_page_category]', array(
             'description' => __('You may select multiple categories by holding down the CTRL (Windows) or cmd (Mac).', 'travelify'),
@@ -346,7 +348,8 @@ function travelify_options_register_theme_customizer($wp_customize)
         $wp_customize->add_setting('travelify_theme_options[exclude_slider_post]', array(
             'default' => 0,
             'type' => 'option',
-            'capability' => 'edit_theme_options'
+            'capability' => 'edit_theme_options',
+            'sanitize_callback' => 'travelify_sanitize_checkbox'
         ));
         $wp_customize->add_control('travelify_theme_options[exclude_slider_post]', array(
             'label' => __('Check to exclude slider post from Homepage posts', 'travelify'),
@@ -354,22 +357,12 @@ function travelify_options_register_theme_customizer($wp_customize)
             'type' => 'checkbox',
             'settings' => 'travelify_theme_options[exclude_slider_post]'
         ));
-    
-        /*$wp_customize->add_setting('travelify_theme_options[slider_quantity]', array(
-            'default' => $travelify_theme_options_defaults['slider_quantity'],
-            'type' => 'option',
-            'capability' => 'edit_theme_options'
-        ));
-        $wp_customize->add_control('travelify_theme_options[slider_quantity]', array(
-            'label' => __('Number of slides', 'travelify'),
-            'section' => 'travelify_post_slider_options',
-            'settings' => 'travelify_theme_options[slider_quantity]'
-        ));*/
    
         $wp_customize->add_setting( 'travelify_theme_options[featured_post_slider]', array(
             'default' => $travelify_theme_options_defaults['featured_post_slider'],
             'type'    => 'option',
             'capability' => 'edit_theme_options',
+            'sanitize_callback' => 'travelify_sanitize_slider',
             'transport' => 'postMessage'
         ) );
         $wp_customize->add_control(
@@ -393,7 +386,8 @@ function travelify_options_register_theme_customizer($wp_customize)
         $wp_customize->add_setting('travelify_theme_options[disable_slider]', array(
             'default' => 0,
             'type' => 'option',
-            'capability' => 'edit_theme_options'
+            'capability' => 'edit_theme_options',
+            'sanitize_callback' => 'travelify_sanitize_checkbox'
         ));
         $wp_customize->add_control('travelify_theme_options[disable_slider]', array(
             'label' => __('Check to disable Slider', 'travelify'),
@@ -505,6 +499,7 @@ function travelify_options_register_theme_customizer($wp_customize)
     ));
         $wp_customize->add_setting('travelify_theme_options[imp_links]', array(
           'capability' => 'edit_theme_options',
+          'sanitize_callback' => 'esc_url_raw'
        ));
         $wp_customize->add_control(
         new Travelify_Important_Links(
@@ -573,6 +568,69 @@ function travelify_sanitize_nohtml($input) {
 }
 
 /**
+ * Adds sanitization callback function: Checkbox
+ * @package Travelify
+ */
+function travelify_sanitize_checkbox( $input ) {    
+    $output = ( $input ) ? '1' : false;
+    return $output;
+}
+
+/**
+ * Adds sanitization callback function: Radio Header
+ * @package Travelify
+ */
+function travelify_sanitize_radio_header( $input ) {
+    $valid = array( 'header-logo' => 'Header Logo Only','header-text' => 'Header Text Only','disable-both' => 'Disable' ); 
+    if ( array_key_exists( $input, $valid ) ) {
+        return $input;
+    } else {
+        return '';
+    }
+}
+
+/**
+ * Adds sanitization callback function: Radio Layout
+ * @package Travelify
+ */
+function travelify_sanitize_radio_layout( $input ) {
+    $valid = array( 'no-sidebar' => 'No Sidebar','no-sidebar-full-width' => 'No Sidebar, Full Width', 'no-sidebar-one-column' => 'No Sidebar, One Column', 'left-sidebar' => 'Left Sidebar', 'right-sidebar' => 'Right Sidebar' ); 
+    if ( array_key_exists( $input, $valid ) ) {
+        return $input;
+    } else {
+        return '';
+    }
+}
+
+/**
+ * Adds sanitization callback function: Multiselect
+ * @package Travelify
+ */
+function travelify_sanitize_multiselect( $values ) {
+    $multi_values = !is_array( $values ) ? explode( ',', $values ) : $values;
+    return !empty( $multi_values ) ? array_map( 'travelify_sanitize_text', $multi_values ) : array();
+}
+
+/**
+ * Adds sanitization callback function: Custom Slider
+ * @package Travelify
+ */
+function travelify_sanitize_slider( $values ) {
+    $output = array();
+    $slider_values = !is_array( $values ) ? json_decode( $values ) : $values;
+    if( !empty( $slider_values ) ){
+        $i = 1;
+        foreach( $slider_values as $val ){            
+            if( is_numeric( $val ) && !empty( $val ) ) {
+                   $output[$i] = $val;
+                   $i++;
+            }
+        }
+    }
+    return $output;
+}
+
+/**
  * Output custom CSS in theme header
  * @package Travelify
  */
@@ -634,9 +692,9 @@ function travelify_theme_options_validate( $options ) {
                         $input_validated[ 'featured_post_slider' ][ $i ] = absint($input[ 'featured_post_slider' ][ $i ] );
                 }
             }
-        }
-            
-                // Slider settings updation
+        }            
+        
+        // Slider settings updation
         $input_validated[ 'slider_quantity' ] = $slide_count > 0 ? $slide_count : 3;
     }
    

@@ -153,14 +153,14 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
                         <li class="toclone">
                             <label class="handle customize-control-title"><?php _e( 'Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
                             <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
-                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
+                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit','travelify'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
                         
                             <a href="#" class="clone button-primary">+</a>
                             <a href="#" class="delete button">-</a>
                         </li>
                     <?php endfor; ?>
                 </ul><?php
-                $value = json_encode($options['featured_post_slider']); ?>
+                $value = isset($options[ 'featured_post_slider' ])  ? json_encode($options['featured_post_slider']) : ''; ?>
                 <input id="featured_slider" type="hidden" name="travelify_theme_options[featured_post_slider]" <?php echo $this->link()?> value="<?php echo $value; ?>"><br>
 
                 <p><strong><?php _e( 'How to use the featured slider?', 'travelify' ); ?></strong><p/>
