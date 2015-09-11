@@ -682,21 +682,12 @@ function travelify_theme_options_validate( $options ) {
         $input_validated = $input;
   
    	if ( isset( $input[ 'featured_post_slider' ] ) ) {
-		$input_validated[ 'featured_post_slider' ] = array();
 		
-        $input[ 'featured_post_slider' ] = is_array( $input[ 'featured_post_slider' ]  ) ? $input['featured_post_slider'] : json_decode($input['featured_post_slider']) ;
-        $slide_count = count( $input[ 'featured_post_slider' ] );
-        if ( $slide_count > 0 ){
-            for ( $i = 1; $i <= $slide_count; $i++ ) {
-                if ( intval( $input[ 'featured_post_slider' ][ $i ] ) ) {
-                        $input_validated[ 'featured_post_slider' ][ $i ] = absint($input[ 'featured_post_slider' ][ $i ] );
-                }
-            }
-        }            
+            $slide_count = count( $input[ 'featured_post_slider' ] );
         
-        // Slider settings updation
-        $input_validated[ 'slider_quantity' ] = $slide_count > 0 ? $slide_count : 3;
-    }
+            // Slider settings updation
+            $input_validated[ 'slider_quantity' ] = $slide_count > 0 ? $slide_count : 3;
+        }
    
 	// Layout settings verification
 	if (isset($input['reset_layout'])) {
