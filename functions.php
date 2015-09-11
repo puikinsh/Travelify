@@ -1,5 +1,4 @@
 <?php
-set_time_limit ( 300 );
 /**
  * Travelify defining constants, adding files and WordPress core functionality.
  *

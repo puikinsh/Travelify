@@ -153,7 +153,7 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
                         <li class="toclone">
                             <label class="handle customize-control-title"><?php _e( 'Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
                             <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
-                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button" title="<?php esc_attr_e('Edit','travelify'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
+                            <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button slider_edit" title="<?php esc_attr_e('Edit','travelify'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
                         
                             <a href="#" class="clone button-primary">+</a>
                             <a href="#" class="delete button">-</a>
@@ -243,6 +243,7 @@ function travelify_customizer_custom_control_css() {
         .featured-slider-sortable li a.clone { display: none; }
         .featured-slider-sortable li:last-child  a.clone { display: inline-block; }
         .featured-slider-sortable li:first-child  a.delete { display: none; }
+        .featured-slider-sortable li a.slider_edit { padding: 0 5px; }
     </style><?php
 }
 add_action( 'customize_controls_print_styles', 'travelify_customizer_custom_control_css' ); ?>
