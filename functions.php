@@ -43,7 +43,6 @@ function travelify_setup() {
 
 	/** Load WP backend related functions */
 	require( get_template_directory() . '/library/panel/themeoptions-defaults.php' );
-	require( get_template_directory() . '/library/panel/theme-options.php' );
 	require( get_template_directory() . '/library/panel/metaboxes.php' );
 	require( get_template_directory() . '/library/panel/show-post-id.php' );
 
