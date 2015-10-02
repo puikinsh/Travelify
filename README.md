@@ -17,7 +17,7 @@ Travelify preview [is available here](http://colorlib.com/travelify/)
 1. Download theme by using "Download zip" button on thr right side
 2. Upload the `travelify` folder to the `/wp-content/themes/` directory
 3. Activate the Theme through the Apperance - Themes menu in WordPress
-4. See Appearance -> Theme Options to change theme specific options
+4. See Appearance -> Customize  to change theme specific options
 
 #### Automated installation:
 
@@ -27,7 +27,7 @@ Travelify preview [is available here](http://colorlib.com/travelify/)
 
 ## Customization
 
-This theme has loads of customization options available via Appearance - Theme Options and via WordPress Customizer under Apperance - Customize. For more information about setup you can read **[Theme Documentationn](http://colorlib.com/wp/support/travelify/)**
+This theme has loads of customization options available via WordPress Customizer under Apperance - Customize. For more information about setup you can read **[Theme Documentationn](http://colorlib.com/wp/support/travelify/)**
 
 ## License
 
@@ -52,6 +52,10 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 
 ## Change Log
+
+**= 3.0 =**
+
+* Removed Options Framework in favor to WordPress Customizer. This update might break Child Themes.
 
 **= 2.4.2 =**
 * Added Russian translation thanks to Evgeny
