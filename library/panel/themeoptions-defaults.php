@@ -39,14 +39,4 @@ $travelify_theme_options_defaults = array(
 	'header_show'          => 'header-text',
 	'button_text'          => '',
 	'redirect_button_link' => '',
- );
-
-global $travelify_theme_options_settings;
-$travelify_theme_options_settings = travelify_theme_options_set_defaults( $travelify_theme_options_defaults );
-
-function travelify_theme_options_set_defaults( $travelify_theme_options_defaults) {
-	$travelify_theme_options_settings = array_merge( $travelify_theme_options_defaults, (array) get_option( 'travelify_theme_options', array() ) );
-	return apply_filters( 'travelify_theme_options_settings', $travelify_theme_options_settings );
-}
-
-?>
+ ); ?>
