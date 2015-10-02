@@ -195,7 +195,7 @@ class Travelify_Important_Links extends WP_Customize_Control {
          ),
             'theme_instruction' => array(
             'link' => esc_url('http://colorlib.com/wp/support/travelify/'),
-            'text' => __('Theme Instructions ', 'travelify'),
+            'text' => __('Theme Instructions', 'travelify'),
          ),
             'rating' => array(
             'link' => esc_url('https://wordpress.org/support/view/theme-reviews/travelify'),

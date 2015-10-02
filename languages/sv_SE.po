@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-03-20 16:08+0200\n"
-"PO-Revision-Date: 2015-03-20 16:08+0200\n"
+"POT-Creation-Date: 2015-10-02 12:39+0300\n"
+"PO-Revision-Date: 2015-10-02 12:40+0300\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: Color Awesomeness <info@colorawesomeness.com>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -82,134 +82,296 @@ msgstr "Nyare kommentarer &rarr;"
 msgid "Comments are closed."
 msgstr "Stängt för kommentarer."
 
-#: ../functions.php:76
+#: ../functions.php:75
 msgid "Primary Menu"
 msgstr "Huvudmeny"
 
-#: ../library/functions/customizer.php:9
+#: ../library/functions/customizer.php:17
+#, fuzzy
+msgid "Travelify Main Options"
+msgstr "Huvudalternativ"
+
+#: ../library/functions/customizer.php:18
+#: ../library/functions/customizer.php:338
+msgid "Panel to update travelify theme options"
+msgstr ""
+
+#: ../library/functions/customizer.php:24
 msgid "Travelify Header Area"
 msgstr "Area för Travelify Sidhuvud."
 
-#: ../library/functions/customizer.php:10
+#: ../library/functions/customizer.php:25
 msgid "Use the following settings change color for menu and website title"
 msgstr ""
 
-#: ../library/functions/customizer.php:27
+#: ../library/functions/customizer.php:34
 #, fuzzy
 msgid "Website Title Color"
 msgstr "Färg för Sidhuvud/Titel"
 
-#: ../library/functions/customizer.php:48
+#: ../library/functions/customizer.php:45
 #, fuzzy
 msgid "Website Title Hover Color"
 msgstr "Färg för Sidhuvud/Titel"
 
-#: ../library/functions/customizer.php:69
+#: ../library/functions/customizer.php:56
 msgid "Menu Bar Color"
 msgstr "Färg för Meny"
 
-#: ../library/functions/customizer.php:89
+#: ../library/functions/customizer.php:66
 #, fuzzy
 msgid "Menu Bar Hover Color"
 msgstr "Färg för Meny"
 
-#: ../library/functions/customizer.php:109
+#: ../library/functions/customizer.php:76
 #, fuzzy
 msgid "Menu Item Text Color"
 msgstr "Färg för Meny"
 
-#: ../library/functions/customizer.php:130
+#: ../library/functions/customizer.php:87
 msgid "Social Icon Color"
 msgstr "Färg för Social Ikon"
 
-#: ../library/functions/customizer.php:139
+#: ../library/functions/customizer.php:95
 #, fuzzy
 msgid "Travelify Element Color"
 msgstr "Travelify Sidfot"
 
-#: ../library/functions/customizer.php:140
+#: ../library/functions/customizer.php:96
 msgid "Use the following settings change color for website elements"
 msgstr ""
 
-#: ../library/functions/customizer.php:157
+#: ../library/functions/customizer.php:105
 #, fuzzy
 msgid "Element Color"
 msgstr "elemnt färg"
 
-#: ../library/functions/customizer.php:178
+#: ../library/functions/customizer.php:116
 #, fuzzy
 msgid "Element Hover Color"
 msgstr "Länkfärg"
 
-#: ../library/functions/customizer.php:199
+#: ../library/functions/customizer.php:127
 #, fuzzy
 msgid "Wrapper Color"
 msgstr "Färg för Meny"
 
-#: ../library/functions/customizer.php:220
+#: ../library/functions/customizer.php:138
 #, fuzzy
 msgid "Content Background Color"
 msgstr "Bakgrundsfärg för innehåll"
 
-#: ../library/functions/customizer.php:229
+#: ../library/functions/customizer.php:146
 #, fuzzy
 msgid "Travelify Typography Color"
 msgstr "Travelify Sidfot"
 
-#: ../library/functions/customizer.php:230
+#: ../library/functions/customizer.php:147
 msgid ""
 "Use the following settings change color for typography such as links, "
 "headings and content"
 msgstr ""
 
-#: ../library/functions/customizer.php:247
+#: ../library/functions/customizer.php:156
 #, fuzzy
 msgid "Entry Content Color"
 msgstr "Färg för Meny"
 
-#: ../library/functions/customizer.php:267
+#: ../library/functions/customizer.php:166
 msgid "Header/Title Color"
 msgstr "Färg för Sidhuvud/Titel"
 
-#: ../library/functions/customizer.php:288
+#: ../library/functions/customizer.php:177
 msgid "Link Color"
 msgstr "Länkfärg"
 
-#: ../library/functions/customizer.php:309
+#: ../library/functions/customizer.php:188
 #, fuzzy
 msgid "Link Hover Color"
 msgstr "Länk:hoover färg"
 
-#: ../library/functions/customizer.php:318
+#: ../library/functions/customizer.php:196
 msgid "Travelify Footer"
 msgstr "Travelify Sidfot"
 
-#: ../library/functions/customizer.php:319
+#: ../library/functions/customizer.php:197
 msgid "Use the following settings customize Footer"
 msgstr "Använd följande inställningarför att anpassa Sidfoten"
 
-#: ../library/functions/customizer.php:334
+#: ../library/functions/customizer.php:206
 #, fuzzy
 msgid "Copyright text"
 msgstr "Copyright text i footer"
+
+#: ../library/functions/customizer.php:216
+msgid "Header Options"
+msgstr "Alternativ för Sidhuvud"
+
+#: ../library/functions/customizer.php:217
+msgid "Section to update theme options for header"
+msgstr ""
+
+#: ../library/functions/customizer.php:227
+msgid "Header Logo"
+msgstr "Logo för Sidhuvud"
+
+#: ../library/functions/customizer.php:240
+msgid "Show"
+msgstr "Visa"
+
+#: ../library/functions/customizer.php:243
+msgid "Header Logo Only"
+msgstr "Endast Logo i Sidhuvud"
+
+#: ../library/functions/customizer.php:244
+msgid "Header Text Only"
+msgstr "Endast Text i Sidhuvud"
+
+#: ../library/functions/customizer.php:245
+msgid "Disable"
+msgstr "Avaktivera"
+
+#: ../library/functions/customizer.php:254
+msgid "Layout Options"
+msgstr "Layoutalternativ"
+
+#: ../library/functions/customizer.php:264
+msgid ""
+"This will set the default layout style. However, you can choose different "
+"layout for each page via editor"
+msgstr ""
+
+#: ../library/functions/customizer.php:269
+msgid "No Sidebar"
+msgstr "Ingen sidspalt"
+
+#: ../library/functions/customizer.php:270
+msgid "No Sidebar, Full Width"
+msgstr "Ingen sidspalt, Full Bredd"
+
+#: ../library/functions/customizer.php:271 ../library/panel/metaboxes.php:53
+msgid "No Sidebar, One Column"
+msgstr "Ingen Sidspalt, En kolumn"
+
+#: ../library/functions/customizer.php:272
+#: ../library/functions/functions.php:327
+msgid "Left Sidebar"
+msgstr "Vänster sidspalt"
+
+#: ../library/functions/customizer.php:273
+#: ../library/functions/functions.php:338
+msgid "Right Sidebar"
+msgstr "Höger Sidspalt"
+
+#: ../library/functions/customizer.php:285
+#, fuzzy
+msgid "Check to reset Layout"
+msgstr "Markera för att återställa"
+
+#: ../library/functions/customizer.php:296
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: ../library/functions/customizer.php:297
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr ""
+
+#: ../library/functions/customizer.php:307
+#, fuzzy
+msgid "Feed Redirect URL"
+msgstr "Favicon URL"
+
+#: ../library/functions/customizer.php:316
+#, fuzzy
+msgid "Homepage Post Options"
+msgstr "Hemsida"
+
+#: ../library/functions/customizer.php:327
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+
+#: ../library/functions/customizer.php:337
+#, fuzzy
+msgid "Travelify Featured Slider"
+msgstr "Travelify Sidfot"
+
+#: ../library/functions/customizer.php:345
+msgid "Featured Post/Page Slider Options"
+msgstr ""
+
+#: ../library/functions/customizer.php:355
+msgid "Check to exclude slider post from Homepage posts"
+msgstr ""
+
+#: ../library/functions/customizer.php:372
+msgid "Number of slides"
+msgstr ""
+
+#: ../library/functions/customizer.php:383
+#, fuzzy
+msgid "Slider Options"
+msgstr "Alternativ för Sidhuvud"
+
+#: ../library/functions/customizer.php:393
+#, fuzzy
+msgid "Check to disable Slider"
+msgstr "Markera för att avaktivera"
+
+#: ../library/functions/customizer.php:406
+#, fuzzy
+msgid "Transition Effect"
+msgstr "Övergångseffekt"
+
+#: ../library/functions/customizer.php:431
+#, fuzzy
+msgid "Transition delay( in second(s) )"
+msgstr "Övergångseffekt"
+
+#: ../library/functions/customizer.php:442
+#, fuzzy
+msgid "Transition length (in second(s))"
+msgstr "Övergångseffekt"
+
+#: ../library/functions/customizer.php:451
+#, fuzzy
+msgid "Travelify Social Links"
+msgstr "Sociala länkar"
+
+#: ../library/functions/customizer.php:452
+msgid "Enter URLs for your social networks e.g."
+msgstr ""
+
+#: ../library/functions/customizer.php:466
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../library/functions/customizer.php:478
+#, fuzzy
+msgid "Travelify Other Options"
+msgstr "Travelify Sidfot"
+
+#: ../library/functions/customizer.php:479
+msgid "Enter your custom CSS styles."
+msgstr ""
+
+#: ../library/functions/customizer.php:488
+msgid "This CSS will overwrite the CSS of style.css file."
+msgstr ""
+
+#: ../library/functions/customizer.php:498
+msgid "Travelify Important Links"
+msgstr ""
 
 #: ../library/functions/functions.php:275
 msgid "Navigation"
 msgstr "Navigation"
 
-#: ../library/functions/functions.php:327
-#: ../library/panel/theme-options.php:291
-msgid "Left Sidebar"
-msgstr "Vänster sidspalt"
-
 #: ../library/functions/functions.php:329
 msgid "Shows widgets at Left side."
 msgstr "Visar grejer på Vänster sida."
-
-#: ../library/functions/functions.php:338
-#: ../library/panel/theme-options.php:295
-msgid "Right Sidebar"
-msgstr "Höger Sidspalt"
 
 #: ../library/functions/functions.php:340
 msgid "Shows widgets at Right side."
@@ -228,7 +390,6 @@ msgid "WordPress"
 msgstr "WordPress"
 
 #: ../library/functions/shortcodes.php:27
-#: ../library/panel/theme-options.php:125
 msgid "Colorlib"
 msgstr "Colorlib"
 
@@ -259,10 +420,6 @@ msgstr "Ingen Sidspalt"
 msgid "No sidebar, Full Width"
 msgstr "Ingen sidspalt, Full bredd"
 
-#: ../library/panel/metaboxes.php:53 ../library/panel/theme-options.php:287
-msgid "No Sidebar, One Column"
-msgstr "Ingen Sidspalt, En kolumn"
-
 #: ../library/panel/metaboxes.php:59
 msgid "Left sidebar"
 msgstr "Vänster Sidspalt"
@@ -271,458 +428,192 @@ msgstr "Vänster Sidspalt"
 msgid "Right sidebar"
 msgstr "Höger Sidspalt"
 
-#: ../library/panel/theme-options.php:92 ../library/panel/theme-options.php:93
-msgid "Theme Options"
-msgstr "Tema-alternativ"
-
-#: ../library/panel/theme-options.php:125
-msgid "Theme Options by"
-msgstr "Tema-alternativ av"
-
-#: ../library/panel/theme-options.php:132
-msgid "Other Themes"
-msgstr "Andra teman"
-
-#: ../library/panel/theme-options.php:133
-msgid "Rate this Theme"
-msgstr "Betygsätt det här temat"
-
-#: ../library/panel/theme-options.php:134
-msgid "Theme Instruction"
-msgstr "Temainstruktion"
-
-#: ../library/panel/theme-options.php:134
-msgid "Theme Instructions"
-msgstr "Temainstruktioner"
-
-#: ../library/panel/theme-options.php:135
-msgid "Support Forum"
-msgstr "Supportforum"
-
-#: ../library/panel/theme-options.php:135
-msgid "Support"
-msgstr "Support"
-
-#: ../library/panel/theme-options.php:136
-msgid "Facebook"
-msgstr "Facebook"
-
-#: ../library/panel/theme-options.php:137
-msgid "Twitter"
-msgstr "Twitter"
-
-#: ../library/panel/theme-options.php:152
-msgid "Settings saved."
-msgstr "Inställningar sparades"
-
-#: ../library/panel/theme-options.php:158
-msgid "Main Options"
-msgstr "Huvudalternativ"
-
-#: ../library/panel/theme-options.php:159
-msgid "Featured Slider"
-msgstr ""
-
-#: ../library/panel/theme-options.php:160
-msgid "Social Links"
-msgstr "Sociala länkar"
-
-#: ../library/panel/theme-options.php:161
-msgid "Other"
-msgstr "Annat"
-
-#: ../library/panel/theme-options.php:167
-msgid "Header Options"
-msgstr "Alternativ för Sidhuvud"
-
-#: ../library/panel/theme-options.php:172
-#: ../library/panel/theme-options.php:182
-msgid "Header Logo"
-msgstr "Logo för Sidhuvud"
-
-#: ../library/panel/theme-options.php:175
-msgid "Upload Logo"
-msgstr "Ladda upp Logo"
-
-#: ../library/panel/theme-options.php:179
-#: ../library/panel/theme-options.php:224
-#: ../library/panel/theme-options.php:256
-msgid "Preview"
-msgstr "Förhandsgranska"
-
-#: ../library/panel/theme-options.php:187
-msgid "Show"
-msgstr "Visa"
-
-#: ../library/panel/theme-options.php:190
-msgid "Header Logo Only"
-msgstr "Endast Logo i Sidhuvud"
-
-#: ../library/panel/theme-options.php:193
-msgid "Header Text Only"
-msgstr "Endast Text i Sidhuvud"
-
-#: ../library/panel/theme-options.php:196
-msgid "Disable"
-msgstr "Avaktivera"
-
-#: ../library/panel/theme-options.php:201
-#: ../library/panel/theme-options.php:233
-#: ../library/panel/theme-options.php:265
-#: ../library/panel/theme-options.php:310
-#: ../library/panel/theme-options.php:348
-#: ../library/panel/theme-options.php:381
-#: ../library/panel/theme-options.php:419
-#: ../library/panel/theme-options.php:477
-#: ../library/panel/theme-options.php:517
-#: ../library/panel/theme-options.php:540
-msgid "Save All Changes"
-msgstr "Spara alla ändringar"
-
-#: ../library/panel/theme-options.php:206
-msgid "Favicon Options"
-msgstr "Alternativ för Favicon"
-
-#: ../library/panel/theme-options.php:211
-msgid "Disable Favicon"
-msgstr "Avaktivera Favicon"
-
-#: ../library/panel/theme-options.php:213
-#: ../library/panel/theme-options.php:245
-#: ../library/panel/theme-options.php:431
-msgid "Check to disable"
-msgstr "Markera för att avaktivera"
-
-#: ../library/panel/theme-options.php:216
-msgid "Favicon URL"
-msgstr "Favicon URL"
-
-#: ../library/panel/theme-options.php:219
-msgid "Upload Favicon"
-msgstr "Ladda upp Favicon"
-
-#: ../library/panel/theme-options.php:220
-msgid ""
-"Favicon is this tiny icon you see beside URL in your browser address bar"
-msgstr ""
-"Favicon är den lilla ikonen som du ser bredvid URLen i din webbläsares "
-"adressfält"
-
-#: ../library/panel/theme-options.php:227
-msgid "favicon"
-msgstr "favicon"
-
-#: ../library/panel/theme-options.php:238
-msgid "Web Clip Icon Options"
-msgstr ""
-
-#: ../library/panel/theme-options.php:243
-msgid "Disable Web Clip Icon"
-msgstr ""
-
-#: ../library/panel/theme-options.php:248
-msgid "Web Clip Icon URL"
-msgstr ""
-
-#: ../library/panel/theme-options.php:251
-msgid "Upload Web Clip Icon"
-msgstr ""
-
-#: ../library/panel/theme-options.php:252
-msgid "Web Clip works as shortcut to website on iOS devices home screen"
-msgstr ""
-
-#: ../library/panel/theme-options.php:259
-#, fuzzy
-msgid "webpage icon"
-msgstr "Färg för Social Ikon"
-
-#: ../library/panel/theme-options.php:270
-msgid "Layout Options"
-msgstr "Layoutalternativ"
-
-#: ../library/panel/theme-options.php:275
-msgid "Default Layout"
-msgstr "Standardlayout"
-
-#: ../library/panel/theme-options.php:279
-msgid "No Sidebar"
-msgstr "Ingen sidspalt"
-
-#: ../library/panel/theme-options.php:283
-msgid "No Sidebar, Full Width"
-msgstr "Ingen sidspalt, Full Bredd"
-
-#: ../library/panel/theme-options.php:301
-msgid ""
-"This will set the default layout style. However, you can choose different "
-"layout for each page via editor"
-msgstr ""
-
-#: ../library/panel/theme-options.php:302
-msgid "Reset Layout"
-msgstr "Återställ Layout"
-
-#: ../library/panel/theme-options.php:305
-msgid "Check to reset"
-msgstr "Markera för att återställa"
-
-#: ../library/panel/theme-options.php:315
-msgid "Custom Background"
-msgstr "Anpassad Bakgrund"
-
-#: ../library/panel/theme-options.php:321
+#: ../library/panel/travelify-custom-control.php:19
 msgid "Change theme background"
 msgstr "Ändra temats bakgrund"
 
-#: ../library/panel/theme-options.php:324
-#, php-format
-msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+#: ../library/panel/travelify-custom-control.php:20
+#, fuzzy
+msgid "Click Here"
 msgstr "<a class=\"button\" href=\"%s\">Klicka här</a>"
 
-#: ../library/panel/theme-options.php:334
-msgid "RSS URL"
-msgstr "RSS URL"
-
-#: ../library/panel/theme-options.php:340
-#, fuzzy
-msgid "Feed Redirect URL"
-msgstr "Favicon URL"
-
-#: ../library/panel/theme-options.php:343
-msgid "Enter your preferred RSS URL. (Feedburner or other)"
-msgstr ""
-
-#: ../library/panel/theme-options.php:353
-#, fuzzy
-msgid "Homepage Post Options"
-msgstr "Hemsida"
-
-#: ../library/panel/theme-options.php:359
+#: ../library/panel/travelify-custom-control.php:48
 msgid "Homepage posts categories:"
 msgstr "Hemsida inläggskategorier: "
 
-#: ../library/panel/theme-options.php:361
+#: ../library/panel/travelify-custom-control.php:49
 msgid ""
 "Only posts that belong to the categories selected here will be displayed on "
 "the front page."
 msgstr ""
 
-#: ../library/panel/theme-options.php:366
+#: ../library/panel/travelify-custom-control.php:54
 msgid "--Disabled--"
 msgstr "--Avaktiverad--"
 
-#: ../library/panel/theme-options.php:376
-msgid ""
-"You may select multiple categories by holding down the CTRL (Windows) or cmd "
-"(Mac)."
+#: ../library/panel/travelify-custom-control.php:147
+msgid "Featured Slider"
 msgstr ""
 
-#: ../library/panel/theme-options.php:389
-msgid "Featured Post/Page Slider Options"
+#: ../library/panel/travelify-custom-control.php:154
+msgid "Slide #"
 msgstr ""
 
-#: ../library/panel/theme-options.php:393
-msgid "Exclude Slider post from Homepage posts?"
-msgstr ""
+#: ../library/panel/travelify-custom-control.php:156
+#: ../library/structure/content-extensions.php:840
+msgid "Edit"
+msgstr "Ändra"
 
-#: ../library/panel/theme-options.php:395
-msgid "Check to exclude"
-msgstr "Markera för att exkludera"
-
-#: ../library/panel/theme-options.php:399
-msgid "Number of Slides"
-msgstr ""
-
-#: ../library/panel/theme-options.php:404
-msgid "Featured Slide #"
-msgstr ""
-
-#: ../library/panel/theme-options.php:406
-msgid "Click Here To Edit"
-msgstr "Klicka här för att ändra"
-
-#: ../library/panel/theme-options.php:412
+#: ../library/panel/travelify-custom-control.php:166
 msgid "How to use the featured slider?"
 msgstr ""
 
-#: ../library/panel/theme-options.php:414
+#: ../library/panel/travelify-custom-control.php:168
 msgid "Create Post or Page and add featured image to it."
 msgstr ""
 
-#: ../library/panel/theme-options.php:415
+#: ../library/panel/travelify-custom-control.php:169
 msgid ""
 "Add all the Post ID that you want to use in the featured slider. Post ID can "
 "be found at All Posts table in last column"
 msgstr ""
 
-#: ../library/panel/theme-options.php:416
+#: ../library/panel/travelify-custom-control.php:170
 msgid ""
 "Featured Slider will show featured images, Title and excerpt of the "
 "respected added post IDs."
 msgstr ""
 
-#: ../library/panel/theme-options.php:417
+#: ../library/panel/travelify-custom-control.php:171
 msgid "The recommended image size is"
 msgstr "Den rekommenderade bildstorleken är"
 
-#: ../library/panel/theme-options.php:425
+#: ../library/panel/travelify-custom-control.php:190
+msgid "Other Themes"
+msgstr "Andra teman"
+
+#: ../library/panel/travelify-custom-control.php:194
+msgid "Rate this Theme"
+msgstr "Betygsätt det här temat"
+
+#: ../library/panel/travelify-custom-control.php:198
+msgid "Theme Instructions"
+msgstr "Temainstruktioner"
+
+#: ../library/panel/travelify-custom-control.php:202
 #, fuzzy
-msgid "Slider Options"
-msgstr "Alternativ för Sidhuvud"
+msgid "Rate This Theme"
+msgstr "Betygsätt det här temat"
 
-#: ../library/panel/theme-options.php:429
-#, fuzzy
-msgid "Disable Slider"
-msgstr "Avaktivera"
+#: ../library/panel/travelify-custom-control.php:206
+msgid "Support"
+msgstr "Support"
 
-#: ../library/panel/theme-options.php:435
-msgid "Transition Effect:"
-msgstr "Övergångseffekt"
+#: ../library/panel/travelify-custom-control.php:210
+msgid "Facebook"
+msgstr "Facebook"
 
-#: ../library/panel/theme-options.php:455
-#: ../library/panel/theme-options.php:508
-#, php-format
-msgid "%s"
-msgstr "%s"
+#: ../library/panel/travelify-custom-control.php:214
+msgid "Twitter"
+msgstr "Twitter"
 
-#: ../library/panel/theme-options.php:463
-#, fuzzy
-msgid "Transition Delay"
-msgstr "Övergångseffekt"
-
-#: ../library/panel/theme-options.php:466
-#: ../library/panel/theme-options.php:473
-msgid "second(s)"
-msgstr "sekund(er)"
-
-#: ../library/panel/theme-options.php:470
-#, fuzzy
-msgid "Transition Length"
-msgstr "Övergångseffekt"
-
-#: ../library/panel/theme-options.php:502
-msgid "Enter URLs for your social networks e.g."
-msgstr ""
-
-#: ../library/panel/theme-options.php:525
-#, fuzzy
-msgid "Custom CSS (Advanced)"
-msgstr "Anpassad Bakgrund"
-
-#: ../library/panel/theme-options.php:530
-msgid "Enter your custom CSS styles."
-msgstr ""
-
-#: ../library/panel/theme-options.php:531
-msgid "This CSS will overwrite the CSS of style.css file."
-msgstr ""
-
-#: ../library/panel/theme-options.php:535
-msgid "Make sure you know what you are doing."
-msgstr "Var säker på att du vet vad du gör."
-
-#: ../library/structure/content-extensions.php:148
-#: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:466
-#: ../library/structure/content-extensions.php:578
-#: ../library/structure/content-extensions.php:692
+#: ../library/structure/content-extensions.php:147
+#: ../library/structure/content-extensions.php:280
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:574
+#: ../library/structure/content-extensions.php:687
 msgid "No Comments"
 msgstr "Inga kommentarer"
 
-#: ../library/structure/content-extensions.php:148
-#: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:466
-#: ../library/structure/content-extensions.php:578
-#: ../library/structure/content-extensions.php:692
+#: ../library/structure/content-extensions.php:147
+#: ../library/structure/content-extensions.php:280
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:574
+#: ../library/structure/content-extensions.php:687
 msgid "1 Comment"
 msgstr "1 Kommentar"
 
-#: ../library/structure/content-extensions.php:148
-#: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:466
-#: ../library/structure/content-extensions.php:578
-#: ../library/structure/content-extensions.php:692
+#: ../library/structure/content-extensions.php:147
+#: ../library/structure/content-extensions.php:280
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:574
+#: ../library/structure/content-extensions.php:687
 msgid "% Comments"
 msgstr "% Kommentarer"
 
-#: ../library/structure/content-extensions.php:148
-#: ../library/structure/content-extensions.php:282
-#: ../library/structure/content-extensions.php:466
-#: ../library/structure/content-extensions.php:578
-#: ../library/structure/content-extensions.php:692
+#: ../library/structure/content-extensions.php:147
+#: ../library/structure/content-extensions.php:280
+#: ../library/structure/content-extensions.php:463
+#: ../library/structure/content-extensions.php:574
+#: ../library/structure/content-extensions.php:687
 msgid "Comments Off"
 msgstr "Kommentarer avstängt"
 
-#: ../library/structure/content-extensions.php:152
-#: ../library/structure/content-extensions.php:470
-#: ../library/structure/content-extensions.php:582
-#: ../library/structure/content-extensions.php:667
+#: ../library/structure/content-extensions.php:151
+#: ../library/structure/content-extensions.php:467
+#: ../library/structure/content-extensions.php:578
+#: ../library/structure/content-extensions.php:663
 msgid "Read more"
 msgstr "Läs mer"
 
-#: ../library/structure/content-extensions.php:167
-#: ../library/structure/content-extensions.php:238
-#: ../library/structure/content-extensions.php:337
-#: ../library/structure/content-extensions.php:388
-#: ../library/structure/content-extensions.php:498
-#: ../library/structure/content-extensions.php:609
-#: ../library/structure/content-extensions.php:721
+#: ../library/structure/content-extensions.php:166
+#: ../library/structure/content-extensions.php:237
+#: ../library/structure/content-extensions.php:335
+#: ../library/structure/content-extensions.php:386
+#: ../library/structure/content-extensions.php:495
+#: ../library/structure/content-extensions.php:605
+#: ../library/structure/content-extensions.php:716
 msgid "No Posts Found."
 msgstr "Inga inlägg funna"
 
-#: ../library/structure/content-extensions.php:207
-#: ../library/structure/content-extensions.php:306
-#: ../library/structure/content-extensions.php:670
+#: ../library/structure/content-extensions.php:206
+#: ../library/structure/content-extensions.php:304
+#: ../library/structure/content-extensions.php:666
 msgid "Pages:"
 msgstr "Sidor："
 
-#: ../library/structure/content-extensions.php:294
+#: ../library/structure/content-extensions.php:292
 msgid ", "
 msgstr ", "
 
-#: ../library/structure/content-extensions.php:489
-#: ../library/structure/content-extensions.php:600
-#: ../library/structure/content-extensions.php:712
-#: ../library/structure/content-extensions.php:748
-#: ../library/structure/content-extensions.php:768
+#: ../library/structure/content-extensions.php:486
+#: ../library/structure/content-extensions.php:596
+#: ../library/structure/content-extensions.php:707
+#: ../library/structure/content-extensions.php:743
+#: ../library/structure/content-extensions.php:763
 msgid "&laquo; Previous"
 msgstr "&laquo; Tidigare"
 
-#: ../library/structure/content-extensions.php:490
-#: ../library/structure/content-extensions.php:601
-#: ../library/structure/content-extensions.php:713
-#: ../library/structure/content-extensions.php:749
-#: ../library/structure/content-extensions.php:769
+#: ../library/structure/content-extensions.php:487
+#: ../library/structure/content-extensions.php:597
+#: ../library/structure/content-extensions.php:708
+#: ../library/structure/content-extensions.php:744
+#: ../library/structure/content-extensions.php:764
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
-#: ../library/structure/content-extensions.php:813
+#: ../library/structure/content-extensions.php:808
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../library/structure/content-extensions.php:813
+#: ../library/structure/content-extensions.php:808
 msgid "(Edit)"
 msgstr "(Ändra)"
 
-#: ../library/structure/content-extensions.php:828
+#: ../library/structure/content-extensions.php:823
 msgid "Post author"
 msgstr "Inläggets författare"
 
-#: ../library/structure/content-extensions.php:834
+#: ../library/structure/content-extensions.php:829
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s på %2$s"
 
-#: ../library/structure/content-extensions.php:840
+#: ../library/structure/content-extensions.php:835
 msgid "Your comment is awaiting moderation."
 msgstr "Din kommentar väntar på godkännande."
 
-#: ../library/structure/content-extensions.php:845
-msgid "Edit"
-msgstr "Ändra"
-
-#: ../library/structure/content-extensions.php:849
+#: ../library/structure/content-extensions.php:844
 msgid "Reply"
 msgstr "Svara"
 
@@ -743,10 +634,91 @@ msgstr "Driven av"
 msgid "Page %s"
 msgstr "Sida %s"
 
-#: ../library/structure/header-extensions.php:407
+#: ../library/structure/header-extensions.php:353
 msgid "Search Results"
 msgstr "Sökresultat"
 
 #: ../searchform.php:7 ../searchform.php:8
 msgid "Search"
 msgstr "Sök"
+
+#~ msgid "Theme Options"
+#~ msgstr "Tema-alternativ"
+
+#~ msgid "Theme Options by"
+#~ msgstr "Tema-alternativ av"
+
+#~ msgid "Theme Instruction"
+#~ msgstr "Temainstruktion"
+
+#~ msgid "Support Forum"
+#~ msgstr "Supportforum"
+
+#~ msgid "Settings saved."
+#~ msgstr "Inställningar sparades"
+
+#~ msgid "Other"
+#~ msgstr "Annat"
+
+#~ msgid "Upload Logo"
+#~ msgstr "Ladda upp Logo"
+
+#~ msgid "Preview"
+#~ msgstr "Förhandsgranska"
+
+#~ msgid "Save All Changes"
+#~ msgstr "Spara alla ändringar"
+
+#~ msgid "Favicon Options"
+#~ msgstr "Alternativ för Favicon"
+
+#~ msgid "Disable Favicon"
+#~ msgstr "Avaktivera Favicon"
+
+#~ msgid "Favicon URL"
+#~ msgstr "Favicon URL"
+
+#~ msgid "Upload Favicon"
+#~ msgstr "Ladda upp Favicon"
+
+#~ msgid ""
+#~ "Favicon is this tiny icon you see beside URL in your browser address bar"
+#~ msgstr ""
+#~ "Favicon är den lilla ikonen som du ser bredvid URLen i din webbläsares "
+#~ "adressfält"
+
+#~ msgid "favicon"
+#~ msgstr "favicon"
+
+#, fuzzy
+#~ msgid "webpage icon"
+#~ msgstr "Färg för Social Ikon"
+
+#~ msgid "Default Layout"
+#~ msgstr "Standardlayout"
+
+#~ msgid "Reset Layout"
+#~ msgstr "Återställ Layout"
+
+#~ msgid "Custom Background"
+#~ msgstr "Anpassad Bakgrund"
+
+#~ msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+#~ msgstr "<a class=\"button\" href=\"%s\">Klicka här</a>"
+
+#~ msgid "Check to exclude"
+#~ msgstr "Markera för att exkludera"
+
+#, fuzzy
+#~ msgid "Disable Slider"
+#~ msgstr "Avaktivera"
+
+#~ msgid "second(s)"
+#~ msgstr "sekund(er)"
+
+#, fuzzy
+#~ msgid "Custom CSS (Advanced)"
+#~ msgstr "Anpassad Bakgrund"
+
+#~ msgid "Make sure you know what you are doing."
+#~ msgstr "Var säker på att du vet vad du gör."
