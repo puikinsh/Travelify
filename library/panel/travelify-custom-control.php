@@ -19,7 +19,7 @@ class WP_Background_Nav_Customize_Control extends WP_Customize_Control {
         <label for="create-background-nav-submit"><span class="customize-control-title"><?php _e('Change theme background', 'travelify'); ?></span></label>
         <a href="<?php echo admin_url('customize.php?autofocus[control]=background_image'); ?>" class="button button-secondary" id="create-background-nav-submit" tabindex="0"><?php _e('Click Here', 'travelify'); ?></a><?php
     }
-    
+
 }
 
 /**
@@ -47,18 +47,18 @@ class tavelify_Customize_Control_Multi_Select_Category extends WP_Customize_Cont
 
         <label for="frontpage_posts_cats"><b><?php _e( 'Homepage posts categories:', 'travelify' ); ?></b></label>
         <small><?php _e( 'Only posts that belong to the categories selected here will be displayed on the front page.', 'travelify' ); ?></small><br><br><?php 
-        
+
         $options = !is_array( $this->value() ) ? explode( ',', $this->value() ) : $this->value(); ?>
-        
+
         <select <?php $this->link(); ?> name="travelify_theme_options[front_page_category][]" id="frontpage_posts_cats" multiple="multiple" class="select-multiple" style="width: 100%;">
             <option value="0" <?php if ( empty( $options ) ) { selected( true, true ); } ?>><?php _e( '--Disabled--', 'travelify' ); ?></option><?php
-            
+
             $categories = get_categories();
             foreach ( $categories as $category) :?>
                 <option value="<?php echo $category->cat_ID; ?>" <?php if ( in_array( $category->cat_ID, $options ) ) {echo 'selected="selected"';}?>><?php echo $category->cat_name; ?></option><?php 
             endforeach; ?>
         </select><br />
-        
+
         <?php if ( !empty( $this->description ) ) : ?>
             <span class="description"><?php echo $this->description; ?></span>
         <?php endif; ?>
@@ -70,7 +70,7 @@ class tavelify_Customize_Control_Multi_Select_Category extends WP_Customize_Cont
  */
 class Travelify_Layout_Picker_Custom_Control extends WP_Customize_Control
 {
-    
+
     /**
      * Declare the control type.
      *
@@ -78,14 +78,14 @@ class Travelify_Layout_Picker_Custom_Control extends WP_Customize_Control
      * @var string
      */
     public $type = 'radio-image';
-                
+
      /**
       * Render the control to be displayed in the Customizer.
       */
      public function render_content() {
              if ( empty( $this->choices ) ) {
                      return;
-             }			
+             }
 
              $name = $this->id;
              $images = array(
@@ -95,7 +95,7 @@ class Travelify_Layout_Picker_Custom_Control extends WP_Customize_Control
                         'left-sidebar' 		=> get_template_directory_uri().'/library/panel/images/left-sidebar.png',
                         'right-sidebar'         => get_template_directory_uri().'/library/panel/images/right-sidebar.png',
             )?>
-            
+
              <span class="customize-control-title">
                     <?php echo esc_attr( $this->label ); ?>
                     <?php if ( ! empty( $this->description ) ) : ?>
@@ -104,14 +104,14 @@ class Travelify_Layout_Picker_Custom_Control extends WP_Customize_Control
              </span>
              <div id="input_<?php echo $this->id; ?>" class="image">
                      <?php foreach ( $this->choices as $value => $label ) : ?>
-                                <label for="<?php echo $this->id .'['.$value.']'; ?>">                                                 
+                                <label for="<?php echo $this->id .'['.$value.']'; ?>">
                                     <img src="<?php echo $images[$value]; ?>" alt="<?php echo esc_attr( $value ); ?>" title="<?php echo esc_attr( $value ); ?>">
                                     <input class="image-select" type="radio" value="<?php echo esc_attr( $value ); ?>" id="<?php echo $this->id .'['. $value . ']'; ?>" name="<?php echo esc_attr( $name ); ?>" <?php $this->link(); checked( $this->value(), $value ); ?> />
                                     <span class='radio-text'><?php echo $label; ?></span>
                                 </label>
                      <?php endforeach; ?>
              </div><?php
-     }	
+     }
 }
 
 /**
@@ -126,17 +126,17 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
      * @var    string
      */
     public $type = 'featured-slider';
-    
+
     /**
       * Enqueue scripts and styles for the custom control.
-      * 
+      *
       * @access public
       */
     public function enqueue() {
         wp_enqueue_script( 'travelify_cloneya_js', get_template_directory_uri() . '/library/js/jquery-cloneya.min.js', array( 'jquery' ) );
         wp_enqueue_script( 'travelify_custom_js', get_template_directory_uri() . '/library/js/customizer_custom.js', array( 'jquery', 'jquery-ui-sortable', 'jquery-ui-draggable' ) );
     }
-     
+
     /**
      * Render the content on the theme customizer page
      */
@@ -148,13 +148,13 @@ class Travelify_Featured_Slider_Custom_Control extends WP_Customize_Control
                <ul class="featured-slider-sortable clone-wrapper"><?php
                     $options = get_option('travelify_theme_options');
                     $slider_count = ( isset($options[ 'featured_post_slider' ]) && count( $options[ 'featured_post_slider' ] ) > 0 ) ? count( $options[ 'featured_post_slider' ] ) : 3 ;
-                    
+
                     for ( $i = 1; $i <= $slider_count; $i++ ): ?>
                         <li class="toclone">
                             <label class="handle customize-control-title"><?php _e( 'Slide #', 'travelify' ); ?><span class="count"><?php echo absint( $i ); ?></span></label>
                             <input class="featured_post_slider" size=7 type="text" name="travelify_theme_options[featured_post_slider][<?php echo absint( $i ); ?>]" value="<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][$i] ); ?>" />
                             <a href="<?php bloginfo ( 'url' );?>/wp-admin/post.php?post=<?php if( isset($options[ 'featured_post_slider' ][$i] ) ) echo absint( $options[ 'featured_post_slider' ][ $i ] ); ?>&action=edit" class="button slider_edit" title="<?php esc_attr_e('Edit','travelify'); ?>" target="_blank"><p class="dashicons-before dashicons-edit"></p></a>
-                        
+
                             <a href="#" class="clone button-primary">+</a>
                             <a href="#" class="delete button">-</a>
                         </li>
@@ -186,7 +186,7 @@ class Travelify_Important_Links extends WP_Customize_Control {
       //Add Theme instruction, Support Forum, Demo Link, Rating Link
       $important_links = array(
             'other_themes' => array(
-            'link' => esc_url('http://colorlib.com/'),
+            'link' => esc_url('https://colorlib.com/'),
             'text' => __('Other Themes', 'travelify'),
          ),
             'rate' => array(
@@ -194,7 +194,7 @@ class Travelify_Important_Links extends WP_Customize_Control {
             'text' => __('Rate this Theme', 'travelify'),
          ),
             'theme_instruction' => array(
-            'link' => esc_url('http://colorlib.com/wp/support/travelify/'),
+            'link' => esc_url('https://colorlib.com/wp/support/travelify/'),
             'text' => __('Theme Instructions', 'travelify'),
          ),
             'rating' => array(
@@ -202,11 +202,11 @@ class Travelify_Important_Links extends WP_Customize_Control {
             'text' => __('Rate This Theme', 'travelify'),
          ),
             'support' => array(
-            'link' => esc_url('http://colorlib.com/wp/forums/'),
+            'link' => esc_url('https://colorlib.com/wp/forums/'),
             'text' => __('Support', 'travelify'),
          ),
             'facebook' => array(
-            'link' => esc_url('http://colorlib.com/wp/forums/'),
+            'link' => esc_url('https://www.facebook.com/colorlib'),
             'text' => __('Facebook', 'travelify'),
          ),
             'twitter' => array(
@@ -220,11 +220,11 @@ class Travelify_Important_Links extends WP_Customize_Control {
    }
 
 }
-   
+
 /**
- * Add CSS for custom controls 
+ * Add CSS for custom controls
  */
-function travelify_customizer_custom_control_css() { 
+function travelify_customizer_custom_control_css() {
 	?>
     <style>
         .customize-control-radio-image .image.ui-buttonset input[type=radio] { height: auto; }
@@ -244,6 +244,10 @@ function travelify_customizer_custom_control_css() {
         .featured-slider-sortable li:last-child  a.clone { display: inline-block; }
         .featured-slider-sortable li:first-child  a.delete { display: none; }
         .featured-slider-sortable li a.slider_edit { padding: 0 5px; }
+        li#accordion-section-travelify_important_links h3.accordion-section-title,
+        li#accordion-section-travelify_important_links h3.accordion-section-title:focus { background-color: #00cc00 !important; color: #fff !important; }
+        li#accordion-section-travelify_important_links h3.accordion-section-title:hover { background-color: #00b200 !important; color: #fff !important; }
+        li#accordion-section-travelify_important_links h3.accordion-section-title:after { color: #fff !important; }
     </style><?php
 }
 add_action( 'customize_controls_print_styles', 'travelify_customizer_custom_control_css' ); ?>

@@ -571,7 +571,7 @@ function travelify_sanitize_nohtml($input) {
  * Adds sanitization callback function: Checkbox
  * @package Travelify
  */
-function travelify_sanitize_checkbox( $input ) {    
+function travelify_sanitize_checkbox( $input ) {
     $output = ( $input ) ? '1' : false;
     return $output;
 }
@@ -581,7 +581,7 @@ function travelify_sanitize_checkbox( $input ) {
  * @package Travelify
  */
 function travelify_sanitize_radio_header( $input ) {
-    $valid = array( 'header-logo' => 'Header Logo Only','header-text' => 'Header Text Only','disable-both' => 'Disable' ); 
+    $valid = array( 'header-logo' => 'Header Logo Only','header-text' => 'Header Text Only','disable-both' => 'Disable' );
     if ( array_key_exists( $input, $valid ) ) {
         return $input;
     } else {
@@ -620,7 +620,7 @@ function travelify_sanitize_slider( $values ) {
     $slider_values = !is_array( $values ) ? json_decode( $values ) : $values;
     if( !empty( $slider_values ) ){
         $i = 1;
-        foreach( $slider_values as $val ){            
+        foreach( $slider_values as $val ){
             if( is_numeric( $val ) && !empty( $val ) ) {
                    $output[$i] = $val;
                    $i++;
@@ -671,23 +671,6 @@ function travelify_customize_preview_js() {
 
 
 /**
- * Adds Custom CSS for Customizer to highlight important link section.
- * @package Travelify
- */
-function travelify_customizer_styles() { ?>
-    <style>
-        li#accordion-section-travelify_important_links h3.accordion-section-title,
-        li#accordion-section-travelify_important_links h3.accordion-section-title:focus { background-color: #00cc00 !important; color: #fff !important; }
-        li#accordion-section-travelify_important_links h3.accordion-section-title:hover { background-color: #00b200 !important; color: #fff !important; }
-        li#accordion-section-travelify_important_links h3.accordion-section-title:after { color: #fff !important; }
-    </style>
-    <?php
-
-}
-add_action( 'customize_controls_print_styles', 'travelify_customizer_styles', 999 );
-
-
-/**
  * Validate all theme options values
  *
  * @uses esc_url_raw, absint, esc_textarea, sanitize_text_field, travelify_invalidate_caches
@@ -698,15 +681,15 @@ function travelify_theme_options_validate( $options ) {
 	$input = array();
 	$input = $options;
         $input_validated = $input;
-  
+
    	if ( isset( $input[ 'featured_post_slider' ] ) ) {
-		
+
             $slide_count = count( $input[ 'featured_post_slider' ] );
-        
+
             // Slider settings updation
             $input_validated[ 'slider_quantity' ] = $slide_count > 0 ? $slide_count : 3;
         }
-   
+
 	// Layout settings verification
 	if (isset($input['reset_layout'])) {
             $input_validated['reset_layout'] = 0;
@@ -718,7 +701,7 @@ function travelify_theme_options_validate( $options ) {
         } else {
             $input_validated['default_layout'] = $travelify_theme_options_defaults['default_layout'];
         }
-        
+
         //Clearing the theme option cache
 	    if( function_exists( 'travelify_themeoption_invalidate_caches' ) ) travelify_themeoption_invalidate_caches();
 
