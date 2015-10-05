@@ -492,7 +492,7 @@ function travelify_options_register_theme_customizer($wp_customize)
         ));
         
     $wp_customize->add_section('travelify_important_links', array(
-        'priority' => 19,
+        'priority' => 1,
         'capability' => 'edit_theme_options',
         'theme_supports' => '',
         'title' => __('Travelify Important Links', 'travelify'),
@@ -666,8 +666,26 @@ function travelify_customizer_css() {
  * @package Travelify
  */
 function travelify_customize_preview_js() {
-    wp_enqueue_script('travelify_customizer', get_template_directory_uri() . '/library/js/customizer.js', array('customize-preview'), '20140425', true);
+    wp_enqueue_script('travelify_customizer', get_template_directory_uri() . '/library/js/customizer.js', array('customize-preview'), '20151005', true);
 }
+
+
+/**
+ * Adds Custom CSS for Customizer to highlight important link section.
+ * @package Travelify
+ */
+function travelify_customizer_styles() { ?>
+    <style>
+        li#accordion-section-travelify_important_links h3.accordion-section-title,
+        li#accordion-section-travelify_important_links h3.accordion-section-title:focus { background-color: #00cc00 !important; color: #fff !important; }
+        li#accordion-section-travelify_important_links h3.accordion-section-title:hover { background-color: #00b200 !important; color: #fff !important; }
+        li#accordion-section-travelify_important_links h3.accordion-section-title:after { color: #fff !important; }
+    </style>
+    <?php
+
+}
+add_action( 'customize_controls_print_styles', 'travelify_customizer_styles', 999 );
+
 
 /**
  * Validate all theme options values
