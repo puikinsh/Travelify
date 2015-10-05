@@ -52,7 +52,7 @@ You can drop your queries in our contact form in the following link.
 http://colorlib.com/wp/contact-us/
 
 == Supported Browser ==
-Mozilla, Chrome, Safari, IE 10,9,8,7
+Mozilla, Chrome, Safari, IE
 
 == How to use featured Post Slider? ==
 How to use the featured slider?

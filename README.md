@@ -56,6 +56,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 **= 3.0 =**
 
 * Removed Options Framework in favor to WordPress Customizer. This update might break Child Themes.
+* Other code cleanup
 
 **= 2.4.2 =**
 * Added Russian translation thanks to Evgeny
