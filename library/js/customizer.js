@@ -84,7 +84,7 @@
   // Header and Title color
   wp.customize( 'travelify_header_color', function( value ) {
       value.bind( function( to ) {
-          $( '.entry-title, .entry-title a, h1, h2, h3, h4, h5, h6, .widget-title' ).css( {
+          $( '.entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title' ).css( {
           	'color': to
           } );
       } );
@@ -111,7 +111,7 @@
   // Menu item text color
   wp.customize( 'travelify_menu_item_color', function( value ) {
       value.bind( function( to ) {
-          $( '#main-nav a, #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a' ).css( {
+          $( '#main-nav a, #main-nav a:hover, #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a' ).css( {
           	'color': to
           } );
       } );

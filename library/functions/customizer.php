@@ -642,9 +642,9 @@ function travelify_customizer_css() {
         #site-title a:hover { color: <?php echo get_theme_mod('travelify_logo_hover_color'); ?>; }
         .wrapper { background: <?php echo get_theme_mod('travelify_wrapper_color', '#F8F8F8'); ?>; }
         .social-icons ul li a { color: <?php echo get_theme_mod('travelify_social_color', '#d0d0d0'); ?>; }
-        #main-nav a, #main-nav a:hover,#main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: <?php echo get_theme_mod('travelify_menu_item_color', '#fff'); ?>; }
+        #main-nav a, #main-nav a:hover,  #main-nav a:focus, #main-nav ul li.current-menu-item a,#main-nav ul li.current_page_ancestor a,#main-nav ul li.current-menu-ancestor a,#main-nav ul li.current_page_item a,#main-nav ul li:hover > a { color: <?php echo get_theme_mod('travelify_menu_item_color', '#fff'); ?>; }
         .widget, article { background: <?php echo get_theme_mod('travelify_content_bg_color', '#fff'); ?>; }
-        .entry-title, .entry-title a, h1, h2, h3, h4, h5, h6, .widget-title  { color: <?php echo get_theme_mod('travelify_header_color', '#1b1e1f'); ?>; }
+        .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title  { color: <?php echo get_theme_mod('travelify_header_color', '#1b1e1f'); ?>; }
         a:focus, a:active, a:hover, .tags a:hover, .custom-gallery-title a, .widget-title a, #content ul a:hover,#content ol a:hover, .widget ul li a:hover, .entry-title a:hover, .entry-meta a:hover, #site-generator .copyright a:hover { color: <?php echo get_theme_mod('travelify_link_hover_color', '#439f55'); ?>; }
         #main-nav { background: <?php echo get_theme_mod('travelify_menu_color', '#57ad68'); ?>; border-color: <?php echo get_theme_mod('travelify_menu_color', '#57ad68'); ?>; }
         #main-nav ul li ul, body { border-color: <?php echo get_theme_mod('travelify_menu_color', '#439f55'); ?>; }
