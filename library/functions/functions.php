@@ -263,19 +263,6 @@ function travelify_alter_home( $query ){
 	}
 }
 
-/**************************************************************************************/
-
-add_filter( 'wp_nav_menu_items', 'travelify_nav_menu_alter', 10, 2 );
-/**
-* Add default navigation menu to nav menu
-* Used while viewing on smaller screen
-*/
-if ( !function_exists('travelify_nav_menu_alter') ) {
-	function travelify_nav_menu_alter( $items, $args ) {
-		$items .= '<li class="default-menu"><a href="'.esc_url( home_url( '/' ) ).'" title="Navigation">'.__( 'Navigation','travelify' ).'</a></li>';
-		return $items;
-	}
-}
 
 /****************************************************************************************/
 
