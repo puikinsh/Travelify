@@ -130,7 +130,13 @@ function travelify_theloop_for_archive() {
   			</header>
 
   			<div class="entry-content clearfix">
-    			<?php the_excerpt(); ?>
+    			<?php
+                            if ( function_exists('is_bbpress') && is_bbpress() ){
+                                the_content();
+                            }else {
+                             the_excerpt();   
+                            }
+                          ?>
   			</div>
 
   			<?php do_action( 'travelify_after_post_content' ); ?>

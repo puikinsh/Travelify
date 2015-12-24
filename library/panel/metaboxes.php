@@ -32,7 +32,7 @@ $sidebar_layout = array(
 							'default-sidebar' 		=> array(
 															'id'        => 'travelify_sidebarlayout',
 															'value'     => 'default',
-															'label'     => __( 'Default Layout Set in', 'travelify' ).' '.'<a href="'.esc_url( home_url( '/' ) ).'/wp-admin/themes.php?page=theme_options" target="_blank">'.__( 'Theme Settings', 'travelify' ).'</a>',
+															'label'     => __( 'Default Layout Set in', 'travelify' ).' '.'<a href="'.esc_url( home_url() ).'/wp-admin/customize.php" target="_blank">'.__( 'Theme Settings', 'travelify' ).'</a>',
 															'thumbnail' => ' '
 															),
 							'no-sidebar'         => array(

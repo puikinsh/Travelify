@@ -288,12 +288,12 @@ blockquote cite {
 input,textarea {
 	border-radius: 0px;
 }
-input[type="text"],input[type="email"],input[type="search"],input[type="password"],textarea {
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], input[type="date"], input[type="tel"], textarea {
 	-moz-appearance: none !important;
 	-webkit-appearance: none !important;
 	appearance: none !important;
 }
-input[type=text],input[type=password],input[type="email"],textarea {
+input[type=text], input[type=password], input[type="email"], input[type="date"], input[type="tel"], textarea {
 	border: 1px solid #eaeaea;
 	width: 50%;
 	margin: 0 0 10px;
@@ -1221,7 +1221,6 @@ thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
 	margin: 24px 0;
 	margin: 1.7rem 0;
 	border-bottom: 2px dashed #eaeaea;
-}
 }
  .comments-area article header {
 	margin: 0 0 2.4rem;
