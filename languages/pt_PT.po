@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Travelify\n"
-"POT-Creation-Date: 2015-10-02 12:39+0300\n"
-"PO-Revision-Date: 2015-10-02 12:39+0300\n"
-"Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
-"Language-Team: Ariel de Souza <arieldsx@gmail.com>\n"
-"Language: pt_BR\n"
+"Project-Id-Version: Travelify v3.0.2\n"
+"POT-Creation-Date: 2016-01-19 19:34+0200\n"
+"PO-Revision-Date: 2016-01-19 19:34+0200\n"
+"Last-Translator: João Paulo <jp.jp@sapo.pt>\n"
+"Language-Team: João Paulo Antunes <jp.jp@sapo.pt>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-KeywordsList: __;esc_attr_e;_e\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../404.php:11
 msgid "Error 404 - Page NOT Found"
-msgstr "Erro 404 - Página  Não Encontrada"
+msgstr "Erro 404 - Página Não Encontrada"
 
 #: ../404.php:14
 msgid "It seems we can't find what you're looking for."
@@ -31,12 +31,12 @@ msgstr "Isto pode ocorrer porque:"
 
 #: ../404.php:17
 msgid "You have typed the web address incorrectly"
-msgstr "Você digitou o endereço web de forma incorreta"
+msgstr "Você inseriu o endereço web de forma incorreta"
 
 #: ../404.php:18
 msgid "The page you were looking for may have been moved, updated or deleted."
 msgstr ""
-"A página que você está procurando pode ter sido movida, atualizada ou "
+"A página que você está à procura pode ter sido movida, atualizada ou "
 "removida."
 
 #: ../404.php:20
@@ -49,7 +49,7 @@ msgstr "Verifique a existência de um erro de escrita do URL"
 
 #: ../404.php:23
 msgid "Press the refresh button on your browser."
-msgstr "Pressione o botão Atualizar em seu navegador"
+msgstr "Pressione o botão Atualizar no seu navegador."
 
 #: ../404.php:24
 msgid "Go back to"
@@ -67,7 +67,7 @@ msgstr "Um comentário sobre &ldquo;%2$s&rdquo;"
 #: ../comments.php:27
 #, php-format
 msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr "%1$s comentários  sobre &ldquo;%2$s&rdquo;"
+msgstr "%1$s comentários sobre &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:38
 msgid "Comment navigation"
@@ -83,21 +83,20 @@ msgstr "Comentários Novos &rarr;"
 
 #: ../comments.php:47
 msgid "Comments are closed."
-msgstr "Os comentários estão encerrados"
+msgstr "Os comentários estão fechados."
 
 #: ../functions.php:75
 msgid "Primary Menu"
-msgstr "Menu Primário"
+msgstr "Menu Principal"
 
 #: ../library/functions/customizer.php:17
-#, fuzzy
 msgid "Travelify Main Options"
-msgstr "Opções Principais"
+msgstr "Opções Principais do tema Travelify"
 
 #: ../library/functions/customizer.php:18
 #: ../library/functions/customizer.php:338
 msgid "Panel to update travelify theme options"
-msgstr ""
+msgstr "Painel para atualizar as opções do tema travelify"
 
 #: ../library/functions/customizer.php:24
 msgid "Travelify Header Area"
@@ -115,7 +114,7 @@ msgstr "Cor do Título do Site"
 #: ../library/functions/customizer.php:45
 msgid "Website Title Hover Color"
 msgstr ""
-"Cor do Título do site em modo Hover (Quando o ponteiro do mouse está sobre o "
+"Cor do Título do Site em modo Hover (Quando o ponteiro do rato está sobre o "
 "elemento)"
 
 #: ../library/functions/customizer.php:56
@@ -125,7 +124,7 @@ msgstr "Cor da Barra do Menu"
 #: ../library/functions/customizer.php:66
 msgid "Menu Bar Hover Color"
 msgstr ""
-"Cor da barra do Menu em modo Hover (Quando o ponteiro do mouse está sobre o "
+"Cor da barra do Menu em modo Hover (Quando o ponteiro do rato está sobre o "
 "elemento)"
 
 #: ../library/functions/customizer.php:76
@@ -134,7 +133,7 @@ msgstr "Cor do texto do ítem do Menu"
 
 #: ../library/functions/customizer.php:87
 msgid "Social Icon Color"
-msgstr "Cor do Ícone de Rede Social"
+msgstr "Cor do Ícone da Rede Social"
 
 #: ../library/functions/customizer.php:95
 msgid "Travelify Element Color"
@@ -144,7 +143,7 @@ msgstr "Travelify - Cores dos Elementos"
 msgid "Use the following settings change color for website elements"
 msgstr ""
 "Utilize as configurações seguintes para modificar as cores dos elementos do "
-"Site"
+"site"
 
 #: ../library/functions/customizer.php:105
 msgid "Element Color"
@@ -153,12 +152,12 @@ msgstr "Cor do Elemento"
 #: ../library/functions/customizer.php:116
 msgid "Element Hover Color"
 msgstr ""
-"Cor do Elemento em modo Hover (Quando o ponteiro do mouse está sobre o "
+"Cor do Elemento em modo Hover (Quando o ponteiro do rato está sobre o "
 "elemento)"
 
 #: ../library/functions/customizer.php:127
 msgid "Wrapper Color"
-msgstr "Cor do Wrapper (Envoltório do Site)"
+msgstr "Cor do Wrapper (Envolvência do Site)"
 
 #: ../library/functions/customizer.php:138
 msgid "Content Background Color"
@@ -191,7 +190,7 @@ msgstr "Cor do Link"
 #: ../library/functions/customizer.php:188
 msgid "Link Hover Color"
 msgstr ""
-"Cor do Link  em modo Hover (Quando o ponteiro do mouse está sobre o elemento)"
+"Cor do Link  em modo Hover (Quando o ponteiro do rato está sobre o link)"
 
 #: ../library/functions/customizer.php:196
 msgid "Travelify Footer"
@@ -203,7 +202,7 @@ msgstr "Use as seguintes configurações para personalizar o Rodapé"
 
 #: ../library/functions/customizer.php:206
 msgid "Copyright text"
-msgstr "Texto de Copyright (Direitos Autorais)"
+msgstr "Texto de Copyright (Direitos de Autor)"
 
 #: ../library/functions/customizer.php:216
 msgid "Header Options"
@@ -211,7 +210,7 @@ msgstr "Opções do Cabeçalho"
 
 #: ../library/functions/customizer.php:217
 msgid "Section to update theme options for header"
-msgstr ""
+msgstr "Secção para atualizar opções do tema no cabeçalho"
 
 #: ../library/functions/customizer.php:227
 msgid "Header Logo"
@@ -235,15 +234,15 @@ msgstr "Desativar"
 
 #: ../library/functions/customizer.php:254
 msgid "Layout Options"
-msgstr "Opções de Layout"
+msgstr "Opções de Aparência"
 
 #: ../library/functions/customizer.php:264
 msgid ""
 "This will set the default layout style. However, you can choose different "
 "layout for each page via editor"
 msgstr ""
-"Isto irá configura o estilo de layout padrão. Entretanto, você pode escolher "
-"um layout diferente para cada página através do editor."
+"Isto irá configura o estilo de aparência padrão. Entretanto, você pode "
+"escolher uma aparência diferente para cada página através do editor."
 
 #: ../library/functions/customizer.php:269
 msgid "No Sidebar"
@@ -258,19 +257,18 @@ msgid "No Sidebar, One Column"
 msgstr "Sem Barra Lateral, Uma Coluna"
 
 #: ../library/functions/customizer.php:272
-#: ../library/functions/functions.php:327
+#: ../library/functions/functions.php:314
 msgid "Left Sidebar"
-msgstr "Barra Lateral à esquerda"
+msgstr "Barra Lateral Esquerda"
 
 #: ../library/functions/customizer.php:273
-#: ../library/functions/functions.php:338
+#: ../library/functions/functions.php:325
 msgid "Right Sidebar"
-msgstr "Barra Lateral à direita"
+msgstr "Barra Lateral Direita"
 
 #: ../library/functions/customizer.php:285
-#, fuzzy
 msgid "Check to reset Layout"
-msgstr "Marque para reiniciar"
+msgstr "Marque para reestabelecer a aparência"
 
 #: ../library/functions/customizer.php:296
 msgid "RSS URL"
@@ -278,75 +276,67 @@ msgstr "RSS URL"
 
 #: ../library/functions/customizer.php:297
 msgid "Enter your preferred RSS URL. (Feedburner or other)"
-msgstr "Digite sua URL do RSS preferido. (Feedburner ou outro)"
+msgstr "Insira o seu URL do RSS preferido. (Feedburner ou outro)"
 
 #: ../library/functions/customizer.php:307
 msgid "Feed Redirect URL"
-msgstr "URL de redirecionamento do Feed"
+msgstr "URL de redireccionamento do Feed"
 
 #: ../library/functions/customizer.php:316
 msgid "Homepage Post Options"
-msgstr "Opções das Postagens da Página Inicial"
+msgstr "Opções dos Artigos da Página Inicial"
 
 #: ../library/functions/customizer.php:327
 msgid ""
 "You may select multiple categories by holding down the CTRL (Windows) or cmd "
 "(Mac)."
 msgstr ""
-"Você pode selecionar múltiplas categorias precionando a tecla CTRL (Windows) "
-"ou cmd (Mac)"
+"Você pode selecionar múltiplas categorias pressionando a tecla CTRL "
+"(Windows) ou cmd (Mac)"
 
 #: ../library/functions/customizer.php:337
-#, fuzzy
 msgid "Travelify Featured Slider"
-msgstr "Slide de Destaques"
+msgstr "Travelify Slide de Destaques"
 
 #: ../library/functions/customizer.php:345
 msgid "Featured Post/Page Slider Options"
-msgstr "Postagem Destacada/Página de Opções do Slider"
+msgstr "Artigo Destacado/Página de Opções do Slide"
 
 #: ../library/functions/customizer.php:355
-#, fuzzy
 msgid "Check to exclude slider post from Homepage posts"
-msgstr "Excluir o Slider da Página Inicial de Postagens?"
+msgstr "Marque para excluir o slide da página inicial de artigos"
 
 #: ../library/functions/customizer.php:372
-#, fuzzy
 msgid "Number of slides"
-msgstr "Número de Slides"
+msgstr "Número de slides"
 
 #: ../library/functions/customizer.php:383
 msgid "Slider Options"
-msgstr "Opções do Slider"
+msgstr "Opções do Slide"
 
 #: ../library/functions/customizer.php:393
-#, fuzzy
 msgid "Check to disable Slider"
-msgstr "Marque para desativar"
+msgstr "Marque para desativar o Slide"
 
 #: ../library/functions/customizer.php:406
-#, fuzzy
 msgid "Transition Effect"
-msgstr "Efeito de Transição"
+msgstr "Efeito da Transição"
 
 #: ../library/functions/customizer.php:431
-#, fuzzy
 msgid "Transition delay( in second(s) )"
-msgstr "Atrasar Transição"
+msgstr "Atrasar transição(em segundo(s))"
 
 #: ../library/functions/customizer.php:442
-#, fuzzy
 msgid "Transition length (in second(s))"
-msgstr "Duração da Transição"
+msgstr "Duração da transição (em segundo(s))"
 
 #: ../library/functions/customizer.php:451
-#, fuzzy
 msgid "Travelify Social Links"
-msgstr "Links de Redes Sociais"
+msgstr "Links de Redes Sociais do tema Travelify"
 
 #: ../library/functions/customizer.php:452
 msgid "Enter URLs for your social networks e.g."
-msgstr "Introduza as URLs para suas Redes Sociais. por exemplo"
+msgstr "Introduza as URLs para as suas redes sociais. Exemplo"
 
 #: ../library/functions/customizer.php:466
 #, php-format
@@ -354,13 +344,12 @@ msgid "%s"
 msgstr "%s"
 
 #: ../library/functions/customizer.php:478
-#, fuzzy
 msgid "Travelify Other Options"
-msgstr "Travelify - Rodapé"
+msgstr "Travelify outras opções"
 
 #: ../library/functions/customizer.php:479
 msgid "Enter your custom CSS styles."
-msgstr "Digite seus estilos personalizados de CSS"
+msgstr "Digite os seus estilos personalizados de CSS"
 
 #: ../library/functions/customizer.php:488
 msgid "This CSS will overwrite the CSS of style.css file."
@@ -368,27 +357,23 @@ msgstr "Esta CSS irá sobrepor a CSS do arquivo style.css"
 
 #: ../library/functions/customizer.php:498
 msgid "Travelify Important Links"
-msgstr ""
+msgstr "Travelify Links Importantes"
 
-#: ../library/functions/functions.php:275
-msgid "Navigation"
-msgstr "Navegação"
-
-#: ../library/functions/functions.php:329
+#: ../library/functions/functions.php:316
 msgid "Shows widgets at Left side."
-msgstr "Exibir os Widgets no lado Esquerdo"
+msgstr "Exibir os widgets no lado Esquerdo"
 
-#: ../library/functions/functions.php:340
+#: ../library/functions/functions.php:327
 msgid "Shows widgets at Right side."
-msgstr "Exibir os Widgets no lado Direito"
+msgstr "Exibir os widgets no lado Direito"
 
-#: ../library/functions/functions.php:349
+#: ../library/functions/functions.php:336
 msgid "Footer"
 msgstr "Rodapé"
 
-#: ../library/functions/functions.php:351
+#: ../library/functions/functions.php:338
 msgid "Shows widgets at footer."
-msgstr "Exibir os Widgets no Rodapé"
+msgstr "Exibir os widgets no rodapé"
 
 #: ../library/functions/shortcodes.php:18
 msgid "WordPress"
@@ -405,11 +390,11 @@ msgid ""
 msgstr ""
 "Selecionar o layout apenas para esta Página específica (Nota: Esta "
 "configuração reflete apenas se a página Modelo é definida como Modelo Padrão "
-"e  Modelo de Tipo de Blog)."
+"e  Modelo de Tipo Blog)."
 
 #: ../library/panel/metaboxes.php:22
 msgid "Select layout for this specific Post only"
-msgstr "Selecionar o layout apenas para esta Postagem específica"
+msgstr "Selecionar o layout apenas para este artigo específico"
 
 #: ../library/panel/metaboxes.php:35
 msgid "Default Layout Set in"
@@ -429,32 +414,31 @@ msgstr "Sem Barra Lateral, Largura Total"
 
 #: ../library/panel/metaboxes.php:59
 msgid "Left sidebar"
-msgstr "Barra Lateral à Esquerda"
+msgstr "Barra Lateral Esquerda"
 
 #: ../library/panel/metaboxes.php:65
 msgid "Right sidebar"
-msgstr "Barra Lateral à Direita"
+msgstr "Barra Lateral Direita"
 
 #: ../library/panel/travelify-custom-control.php:19
 msgid "Change theme background"
 msgstr "Mudar o fundo do tema"
 
 #: ../library/panel/travelify-custom-control.php:20
-#, fuzzy
 msgid "Click Here"
-msgstr "Clique aqui para editar"
+msgstr "Clique aqui"
 
 #: ../library/panel/travelify-custom-control.php:48
 msgid "Homepage posts categories:"
-msgstr "Categorias das Postagens da Página Inicial"
+msgstr "Categorias dos artigos da Página Inicial"
 
 #: ../library/panel/travelify-custom-control.php:49
 msgid ""
 "Only posts that belong to the categories selected here will be displayed on "
 "the front page."
 msgstr ""
-"Somente as postagens que pertencem às categorias selecionadas aqui serão "
-"exibidas na primeira página."
+"Somente os artigos que pertencem às categorias selecionadas aqui serão "
+"exibidos na primeira página."
 
 #: ../library/panel/travelify-custom-control.php:54
 msgid "--Disabled--"
@@ -465,31 +449,30 @@ msgid "Featured Slider"
 msgstr "Slide de Destaques"
 
 #: ../library/panel/travelify-custom-control.php:154
-#, fuzzy
 msgid "Slide #"
-msgstr "Número de ítens exibidos no Slide"
+msgstr "Número de ítens exibidos no Slide #"
 
 #: ../library/panel/travelify-custom-control.php:156
-#: ../library/structure/content-extensions.php:840
+#: ../library/structure/content-extensions.php:846
 msgid "Edit"
 msgstr "Editar"
 
 #: ../library/panel/travelify-custom-control.php:166
 msgid "How to use the featured slider?"
-msgstr "Como utilizar o Slide de Destaques?"
+msgstr "Como utilizar o slide de destaques?"
 
 #: ../library/panel/travelify-custom-control.php:168
 msgid "Create Post or Page and add featured image to it."
-msgstr "Crie uma Postagem ou uma Página e adicione uma Imagem Destacada nela."
+msgstr "Crie um Artigo ou uma Página e adicione uma Imagem Destacada ao mesmo."
 
 #: ../library/panel/travelify-custom-control.php:169
 msgid ""
 "Add all the Post ID that you want to use in the featured slider. Post ID can "
 "be found at All Posts table in last column"
 msgstr ""
-"Adicione toda a ID da Postagem que você quer usar no Slide de Destaques. A "
-"ID da Postagem pode ser encontrada na última coluna da tabela Todas as "
-"Postagens."
+"Adicione todas as ID's dos artigos que você quer usar no slide de destaques. "
+"A ID do artigo pode ser encontrada na última coluna da tabela Todos os "
+"Artigos."
 
 #: ../library/panel/travelify-custom-control.php:170
 msgid ""
@@ -497,7 +480,7 @@ msgid ""
 "respected added post IDs."
 msgstr ""
 "O Slide de Destaques irá mostrar as Imagens Destacadas, o Título e o Resumo "
-"das respectivas IDs das Postagens adicionadas."
+"das respetivas IDs dos artigos adicionadas."
 
 #: ../library/panel/travelify-custom-control.php:171
 msgid "The recommended image size is"
@@ -516,7 +499,6 @@ msgid "Theme Instructions"
 msgstr "Instruções do Tema"
 
 #: ../library/panel/travelify-custom-control.php:202
-#, fuzzy
 msgid "Rate This Theme"
 msgstr "Avaliar este Tema"
 
@@ -532,103 +514,103 @@ msgstr "Facebook"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: ../library/structure/content-extensions.php:147
-#: ../library/structure/content-extensions.php:280
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:574
-#: ../library/structure/content-extensions.php:687
+#: ../library/structure/content-extensions.php:153
+#: ../library/structure/content-extensions.php:286
+#: ../library/structure/content-extensions.php:469
+#: ../library/structure/content-extensions.php:580
+#: ../library/structure/content-extensions.php:693
 msgid "No Comments"
 msgstr "Sem Comentários"
 
-#: ../library/structure/content-extensions.php:147
-#: ../library/structure/content-extensions.php:280
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:574
-#: ../library/structure/content-extensions.php:687
+#: ../library/structure/content-extensions.php:153
+#: ../library/structure/content-extensions.php:286
+#: ../library/structure/content-extensions.php:469
+#: ../library/structure/content-extensions.php:580
+#: ../library/structure/content-extensions.php:693
 msgid "1 Comment"
 msgstr "1 Comentário"
 
-#: ../library/structure/content-extensions.php:147
-#: ../library/structure/content-extensions.php:280
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:574
-#: ../library/structure/content-extensions.php:687
+#: ../library/structure/content-extensions.php:153
+#: ../library/structure/content-extensions.php:286
+#: ../library/structure/content-extensions.php:469
+#: ../library/structure/content-extensions.php:580
+#: ../library/structure/content-extensions.php:693
 msgid "% Comments"
 msgstr "% Comentários"
 
-#: ../library/structure/content-extensions.php:147
-#: ../library/structure/content-extensions.php:280
-#: ../library/structure/content-extensions.php:463
-#: ../library/structure/content-extensions.php:574
-#: ../library/structure/content-extensions.php:687
+#: ../library/structure/content-extensions.php:153
+#: ../library/structure/content-extensions.php:286
+#: ../library/structure/content-extensions.php:469
+#: ../library/structure/content-extensions.php:580
+#: ../library/structure/content-extensions.php:693
 msgid "Comments Off"
 msgstr "Comentários Desativados"
 
-#: ../library/structure/content-extensions.php:151
-#: ../library/structure/content-extensions.php:467
-#: ../library/structure/content-extensions.php:578
-#: ../library/structure/content-extensions.php:663
+#: ../library/structure/content-extensions.php:157
+#: ../library/structure/content-extensions.php:473
+#: ../library/structure/content-extensions.php:584
+#: ../library/structure/content-extensions.php:669
 msgid "Read more"
-msgstr "Leia mais"
+msgstr "Ler mais"
 
-#: ../library/structure/content-extensions.php:166
-#: ../library/structure/content-extensions.php:237
-#: ../library/structure/content-extensions.php:335
-#: ../library/structure/content-extensions.php:386
-#: ../library/structure/content-extensions.php:495
-#: ../library/structure/content-extensions.php:605
-#: ../library/structure/content-extensions.php:716
+#: ../library/structure/content-extensions.php:172
+#: ../library/structure/content-extensions.php:243
+#: ../library/structure/content-extensions.php:341
+#: ../library/structure/content-extensions.php:392
+#: ../library/structure/content-extensions.php:501
+#: ../library/structure/content-extensions.php:611
+#: ../library/structure/content-extensions.php:722
 msgid "No Posts Found."
-msgstr "Postagem Não Encontrada"
+msgstr "Não foram encontrados artigos."
 
-#: ../library/structure/content-extensions.php:206
-#: ../library/structure/content-extensions.php:304
-#: ../library/structure/content-extensions.php:666
+#: ../library/structure/content-extensions.php:212
+#: ../library/structure/content-extensions.php:310
+#: ../library/structure/content-extensions.php:672
 msgid "Pages:"
 msgstr "Páginas: "
 
-#: ../library/structure/content-extensions.php:292
+#: ../library/structure/content-extensions.php:298
 msgid ", "
 msgstr ","
 
-#: ../library/structure/content-extensions.php:486
-#: ../library/structure/content-extensions.php:596
-#: ../library/structure/content-extensions.php:707
-#: ../library/structure/content-extensions.php:743
-#: ../library/structure/content-extensions.php:763
+#: ../library/structure/content-extensions.php:492
+#: ../library/structure/content-extensions.php:602
+#: ../library/structure/content-extensions.php:713
+#: ../library/structure/content-extensions.php:749
+#: ../library/structure/content-extensions.php:769
 msgid "&laquo; Previous"
 msgstr "&laquo; Anterior"
 
-#: ../library/structure/content-extensions.php:487
-#: ../library/structure/content-extensions.php:597
-#: ../library/structure/content-extensions.php:708
-#: ../library/structure/content-extensions.php:744
-#: ../library/structure/content-extensions.php:764
+#: ../library/structure/content-extensions.php:493
+#: ../library/structure/content-extensions.php:603
+#: ../library/structure/content-extensions.php:714
+#: ../library/structure/content-extensions.php:750
+#: ../library/structure/content-extensions.php:770
 msgid "Next &raquo;"
 msgstr "Próximo &raquo;"
 
-#: ../library/structure/content-extensions.php:808
+#: ../library/structure/content-extensions.php:814
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../library/structure/content-extensions.php:808
+#: ../library/structure/content-extensions.php:814
 msgid "(Edit)"
 msgstr "(Editar)"
 
-#: ../library/structure/content-extensions.php:823
-msgid "Post author"
-msgstr "Autor da Postagem"
-
 #: ../library/structure/content-extensions.php:829
+msgid "Post author"
+msgstr "Autor do artigo"
+
+#: ../library/structure/content-extensions.php:835
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s em %2$s"
 
-#: ../library/structure/content-extensions.php:835
+#: ../library/structure/content-extensions.php:841
 msgid "Your comment is awaiting moderation."
-msgstr "Seu comentário está aguardando aprovação"
+msgstr "O seu comentário aguarda aprovação"
 
-#: ../library/structure/content-extensions.php:844
+#: ../library/structure/content-extensions.php:850
 msgid "Reply"
 msgstr "Responder"
 
@@ -642,20 +624,21 @@ msgstr "Tema por"
 
 #: ../library/structure/footer-extensions.php:35
 msgid "Powered by"
-msgstr "Desenvolvido em"
+msgstr "Desenvolvido por"
 
-#: ../library/structure/header-extensions.php:44
-#, php-format
-msgid "Page %s"
-msgstr "Página %s"
-
-#: ../library/structure/header-extensions.php:353
+#: ../library/structure/header-extensions.php:310
 msgid "Search Results"
 msgstr "Resultados da Pesquisa"
 
 #: ../searchform.php:7 ../searchform.php:8
 msgid "Search"
 msgstr "Pesquisar"
+
+#~ msgid "Navigation"
+#~ msgstr "Navegação"
+
+#~ msgid "Page %s"
+#~ msgstr "Página %s"
 
 #~ msgid "Theme Options"
 #~ msgstr "Opções do Tema"
