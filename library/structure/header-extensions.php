@@ -87,21 +87,21 @@ function travelify_headerdetails() {
 					<?php
 						if( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-text' ) {
 						?>
-							<h1 id="site-title">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                                        <?php echo is_home() ?  '<h1 id="site-title">' : '<p id="site-title">'; ?>
+                                                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 									<?php bloginfo( 'name' ); ?>
 								</a>
-							</h1>
+                                                        <?php echo is_home() ?  '</h1>' : '</p>'; ?>
 							<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 						<?php
 						}
 						elseif( $options[ 'header_show' ] != 'disable-both' && $options[ 'header_show' ] == 'header-logo' ) {
 						?>
-							<h1 id="site-title">
+							<p id="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 									<img src="<?php echo $options[ 'header_logo' ]; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 								</a>
-							</h1>
+							</p>
 						<?php
 						}
 						?>
@@ -154,7 +154,7 @@ function travelify_headerdetails() {
 		    		if( function_exists( 'travelify_breadcrumb' ) )
 						travelify_breadcrumb();
 					?>
-				   <h3 class="page-title"><?php echo travelify_header_title(); ?></h3><!-- .page-title -->
+				   <h1 class="page-title"><?php echo travelify_header_title(); ?></h1><!-- .page-title -->
 				</div>
 	    	</div>
 	   <?php
@@ -307,7 +307,7 @@ function travelify_header_title() {
 		$travelify_header_title = single_cat_title( '', FALSE );
 	}
 	elseif( is_search() ) {
-		$travelify_header_title = __( 'Search Results', 'travelify' );
+                $travelify_header_title = sprintf( esc_html__( 'Search Results for: %s', 'travelify' ), '<span>' . get_search_query() . '</span>' );
 	}
 	elseif( is_page_template()  ) {
 		$travelify_header_title = get_the_title();

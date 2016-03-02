@@ -526,6 +526,7 @@ a.more-link:hover {
 #site-title {
 	font: 36px 'Ubuntu', sans-serif;
 	line-height: 42px;
+        margin-bottom: 0;
 }
 #site-title a {
 	color: #57ad68;
@@ -964,7 +965,7 @@ a.more-link:hover {
 					transition: all .3s ease-out;
 }
 .post .entry-title,
-.page h2.entry-title {
+.page h1.entry-title {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
