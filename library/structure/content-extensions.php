@@ -130,13 +130,7 @@ function travelify_theloop_for_archive() {
   			</header>
 
   			<div class="entry-content clearfix">
-    			<?php
-                            if ( function_exists('is_bbpress') && is_bbpress() ){
-                                the_content();
-                            }else {
-                             the_excerpt();   
-                            }
-                          ?>
+    			<?php the_excerpt(); ?>
   			</div>
 
   			<?php do_action( 'travelify_after_post_content' ); ?>
@@ -196,9 +190,9 @@ function travelify_theloop_for_page() {
 			<?php do_action( 'travelify_before_post_header' ); ?>
 
 			<header class="entry-header">
-    			<h1 class="entry-title">
+    			<h2 class="entry-title">
     				<?php the_title(); ?>
-    			</h1><!-- .entry-title -->
+    			</h2><!-- .entry-title -->
   			</header>
 
   			<?php do_action( 'travelify_after_post_header' ); ?>
@@ -267,9 +261,9 @@ function travelify_theloop_for_single() {
 			<?php do_action( 'travelify_before_post_header' ); ?>
 
 			<header class="entry-header">
-    			<h1 class="entry-title">
+    			<h2 class="entry-title">
     				<?php the_title(); ?>
-    			</h1><!-- .entry-title -->
+    			</h2><!-- .entry-title -->
   		</header>
 
   		<?php do_action( 'travelify_after_post_header' ); ?>
@@ -758,8 +752,6 @@ function travelify_next_previous() {
 /****************************************************************************************/
 
 add_action( 'travelify_after_post_content', 'travelify_next_previous_post_link', 10 );
-
-if ( ! function_exists( 'travelify_next_previous_post_link' ) ) :
 /**
  * Shows the next or previous posts link with respective names.
  */
@@ -783,8 +775,6 @@ function travelify_next_previous_post_link() {
 		}
 	}
 }
-
-endif;
 
 /****************************************************************************************/
 

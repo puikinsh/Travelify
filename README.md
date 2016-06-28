@@ -53,6 +53,9 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 3.0.3 =**
+* Added TGMPA
+
 **= 3.0.2 =**
 
 * Fixed problems with top navigation on mobile.
