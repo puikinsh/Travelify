@@ -53,6 +53,10 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 3.0.4 =**
+
+* Small bug fixes and improvements
+
 **= 3.0.3 =**
 * Added TGMPA
 
@@ -78,7 +82,7 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 * Fixed numerous typos
 
 **= 2.4.0 =**
-* Improved markup to pass Schema tests and eliminate all errors in Google Webmaster Tools. Might be useful for SEO. 
+* Improved markup to pass Schema tests and eliminate all errors in Google Webmaster Tools. Might be useful for SEO.
 * Improved RTL support
 * Minor code cleanup
 

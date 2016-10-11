@@ -59,8 +59,8 @@ if ( ! function_exists( 'travelify_setup' ) ):
 		require( get_template_directory() . '/library/structure/footer-extensions.php' );
 		require( get_template_directory() . '/library/structure/content-extensions.php' );
 
-		/** TGMPA */
-		require( get_template_directory() . '/library/tgmpa/tgm-plugin-activation.php' );
+		// /** TGMPA */
+		// require( get_template_directory() . '/library/tgmpa/tgm-plugin-activation.php' );
 
 		/**
 		 * travelify_add_functionality hook
