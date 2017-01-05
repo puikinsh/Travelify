@@ -333,11 +333,31 @@ function travelify_widgets_init() {
 
 	// Registering footer widgets
 	register_sidebar( array(
-		'name'          => __( 'Footer', 'travelify' ),
+		'name'          => __( 'Footer One', 'travelify' ),
 		'id'            => 'travelify_footer_widget',
 		'description'   => __( 'Shows widgets at footer.', 'travelify' ),
-		'before_widget' => '<div class="col-3"><aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside></div>',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>'
+		)
+	);
+	register_sidebar( array(
+		'name'          => __( 'Footer Two', 'travelify' ),
+		'id'            => 'travelify_footer_widget_2',
+		'description'   => __( 'Shows widgets at footer.', 'travelify' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>'
+		)
+	);
+	register_sidebar( array(
+		'name'          => __( 'Footer Three', 'travelify' ),
+		'id'            => 'travelify_footer_widget_3',
+		'description'   => __( 'Shows widgets at footer.', 'travelify' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>'
 		)

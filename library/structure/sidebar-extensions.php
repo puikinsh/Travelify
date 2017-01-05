@@ -41,21 +41,41 @@ add_action( 'travelify_footer_widget', 'travelify_display_footer_widget', 10 );
  * Shows all the widgets that are dragged and dropped on the Footer Sidebar.
  */
 function travelify_display_footer_widget() {
-	if( is_active_sidebar( 'travelify_footer_widget' ) ) {
-		?>
-		<div class="widget-wrap">
-			<div class="container">
-				<div class="widget-area clearfix">
-				<?php
-					// Calling the footer sidebar if it exists.
-					if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'travelify_footer_widget' ) ):
-					endif;
-				?>
-				</div><!-- .widget-area -->
-			</div><!-- .container -->
-		</div><!-- .widget-wrap -->
-		<?php
-	}
+  if( is_active_sidebar( 'travelify_footer_widget' ) || is_active_sidebar( 'travelify_footer_widget_2' ) ||
+            is_active_sidebar( 'travelify_footer_widget_3' )) {
+    ?>
+    <div class="widget-wrap">
+      <div class="container">
+        <div class="widget-area clearfix">
+            <div class="col-3">
+            <?php
+              // Calling the footer sidebar if it exists.
+              if ( !is_active_sidebar( 'travelify_footer_widget' ) || !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'travelify_footer_widget' ) ):
+               ?><div style="width:1px;height:1px">&nbsp;</div><?php
+              endif;
+            ?>
+            </div><!-- .col3 -->
+            <div class="col-3">
+            <?php
+              // Calling the footer sidebar if it exists.
+              if ( !is_active_sidebar( 'travelify_footer_widget_2' ) || !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'travelify_footer_widget_2' ) ):
+               ?><div style="width:1px;height:1px">&nbsp;</div><?php
+              endif;
+            ?>
+            </div><!-- .col3 -->
+            <div class="col-3">
+            <?php
+              // Calling the footer sidebar if it exists.
+              if ( !is_active_sidebar( 'travelify_footer_widget_3' ) || !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'travelify_footer_widget_3' ) ):
+               ?><div style="width:1px;height:1px">&nbsp;</div><?php
+              endif;
+            ?>
+            </div><!-- .col3 -->
+        </div><!-- .widget-area -->
+      </div><!-- .container -->
+    </div><!-- .widget-wrap -->
+    <?php
+  }
 }
 
 ?>
